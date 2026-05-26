@@ -1,0 +1,41 @@
+{
+  "map_id": 481,
+  "title": "Japan",
+  "width": 20000,
+  "height": 20000,
+  "tile_size": 256,
+  "min_zoom": 12,
+  "max_zoom": 18,
+  "layers": [
+    {
+      "layer_id": 760,
+      "title": "Summer"
+    },
+    {
+      "layer_id": 757,
+      "title": "Autumn"
+    },
+    {
+      "layer_id": 758,
+      "title": "Winter"
+    },
+    {
+      "layer_id": 759,
+      "title": "Spring"
+    },
+    {
+      "layer_id": 756,
+      "title": "All Seasons"
+    }
+  ],
+  "formula": {
+    "map_x": "0.652837 * ForzaX + 0.000763 * ForzaZ + 10387.027",
+    "map_y": "-0.003754 * ForzaX - 0.657135 * ForzaZ + 9846.097",
+    "a": 0.652837,
+    "b": 0.000763,
+    "c": 10387.027,
+    "d": -0.003754,
+    "e": -0.657135,
+    "f": 9846.097
+  }
+}
