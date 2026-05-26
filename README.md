@@ -1,4 +1,4 @@
-# FH6 Live Map
+# Forza Horizon 6 Live Map
 
 Local live map and companion navigator for **Forza Horizon 6 Data Out telemetry**.
 
