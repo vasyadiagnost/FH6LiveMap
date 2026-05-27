@@ -10,8 +10,6 @@ a = Analysis(
         ('data/calibration_points.csv', 'data'),
         ('data/road_graph.json', 'data'),
         ('README.txt', '.'),
-        ('README.md', '.'),
-        ('CHANGELOG.md', '.'),
     ],
     hiddenimports=['qrcode', 'qrcode.image.svg', 'qrcode.image.styles.moduledrawers.svg'],
     hookspath=[],

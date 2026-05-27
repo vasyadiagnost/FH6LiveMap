@@ -4,7 +4,7 @@ cd /d "%~dp0"
 
 echo.
 echo ============================================================
-echo  FH6 Live Map v0.9.15 compact nearest POI builder
+echo  FH6 Live Map v0.9.7 Graph Repair + Magenta-Aware Routing builder
 echo ============================================================
 echo.
 
