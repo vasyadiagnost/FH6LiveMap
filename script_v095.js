@@ -1,8 +1,8 @@
 const FH6_I18N={
   en:{
-    nav_select_poi:'Select a POI and press Build route',heading_preview:'Heading-up navigation preview',no_destination:'No destination',stop_navigation:'Stop navigation',nearest_poi:'Nearest POI',media_controls:'Media controls',closest_markers:'Closest markers from your current position',hide_panel:'Hide panel',system_media:'Spotify / System Media',collapse_media:'Collapse media controls',previous_track:'Previous track',play_pause:'Play/Pause',next_track:'Next track',volume_down:'Volume down',volume_up:'Volume up',windows_media_keys:'Windows media keys',information:'Information',info:'Info',search:'Search',settings:'Settings',media:'Media',data_out_map:'Forza Horizon 6 Data Out → GamerGuides Japan map',speed:'Speed',gear:'Gear',heading:'Heading',map:'Map',unit_kmh:'km/h',search_destination:'Search destination',find_poi:'Find POI by name or category',search_placeholder:'Start typing: race, board, house…',clear_search:'Clear search',settings_sub:'Follow, navigator, map layer and POI filters',locate_follow:'Locate / Follow',follow_title:'Go to current car location and keep following',navigator:'Navigator',navigator_title:'Open automotive navigator view',north_up:'North up',north_up_title:'Keep north at the top of the map',markers:'Markers',season:'Season',summer:'Summer',autumn:'Autumn',winter:'Winter',spring:'Spring',all_seasons:'All Seasons',poi_filter:'POI filter',all_poi:'All POI',language:'Interface language',pc_url:'PC URL to open on phone:',detecting_ip:'detecting local IP…',copy:'Copy',copied:'Copied',copy_failed:'Copy failed',qr_alt:'QR code for phone URL',qr_hint:'Scan this QR from your phone, or open the URL in the phone browser while both devices are on the same local network.',map_help:'Click POI to inspect. Drag to pan. Pinch/wheel to zoom. Press Locate / Follow to re-center.',waiting_telemetry:'Waiting for telemetry…',poi_loading:'POI markers are loading…',nothing_found:'Nothing found. Try another POI name/category.',build_route:'Build route',route:'Route',close:'Close',unknown_poi:'Unknown POI',unknown_category:'Unknown category',desc_placeholder:'Description slot is ready. Later we can load richer GamerGuides popup text here.',map_coordinates:'Map coordinates',distance_from_car:'Distance from car',selected_point:'Selected point',custom_point:'Custom point',cancel:'Cancel',destination:'Destination',north_up_compass:'N · north up',heading_up_compass:'{deg}° · heading up',minute:'min',recalculating_prefix:'Recalculating: ',no_road_route_prefix:'No road route to ',route_to_prefix:'Route to ',direct_to_prefix:'Direct to ',road_graph_failed:'road graph failed',road_graph_route:'road graph route',direct_preview:'direct preview: no graph loaded',waiting_for_route:'waiting for route',recalculating_hint:' · recalculating…',holding_route_hint:' · holding original route',return_route_hint:' · return to route',arriving_hint:' · arriving…',sent:'Sent: ',media_key_failed:'Media key failed',status_udp_error:'UDP ERROR',status_holding:'HOLDING',status_live:'LIVE',status_waiting:'WAITING'},
+    nav_select_poi:'Select a POI and press Build route',heading_preview:'Heading-up navigation preview',no_destination:'No destination',stop_navigation:'Stop navigation',nearest_poi:'Nearest POI',media_controls:'Media controls',closest_markers:'Closest markers from your current position',hide_panel:'Hide panel',system_media:'Spotify / System Media',collapse_media:'Collapse media controls',previous_track:'Previous track',play_pause:'Play/Pause',next_track:'Next track',volume_down:'Volume down',volume_up:'Volume up',windows_media_keys:'Windows media keys',information:'Information',info:'Info',search:'Search',settings:'Settings',media:'Media',dashboard:'Dashboard',dashboard_title:'Open dashboard HUD',dashboard_back_to_map:'Back to map',data_out_map:'Forza Horizon 6 Data Out → GamerGuides Japan map',speed:'Speed',gear:'Gear',heading:'Heading',map:'Map',unit_kmh:'km/h',search_destination:'Search destination',find_poi:'Find POI by name or category',search_placeholder:'Start typing: race, board, house…',clear_search:'Clear search',settings_sub:'Follow, navigator, map layer and POI filters',locate_follow:'Locate / Follow',follow_title:'Go to current car location and keep following',navigator:'Navigator',navigator_title:'Open automotive navigator view',north_up:'North up',north_up_title:'Keep north at the top of the map',markers:'Markers',season:'Season',summer:'Summer',autumn:'Autumn',winter:'Winter',spring:'Spring',all_seasons:'All Seasons',poi_filter:'POI filter',all_poi:'All POI',language:'Interface language',pc_url:'PC URL to open on phone:',detecting_ip:'detecting local IP…',copy:'Copy',copied:'Copied',copy_failed:'Copy failed',qr_alt:'QR code for phone URL',qr_hint:'Scan this QR from your phone, or open the URL in the phone browser while both devices are on the same local network.',map_help:'Click POI to inspect. Drag to pan. Pinch/wheel to zoom. Press Locate / Follow to re-center.',waiting_telemetry:'Waiting for telemetry…',poi_loading:'POI markers are loading…',nothing_found:'Nothing found. Try another POI name/category.',build_route:'Build route',route:'Route',close:'Close',unknown_poi:'Unknown POI',unknown_category:'Unknown category',desc_placeholder:'Description slot is ready. Later we can load richer GamerGuides popup text here.',map_coordinates:'Map coordinates',distance_from_car:'Distance from car',selected_point:'Selected point',custom_point:'Custom point',cancel:'Cancel',destination:'Destination',north_up_compass:'N · north up',heading_up_compass:'{deg}° · heading up',minute:'min',recalculating_prefix:'Recalculating: ',no_road_route_prefix:'No road route to ',route_to_prefix:'Route to ',direct_to_prefix:'Direct to ',road_graph_failed:'road graph failed',road_graph_route:'road graph route',direct_preview:'direct preview: no graph loaded',waiting_for_route:'waiting for route',recalculating_hint:' · recalculating…',holding_route_hint:' · holding original route',return_route_hint:' · return to route',arriving_hint:' · arriving…',sent:'Sent: ',media_key_failed:'Media key failed',status_udp_error:'UDP ERROR',status_holding:'HOLDING',status_live:'LIVE',status_waiting:'WAITING'},
   ru:{
-    nav_select_poi:'Выберите POI и нажмите «Маршрут»',heading_preview:'Предпросмотр навигации по направлению движения',no_destination:'Цель не выбрана',stop_navigation:'Остановить навигацию',nearest_poi:'Ближайшие POI',media_controls:'Управление медиа',closest_markers:'Ближайшие метки от текущей позиции',hide_panel:'Скрыть панель',system_media:'Spotify / системные медиа',collapse_media:'Свернуть управление медиа',previous_track:'Предыдущий трек',play_pause:'Воспроизвести / пауза',next_track:'Следующий трек',volume_down:'Убавить громкость',volume_up:'Прибавить громкость',windows_media_keys:'Медиа-клавиши Windows',information:'Информация',info:'Инфо',search:'Поиск',settings:'Настройки',media:'Медиа',data_out_map:'Forza Horizon 6 Data Out → карта GamerGuides Japan',speed:'Скорость',gear:'Передача',heading:'Курс',map:'Карта',unit_kmh:'км/ч',search_destination:'Поиск точки',find_poi:'Поиск POI по названию или категории',search_placeholder:'Начните вводить название POI или категорию…',clear_search:'Очистить поиск',settings_sub:'Следование, навигатор, слой карты и фильтры POI',locate_follow:'Найти / Следить',follow_title:'Перейти к машине и следить за ней',navigator:'Навигатор',navigator_title:'Открыть автомобильный режим навигации',north_up:'Север сверху',north_up_title:'Держать север сверху карты',markers:'Маркеры',season:'Сезон',summer:'Лето',autumn:'Осень',winter:'Зима',spring:'Весна',all_seasons:'Все сезоны',poi_filter:'Фильтр POI',all_poi:'Все POI',language:'Язык интерфейса',pc_url:'Ссылка для телефона:',detecting_ip:'поиск локального IP…',copy:'Копировать',copied:'Скопировано',copy_failed:'Не скопировано',qr_alt:'QR-код для телефона',qr_hint:'Отсканируйте QR-код телефоном или откройте ссылку в браузере телефона, пока оба устройства в одной локальной сети.',map_help:'Нажмите POI для просмотра. Перетаскивайте карту. Масштаб — щипком или колесом. Нажмите «Найти / Следить», чтобы вернуться к машине.',waiting_telemetry:'Ожидание телеметрии…',poi_loading:'Загрузка маркеров POI…',nothing_found:'Ничего не найдено. Попробуйте другое название или категорию.',build_route:'Построить маршрут',route:'Маршрут',close:'Закрыть',unknown_poi:'Неизвестный POI',unknown_category:'Неизвестная категория',desc_placeholder:'Описание готово к заполнению. Позже сюда можно добавить подробный текст из GamerGuides.',map_coordinates:'Координаты на карте',distance_from_car:'Расстояние от машины',selected_point:'Выбранная точка',custom_point:'Своя точка',cancel:'Отмена',destination:'Цель',north_up_compass:'С · север сверху',heading_up_compass:'{deg}° · по курсу',minute:'мин',recalculating_prefix:'Перестроение: ',no_road_route_prefix:'Нет дорожного маршрута к ',route_to_prefix:'Маршрут к ',direct_to_prefix:'Напрямую к ',road_graph_failed:'граф дорог не сработал',road_graph_route:'маршрут по дорогам',direct_preview:'прямой маршрут: граф дорог не загружен',waiting_for_route:'ожидание маршрута',recalculating_hint:' · перестроение…',holding_route_hint:' · удерживаем исходный маршрут',return_route_hint:' · вернитесь на маршрут',arriving_hint:' · прибытие…',sent:'Отправлено: ',media_key_failed:'Медиа-клавиша не сработала',status_udp_error:'ОШИБКА UDP',status_holding:'УДЕРЖАНИЕ',status_live:'В ЭФИРЕ',status_waiting:'ОЖИДАНИЕ'}
+    nav_select_poi:'Выберите POI и нажмите «Маршрут»',heading_preview:'Предпросмотр навигации по направлению движения',no_destination:'Цель не выбрана',stop_navigation:'Остановить навигацию',nearest_poi:'Ближайшие POI',media_controls:'Управление медиа',closest_markers:'Ближайшие метки от текущей позиции',hide_panel:'Скрыть панель',system_media:'Spotify / системные медиа',collapse_media:'Свернуть управление медиа',previous_track:'Предыдущий трек',play_pause:'Воспроизвести / пауза',next_track:'Следующий трек',volume_down:'Убавить громкость',volume_up:'Прибавить громкость',windows_media_keys:'Медиа-клавиши Windows',information:'Информация',info:'Инфо',search:'Поиск',settings:'Настройки',media:'Медиа',dashboard:'Приборы',dashboard_title:'Открыть режим приборов',dashboard_back_to_map:'Вернуться к карте',data_out_map:'Forza Horizon 6 Data Out → карта GamerGuides Japan',speed:'Скорость',gear:'Передача',heading:'Курс',map:'Карта',unit_kmh:'км/ч',search_destination:'Поиск точки',find_poi:'Поиск POI по названию или категории',search_placeholder:'Начните вводить название POI или категорию…',clear_search:'Очистить поиск',settings_sub:'Следование, навигатор, слой карты и фильтры POI',locate_follow:'Найти / Следить',follow_title:'Перейти к машине и следить за ней',navigator:'Навигатор',navigator_title:'Открыть автомобильный режим навигации',north_up:'Север сверху',north_up_title:'Держать север сверху карты',markers:'Маркеры',season:'Сезон',summer:'Лето',autumn:'Осень',winter:'Зима',spring:'Весна',all_seasons:'Все сезоны',poi_filter:'Фильтр POI',all_poi:'Все POI',language:'Язык интерфейса',pc_url:'Ссылка для телефона:',detecting_ip:'поиск локального IP…',copy:'Копировать',copied:'Скопировано',copy_failed:'Не скопировано',qr_alt:'QR-код для телефона',qr_hint:'Отсканируйте QR-код телефоном или откройте ссылку в браузере телефона, пока оба устройства в одной локальной сети.',map_help:'Нажмите POI для просмотра. Перетаскивайте карту. Масштаб — щипком или колесом. Нажмите «Найти / Следить», чтобы вернуться к машине.',waiting_telemetry:'Ожидание телеметрии…',poi_loading:'Загрузка маркеров POI…',nothing_found:'Ничего не найдено. Попробуйте другое название или категорию.',build_route:'Построить маршрут',route:'Маршрут',close:'Закрыть',unknown_poi:'Неизвестный POI',unknown_category:'Неизвестная категория',desc_placeholder:'Описание готово к заполнению. Позже сюда можно добавить подробный текст из GamerGuides.',map_coordinates:'Координаты на карте',distance_from_car:'Расстояние от машины',selected_point:'Выбранная точка',custom_point:'Своя точка',cancel:'Отмена',destination:'Цель',north_up_compass:'С · север сверху',heading_up_compass:'{deg}° · по курсу',minute:'мин',recalculating_prefix:'Перестроение: ',no_road_route_prefix:'Нет дорожного маршрута к ',route_to_prefix:'Маршрут к ',direct_to_prefix:'Напрямую к ',road_graph_failed:'граф дорог не сработал',road_graph_route:'маршрут по дорогам',direct_preview:'прямой маршрут: граф дорог не загружен',waiting_for_route:'ожидание маршрута',recalculating_hint:' · перестроение…',holding_route_hint:' · удерживаем исходный маршрут',return_route_hint:' · вернитесь на маршрут',arriving_hint:' · прибытие…',sent:'Отправлено: ',media_key_failed:'Медиа-клавиша не сработала',status_udp_error:'ОШИБКА UDP',status_holding:'УДЕРЖАНИЕ',status_live:'В ЭФИРЕ',status_waiting:'ОЖИДАНИЕ'}
 };
 const FH6_CATEGORY_RU={
   'Aftermarket Car':'Тюнинг-авто','Barn Find':'Раритет в сарае','Bonus Board':'Бонусный щит','Car Meet':'Автовстреча','Cross Country Race':'Кросс-кантри гонка','Danger Sign':'Опасный прыжок','Day Trips':'Однодневные поездки','Dirt Race':'Грунтовая гонка','Drag Meet':'Дрэг-встреча','Drag Racing':'Дрэг-рейсинг','Drift Club Japan':'Дрифт-клуб Япония','Drift Zone':'Дрифт-зона','Horizon Festival Site':'Площадка фестиваля Horizon','Horizon Rush':'Horizon Rush','Job':'Задание','Mascot':'Маскот','Photo Challenge':'Фоточеллендж','Photography':'Фотосъёмка','Player House':'Дом игрока','Points of Interest':'Интересные места','Road Race':'Шоссейная гонка','Seasonal Championship':'Сезонный чемпионат','Seasonal Danger Sign':'Сезонный опасный прыжок','Seasonal Speed Trap':'Сезонный радар','Seasonal Time Attack':'Сезонная гонка на время','Showcase':'Шоу-заезд','Speed Trap':'Радар','Speed Zone':'Скоростной участок','Story':'История','Street Race':'Уличная гонка','Time Attack':'Гонка на время','Touge Battle':'Битва на тоугэ','Trailblazer':'Первопроходец','Treasure Car':'Машина-сокровище','Treasure Chest':'Сундук с сокровищем','Collectibles':'Коллекционное','Discover Japan':'Исследование Японии','Festival Playlist':'Фестивальный плейлист','Hidden Cars':'Скрытые машины','Horizon Festival':'Фестиваль Horizon','Horizon Life':'Horizon Life','Locations':'Локации','PR Stunts':'PR-трюки','POI':'POI'};
@@ -25,8 +25,9 @@ function applyLanguage(){
 
 const MAP_WIDTH=20000,MAP_HEIGHT=20000,TILE_SIZE=256,MIN_ZOOM=12,MAX_ZOOM=18;
 const viewport=document.getElementById('mapViewport'),mapWorld=document.getElementById('mapWorld'),tileLayer=document.getElementById('tileLayer'),routeLayer=document.getElementById('routeLayer'),markerLayer=document.getElementById('markerLayer'),playerLayer=document.getElementById('playerLayer');
-let telemetry=null,markers=[],selectedPoi=null,routeTarget=null,currentRoute=null,navMode=false,northUp=(localStorage.getItem('fh6_north_up')==='1'),follow=true,showMarkers=true,zoom=Math.max(MIN_ZOOM,Math.min(MAX_ZOOM,Math.round(Number(localStorage.getItem('fh6_zoom')||16)))),layerId=localStorage.getItem('fh6_layer')||"760",categoryFilter=localStorage.getItem('fh6_category')||"",panX=0,panY=0,dragging=false,dragStart=null,playerMapX=10387,playerMapY=9846,targetMapX=null,targetMapY=null,displayMapX=null,displayMapY=null,targetHeadingDeg=0,displayHeadingDeg=0,lastTelemetryMapX=null,lastTelemetryMapY=null,lastMovementHeadingDeg=null,lastMovementHeadingAt=0,lastTileKey="",activePointers=new Map(),pinchStart=null,lastPinchZoom=zoom,lastMarkerRenderAt=0,lastNearestRenderAt=0,lastRouteRequestAt=0,routeRequestInFlight=false,lastRouteAnchorX=null,lastRouteAnchorY=null,lastRouteOffRoutePx=0,offRouteSince=0,navTouchLookUntil=0;
+let telemetry=null,markers=[],selectedPoi=null,routeTarget=null,currentRoute=null,navMode=false,dashboardMode=false,northUp=(localStorage.getItem('fh6_north_up')==='1'),follow=true,showMarkers=true,zoom=Math.max(MIN_ZOOM,Math.min(MAX_ZOOM,Math.round(Number(localStorage.getItem('fh6_zoom')||16)))),layerId=localStorage.getItem('fh6_layer')||"760",categoryFilter=localStorage.getItem('fh6_category')||"",panX=0,panY=0,dragging=false,dragStart=null,playerMapX=10387,playerMapY=9846,targetMapX=null,targetMapY=null,displayMapX=null,displayMapY=null,targetHeadingDeg=0,displayHeadingDeg=0,lastTelemetryMapX=null,lastTelemetryMapY=null,lastMovementHeadingDeg=null,lastMovementHeadingAt=0,lastTileKey="",activePointers=new Map(),pinchStart=null,lastPinchZoom=zoom,lastMarkerRenderAt=0,lastNearestRenderAt=0,lastRouteRequestAt=0,routeRequestInFlight=false,lastRouteAnchorX=null,lastRouteAnchorY=null,lastRouteOffRoutePx=0,offRouteSince=0,navTouchLookUntil=0;
 let markerDomByKey=new Map(),playerEl=null,routeEls=null,lastRouteSize='',lastRoutePoints='',interactionRenderRaf=0,arriveSince=0,mapContextTarget=null,mapContextMenuEl=null,mapPickEl=null,lastTapAt=0,lastTapX=0,lastTapY=0,lastManualZoomAt=0,lastAutoZoomCheckAt=0,autoZoomInCandidate=null,autoZoomInCandidateAt=0,tapStart=null,tapWasMulti=false;
+let dashboardSourceMode='map',dashboardSnapshot=null,dashboardLastMiniDraw=0,dashboardTileCache=new Map(),dashboardTripKm=0,dashboardTripLastAt=0,dashboardTripRawBaseM=null,dashboardTripRawLastM=null,dashboardMiniZoom=null,dashboardMiniZoomCandidate=null,dashboardMiniZoomCandidateAt=0,dashboardLearnedMaxRpm=8000,dashboardRpmBuilt=false;
 const NAV_TOUCH_LOOK_MS=0,REROUTE_MIN_INTERVAL_MS=14000,REROUTE_STICKY_OFF_PX=170,REROUTE_STICKY_MS=22000,REROUTE_HARD_OFF_PX=360,REROUTE_HARD_MS=9000,REROUTE_HUGE_OFF_PX=650,REROUTE_HUGE_MS=3500,REROUTE_REFRESH_MOVE_PX=760,REROUTE_LONG_ROUTE_LOCK_MS=32000;
 const MAP_PX_PER_METER=0.655,NAV_ARRIVE_METERS=30,NAV_ARRIVE_STOPPED_METERS=62,NAV_ARRIVE_PX=NAV_ARRIVE_METERS*MAP_PX_PER_METER,NAV_ARRIVE_STOPPED_PX=NAV_ARRIVE_STOPPED_METERS*MAP_PX_PER_METER,NAV_ARRIVE_STOPPED_MAX_KMH=8,NAV_ARRIVE_HOLD_MS=1100;
 const FALLBACK_IMG_W=1638,FALLBACK_IMG_H=2048,FALLBACK_SX=6.58487266,FALLBACK_SY=6.60554791,FALLBACK_OX=4594.21749925,FALLBACK_OY=3225.79270983;
@@ -45,6 +46,7 @@ function closeMobilePanels(){
   setDockActive(null);
 }
 function openMobilePanel(panel){
+  if(panel==='dashboard'){if(dashboardMode)exitDashboardMode(true);else enterDashboardMode();return;}
   setMobileUiClass();
   const app=document.getElementById('app');
   const same=mobileActivePanel===panel || (panel==='media'&&app.classList.contains('mediaOpen'));
@@ -64,10 +66,17 @@ function openMobilePanel(panel){
 }
 
 function isNavTouchLookActive(){return false}
-function keepNavigatorFollow(){if(navMode)follow=true;const btn=document.getElementById('followBtn');if(btn)btn.classList.add('active')}
+function syncFollowButtons(){
+  const active=!!follow;
+  const btn=document.getElementById('followBtn');
+  const fab=document.getElementById('mobileFollowBtn');
+  if(btn)btn.classList.toggle('active',active);
+  if(fab){fab.classList.toggle('active',active);fab.setAttribute('aria-pressed',active?'true':'false')}
+}
+function keepNavigatorFollow(){if(navMode)follow=true;syncFollowButtons()}
 function suspendNavFollow(ms=NAV_TOUCH_LOOK_MS){if(navMode&&follow){navTouchLookUntil=0;keepNavigatorFollow()}}
 function centerIfFollowing(){if(follow)centerOnPlayer()}
-function setFollowEnabled(value){follow=!!value;const btn=document.getElementById('followBtn');if(btn)btn.classList.toggle('active',follow);if(follow){navTouchLookUntil=0;centerOnPlayer();renderTiles(true);renderPlayer();renderMarkers();renderRouteLine();updateNearest();}}
+function setFollowEnabled(value){follow=!!value;syncFollowButtons();if(follow){navTouchLookUntil=0;centerOnPlayer();renderTiles(true);renderPlayer();renderMarkers();renderRouteLine();updateNearest();}}
 function toggleNearestOverlay(){
   const app=document.getElementById('app');
   const next=!app.classList.contains('nearestOpen');
@@ -76,6 +85,236 @@ function toggleNearestOverlay(){
   if(next)updateNearest();
 }
 function clamp(n,a,b){return Math.max(a,Math.min(b,n))}function scale(){return Math.pow(2,zoom-MAX_ZOOM)}function mapToScreen(mx,my){const s=scale();return{x:mx*s-panX,y:my*s-panY}}function rotatePointAround(px,py,cx,cy,deg){if(!deg)return{x:px,y:py};const rad=deg*Math.PI/180,cos=Math.cos(rad),sin=Math.sin(rad),dx=px-cx,dy=py-cy;return{x:cx+dx*cos-dy*sin,y:cy+dx*sin+dy*cos}}function screenToMap(sx,sy){const a=navAnchor(),deg=navRotationDeg();const u=rotatePointAround(sx,sy,a.x,a.y,-deg);const s=scale();return{x:(u.x+panX)/s,y:(u.y+panY)/s}}function dist(a,b){const dx=a.map_x-b.map_x,dy=a.map_y-b.map_y;return Math.sqrt(dx*dx+dy*dy)}function metersFromMapPx(px){return px/MAP_PX_PER_METER}function mapPxFromMeters(m){return m*MAP_PX_PER_METER}
+
+function enterDashboardMode(){
+  closeMobilePanels();
+  dashboardSourceMode=navMode?'nav':'map';
+  const r=viewport.getBoundingClientRect();
+  dashboardSnapshot={mode:dashboardSourceMode,zoom,panX,panY,follow,northUp,vw:Math.max(1,r.width),vh:Math.max(1,r.height)};
+  dashboardMode=true;
+  const app=document.getElementById('app');
+  app.classList.remove('mediaOpen','nearestOpen');
+  app.classList.add('dashboardMode');
+  setDockActive('dashboard');
+  updateDashboardScreen(true);
+}
+function exitDashboardMode(toMap=true){
+  const source=(dashboardSnapshot&&dashboardSnapshot.mode)||dashboardSourceMode||'map';
+  dashboardMode=false;
+  const app=document.getElementById('app');
+  app.classList.remove('dashboardMode');
+  setDockActive(null);
+  if(toMap){
+    follow=true;
+    const followBtn=document.getElementById('followBtn');
+    if(followBtn)followBtn.classList.add('active');
+    if(source==='nav'){
+      navMode=true;
+      app.classList.add('navMode');
+      keepNavigatorFollow();
+    }else{
+      navMode=false;
+      app.classList.remove('navMode');
+    }
+    applyMapRotation();
+    centerOnPlayer();
+  }
+  renderAll(true);
+}
+function updateDashboardTrip(){
+  const now=performance.now();
+  const rawDistance=Number(telemetry&&telemetry.distance_traveled_m);
+  const rawValid=Number.isFinite(rawDistance)&&rawDistance>1&&rawDistance<20000000;
+
+  // Prefer Forza's DistanceTraveled if it is really moving, but do not let a
+  // permanent 0 from telemetry pin TRIP A at zero. If the raw odometer is not
+  // useful, fall back to integrating speed on the client from app/game start.
+  if(rawValid){
+    if(dashboardTripRawBaseM===null||dashboardTripRawLastM===null||rawDistance+5<dashboardTripRawLastM){
+      dashboardTripRawBaseM=rawDistance;
+    }
+    dashboardTripRawLastM=rawDistance;
+    dashboardTripKm=Math.max(0,(rawDistance-dashboardTripRawBaseM)/1000);
+    dashboardTripLastAt=now;
+  }else{
+    if(dashboardTripLastAt&&telemetry&&telemetry.receiving){
+      const dtMs=Math.max(0,Math.min(2500,now-dashboardTripLastAt));
+      const speedKmh=Math.max(0,Number(telemetry.speed_kmh)||0);
+      dashboardTripKm+=(speedKmh*dtMs)/3600000;
+    }
+    dashboardTripLastAt=now;
+  }
+
+  const el=document.getElementById('dashboardTripValue');
+  if(el)el.textContent=dashboardTripKm.toFixed(1)+' km';
+}
+function ensureDashboardRpmSegments(){
+  const track=document.getElementById('dashboardRpmTrack');
+  if(!track||dashboardRpmBuilt)return;
+  track.innerHTML='';
+  for(let i=0;i<88;i++){const seg=document.createElement('span');seg.className='dashboardRpmSeg'+(i>=76?' red':'');track.appendChild(seg)}
+  dashboardRpmBuilt=true;
+}
+const DASH_SEGMENTS={"0":"abcdef","1":"bc","2":"abged","3":"abgcd","4":"fgbc","5":"afgcd","6":"afgecd","7":"abc","8":"abcdefg","9":"abfgcd","-":"g","N":"ceg","R":"efgab","P":"efgab"," ":""};
+function renderDashboardDigits(el,value,small=false){
+  if(!el)return;
+  const text=String(value??'0').toUpperCase().slice(0,4);
+  el.innerHTML='';
+  for(const ch of text){
+    const on=DASH_SEGMENTS[ch]||DASH_SEGMENTS[' '];
+    const digit=document.createElement('span');
+    digit.className='dashboardDigit'+(small?' small':'');
+    for(const seg of ['a','b','c','d','e','f','g']){
+      const part=document.createElement('span');
+      part.className='dashboardDigitSeg s-'+seg+(on.includes(seg)?' on':'');
+      digit.appendChild(part);
+    }
+    el.appendChild(digit);
+  }
+}
+function dashboardGearText(raw){
+  const n=Number(raw);
+  if(Number.isFinite(n)){
+    if(n===0)return 'N';
+    if(n<0)return 'R';
+    return String(Math.round(n));
+  }
+  const s=String(raw||'').trim().toUpperCase();
+  return s||'N';
+}
+function updateDashboardTelemetry(){
+  ensureDashboardRpmSegments();
+  const speedEl=document.getElementById('dashboardSpeedValue');
+  renderDashboardDigits(speedEl,String(Math.max(0,Math.round((telemetry&&telemetry.speed_kmh)||0))),false);
+  renderDashboardDigits(document.getElementById('dashboardGearValue'),dashboardGearText(telemetry&&telemetry.gear),true);
+  const rpm=Math.max(0,Number(telemetry&&telemetry.rpm)||0);
+  const maxRpm=Number(telemetry&&(telemetry.engine_max_rpm||telemetry.max_rpm));
+  if(Number.isFinite(maxRpm)&&maxRpm>1000)dashboardLearnedMaxRpm=maxRpm;else if(rpm>dashboardLearnedMaxRpm)dashboardLearnedMaxRpm=Math.min(12000,rpm*1.08);
+  const ratio=clamp(rpm/Math.max(1000,dashboardLearnedMaxRpm),0,1);
+  const segs=[...document.querySelectorAll('#dashboardRpmTrack .dashboardRpmSeg')];
+  for(let i=0;i<segs.length;i++){const mid=(i+.5)/segs.length;segs[i].classList.toggle('active',mid<=ratio)}
+}
+function dashboardImage(url){
+  let img=dashboardTileCache.get(url);
+  if(!img){img=new Image();img.decoding='async';img.onload=()=>{if(dashboardMode)requestAnimationFrame(()=>renderDashboardMiniMap(true))};img.onerror=()=>{img._failed=true};img.src=url;dashboardTileCache.set(url,img)}
+  return img;
+}
+function drawDashboardCircle(ctx,x,y,r,fill,stroke){ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fillStyle=fill;ctx.fill();if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=Math.max(1,r*.18);ctx.stroke()}}
+function dashboardRemainingText(){if(!telemetry||telemetry.map_x===null||!routeTarget)return'';const pts=routePointsForRender();const remainingPx=pts.length>=2?routeDistancePx(pts):dist({map_x:telemetry.map_x,map_y:telemetry.map_y},routeTarget);const meters=Math.max(0,Math.round(metersFromMapPx(remainingPx)));return meters>=1000?(meters/1000).toFixed(1)+' km':meters+' m'}
+function dashboardForwardLookPoint(lookPx){
+  const pts=routePointsForRender();
+  if(routeTarget&&pts&&pts.length>=2){
+    const p=routePointAtDistance(pts,lookPx);
+    if(p)return p;
+  }
+  const deg=Number.isFinite(displayHeadingDeg)?displayHeadingDeg:(targetHeadingDeg||0);
+  const rad=deg*Math.PI/180;
+  return {map_x:playerMapX+Math.sin(rad)*lookPx,map_y:playerMapY-Math.cos(rad)*lookPx};
+}
+function dashboardMiniDesiredZoom(mode,vw,vh,anchor,deg){
+  if(!telemetry||telemetry.map_x===null||!Number.isFinite(playerMapX)||!Number.isFinite(playerMapY)){
+    return clamp(Math.round(Number(dashboardSnapshot&&dashboardSnapshot.zoom)||zoom),MIN_ZOOM,MAX_ZOOM);
+  }
+  const kmh=Math.max(0,Number(telemetry.speed_kmh)||0);
+  const lookSeconds=4.5;
+  const lookMeters=Math.max(35,(kmh/3.6)*lookSeconds);
+  const lookPx=mapPxFromMeters(lookMeters);
+  const ahead=dashboardForwardLookPoint(lookPx);
+  const topMargin=mode==='nav'?Math.max(44,vh*.12):Math.max(34,vh*.10);
+  const bottomMargin=mode==='nav'?Math.max(82,vh*.20):Math.max(42,vh*.12);
+  const sideMargin=Math.max(36,vw*.10);
+  function viewFor(z){
+    const s=Math.pow(2,z-MAX_ZOOM);
+    let px=playerMapX*s-anchor.x,py=playerMapY*s-anchor.y;
+    const ww=MAP_WIDTH*s,hh=MAP_HEIGHT*s;
+    if(ww>vw)px=clamp(px,0,ww-vw);else px=(ww-vw)/2;
+    if(hh>vh)py=clamp(py,0,hh-vh);else py=(hh-vh)/2;
+    return {s,px,py};
+  }
+  for(let z=MAX_ZOOM;z>=MIN_ZOOM;z--){
+    const v=viewFor(z);
+    const raw={x:ahead.map_x*v.s-v.px,y:ahead.map_y*v.s-v.py};
+    const screen=rotatePointAround(raw.x,raw.y,anchor.x,anchor.y,deg);
+    if(screen.x>=sideMargin&&screen.x<=vw-sideMargin&&screen.y>=topMargin&&screen.y<=vh-bottomMargin){
+      return z;
+    }
+  }
+  return MIN_ZOOM;
+}
+function dashboardMiniSmoothedZoom(desired){
+  const now=performance.now();
+  desired=clamp(Math.round(desired),MIN_ZOOM,MAX_ZOOM);
+  if(dashboardMiniZoom===null){dashboardMiniZoom=desired;return desired}
+  if(desired===dashboardMiniZoom){dashboardMiniZoomCandidate=null;dashboardMiniZoomCandidateAt=0;return dashboardMiniZoom}
+  if(dashboardMiniZoomCandidate!==desired){dashboardMiniZoomCandidate=desired;dashboardMiniZoomCandidateAt=now;return dashboardMiniZoom}
+  const holdMs=desired<dashboardMiniZoom?900:1800;
+  if(now-dashboardMiniZoomCandidateAt>=holdMs){
+    dashboardMiniZoom+=Math.sign(desired-dashboardMiniZoom);
+    dashboardMiniZoomCandidate=null;
+    dashboardMiniZoomCandidateAt=0;
+  }
+  return dashboardMiniZoom;
+}
+function renderDashboardMiniMap(force=false){
+  const canvas=document.getElementById('dashboardMiniCanvas');
+  if(!canvas)return;
+  const rect=canvas.getBoundingClientRect();
+  const cssW=Math.max(120,rect.width||canvas.clientWidth||260),cssH=Math.max(120,rect.height||canvas.clientHeight||300);
+  const dpr=Math.min(2,window.devicePixelRatio||1),pxW=Math.round(cssW*dpr),pxH=Math.round(cssH*dpr);
+  if(canvas.width!==pxW||canvas.height!==pxH){canvas.width=pxW;canvas.height=pxH;force=true}
+  const now=performance.now();
+  if(!force&&now-dashboardLastMiniDraw<180)return;
+  dashboardLastMiniDraw=now;
+  const ctx=canvas.getContext('2d');
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  ctx.clearRect(0,0,cssW,cssH);
+  ctx.fillStyle='#020402';ctx.fillRect(0,0,cssW,cssH);
+  const snap=dashboardSnapshot||{mode:'map',zoom,panX,panY,follow,northUp,vw:viewport.clientWidth||window.innerWidth,vh:viewport.clientHeight||window.innerHeight};
+  const vw=Math.max(1,snap.vw||viewport.clientWidth||window.innerWidth),vh=Math.max(1,snap.vh||viewport.clientHeight||window.innerHeight);
+  const anchor={x:vw/2,y:(snap.mode==='nav'||snap.follow)?vh*.64:vh/2};
+  const deg=(snap.mode==='nav'&&!snap.northUp)?-(displayHeadingDeg||targetHeadingDeg||0):0;
+  const desiredZoom=dashboardMiniDesiredZoom(snap.mode,vw,vh,anchor,deg);
+  let z=dashboardMiniSmoothedZoom(desiredZoom);
+  const s=Math.pow(2,z-MAX_ZOOM);
+  let localPanX=Number(snap.panX)||0,localPanY=Number(snap.panY)||0;
+  if(snap.mode==='nav'||snap.follow){localPanX=playerMapX*s-anchor.x;localPanY=playerMapY*s-anchor.y}
+  const worldW=MAP_WIDTH*s,worldH=MAP_HEIGHT*s;
+  if(worldW>vw)localPanX=clamp(localPanX,0,worldW-vw);else localPanX=(worldW-vw)/2;
+  if(worldH>vh)localPanY=clamp(localPanY,0,worldH-vh);else localPanY=(worldH-vh)/2;
+  const factor=Math.min(cssW/vw,cssH/vh),ox=(cssW-vw*factor)/2,oy=(cssH-vh*factor)/2;
+  function sx(mx){return mx*s-localPanX}function sy(my){return my*s-localPanY}
+  function inView(x,y,pad=80){return x>=-pad&&y>=-pad&&x<=vw+pad&&y<=vh+pad}
+  ctx.save();
+  ctx.translate(ox,oy);ctx.scale(factor,factor);
+  if(deg){ctx.translate(anchor.x,anchor.y);ctx.rotate(deg*Math.PI/180);ctx.translate(-anchor.x,-anchor.y)}
+  const fallback=dashboardImage('/asset/fh6_full_map_source.jpeg');
+  if(fallback.complete&&!fallback._failed&&fallback.naturalWidth){ctx.globalAlpha=.78;ctx.drawImage(fallback,FALLBACK_OX*s-localPanX,FALLBACK_OY*s-localPanY,FALLBACK_IMG_W*FALLBACK_SX*s,FALLBACK_IMG_H*FALLBACK_SY*s);ctx.globalAlpha=1}
+  const margin=2,x0=Math.floor(localPanX/TILE_SIZE)-margin,y0=Math.floor(localPanY/TILE_SIZE)-margin,x1=Math.ceil((localPanX+vw)/TILE_SIZE)+margin,y1=Math.ceil((localPanY+vh)/TILE_SIZE)+margin,maxTx=Math.ceil((MAP_WIDTH*s)/TILE_SIZE)-1,maxTy=Math.ceil((MAP_HEIGHT*s)/TILE_SIZE)-1;
+  for(let ty=y0;ty<=y1;ty++)for(let tx=x0;tx<=x1;tx++){if(tx<0||ty<0||tx>maxTx||ty>maxTy)continue;const img=dashboardImage(`/tile/${layerId}/${z}/${tx}/${ty}.png`);if(img.complete&&!img._failed&&img.naturalWidth){ctx.drawImage(img,tx*TILE_SIZE-localPanX,ty*TILE_SIZE-localPanY,TILE_SIZE,TILE_SIZE)}}
+  ctx.globalCompositeOperation='screen';
+  const pts=routePointsForRender();
+  if(pts.length>=2){ctx.lineCap='round';ctx.lineJoin='round';ctx.strokeStyle='rgba(86,246,160,.95)';ctx.lineWidth=18;ctx.shadowBlur=18;ctx.shadowColor='rgba(86,246,160,.75)';ctx.beginPath();ctx.moveTo(sx(pts[0].map_x),sy(pts[0].map_y));for(const p of pts.slice(1))ctx.lineTo(sx(p.map_x),sy(p.map_y));ctx.stroke();ctx.shadowBlur=0;ctx.strokeStyle='rgba(210,255,226,.85)';ctx.lineWidth=5;ctx.beginPath();ctx.moveTo(sx(pts[0].map_x),sy(pts[0].map_y));for(const p of pts.slice(1))ctx.lineTo(sx(p.map_x),sy(p.map_y));ctx.stroke()}
+  if(showMarkers&&markers&&markers.length){ctx.globalAlpha=.72;let drawn=0;for(const m of markers){if(categoryFilter&&m.category!==categoryFilter)continue;const x=sx(m.map_x),y=sy(m.map_y);if(!inView(x,y,20))continue;drawDashboardCircle(ctx,x,y,4,'rgba(160,130,255,.90)','rgba(255,255,255,.75)');if(++drawn>38)break}ctx.globalAlpha=1}
+  if(routeTarget){const x=sx(routeTarget.map_x),y=sy(routeTarget.map_y);if(inView(x,y,180))drawDashboardCircle(ctx,x,y,9,'rgba(255,255,255,.95)','rgba(86,246,160,.95)')}
+  if(Number.isFinite(playerMapX)&&Number.isFinite(playerMapY)){const x=sx(playerMapX),y=sy(playerMapY);ctx.save();ctx.translate(x,y);ctx.rotate(((displayHeadingDeg||0)+deg)*Math.PI/180);ctx.shadowBlur=16;ctx.shadowColor='rgba(86,246,160,.95)';ctx.fillStyle='rgba(86,246,160,.95)';ctx.beginPath();ctx.moveTo(0,-16);ctx.lineTo(10,12);ctx.lineTo(0,7);ctx.lineTo(-10,12);ctx.closePath();ctx.fill();ctx.shadowBlur=0;ctx.strokeStyle='rgba(230,255,238,.95)';ctx.lineWidth=2;ctx.stroke();ctx.restore()}
+  ctx.restore();
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  ctx.fillStyle='rgba(86,246,160,.075)';for(let y=0;y<cssH;y+=4)ctx.fillRect(0,y,cssW,1);
+  ctx.strokeStyle='rgba(86,246,160,.35)';ctx.lineWidth=1;ctx.strokeRect(.5,.5,cssW-1,cssH-1);
+  const status=document.getElementById('dashboardMiniStatus'),mode=document.getElementById('dashboardMiniMode'),turn=document.getElementById('dashboardTurnText'),sub=document.getElementById('dashboardTurnSub'),arrow=document.getElementById('dashboardTurnArrow');
+  if(mode)mode.textContent=(snap.mode==='nav')?'NAV':'MAP';
+  const remaining=routeTarget?dashboardRemainingText():'';
+  if(status)status.textContent=routeTarget?(remaining||poiDisplayTitle(routeTarget)):t('no_destination');
+  if(turn)turn.textContent=routeTarget?poiDisplayTitle(routeTarget):(snap.mode==='nav'?t('navigator'):t('map'));
+  if(sub)sub.textContent=routeTarget?(remaining||t('route')):(snap.mode==='nav'?'tap to nav':'tap to map');
+  if(arrow)arrow.textContent=routeTarget?'↑':'↖';
+}
+function updateDashboardScreen(force=false){
+  if(!dashboardMode)return;
+  updateDashboardTrip();
+  updateDashboardTelemetry();
+  renderDashboardMiniMap(force);
+}
 function initControls(){
   document.getElementById('layerSelect').value=layerId;
   document.getElementById('categorySelect').value=categoryFilter;
@@ -83,10 +322,13 @@ function initControls(){
   if(languageSelect){languageSelect.value=uiLang;languageSelect.onchange=e=>setLanguage(e.target.value)}
   const northBtn=document.getElementById('northUpBtn');
   if(northBtn)northBtn.classList.toggle('active',northUp);
-  document.getElementById('followBtn').classList.add('active');
   follow=true;
+  syncFollowButtons();
   document.getElementById('followBtn').onclick=()=>setFollowEnabled(!follow);
+  document.getElementById('mobileFollowBtn')?.addEventListener('click',()=>setFollowEnabled(!follow));
   document.getElementById('navBtn').onclick=()=>enterNavMode();
+  document.getElementById('dashboardBtn')?.addEventListener('click',()=>enterDashboardMode());
+  document.getElementById('dashboardMiniMap')?.addEventListener('click',()=>exitDashboardMode(true));
   if(northBtn)northBtn.onclick=()=>{setNorthUp(!northUp);lastTileKey='';renderAll(true)};
   document.getElementById('navExitBtn').onclick=()=>exitNavMode();
   document.getElementById('mediaPrevBtn').onclick=()=>sendMediaKey('prev');
@@ -95,6 +337,7 @@ function initControls(){
   document.getElementById('mediaVolDownBtn').onclick=()=>sendMediaKey('voldown');
   document.getElementById('mediaVolUpBtn').onclick=()=>sendMediaKey('volup');
   document.getElementById('mediaCollapseBtn')?.addEventListener('click',()=>{const app=document.getElementById('app');app.classList.remove('mediaOpen');app.classList.add('mediaCollapsed');mobileActivePanel=null;setDockActive(null);});
+  document.getElementById('navDashboardBtn')?.addEventListener('click',()=>enterDashboardMode());
   document.getElementById('navMediaToggleBtn')?.addEventListener('click',()=>openMobilePanel('media'));
   document.getElementById('navInfoToggleBtn')?.addEventListener('click',()=>toggleNearestOverlay());
   document.getElementById('mobileNearestCloseBtn')?.addEventListener('click',()=>document.getElementById('app').classList.remove('nearestOpen'));
@@ -123,7 +366,7 @@ function renderPlayer(){if(playerMapX===null||playerMapY===null){if(playerEl)pla
 function populateCategories(){const cats=[...new Set(markers.map(m=>m.category).filter(Boolean))].sort(),sel=document.getElementById('categorySelect');if(!sel)return;for(const o of Array.from(sel.options).slice(1))o.remove();for(const c of cats){let o=document.createElement('option');o.value=c;o.textContent=catLabel(c);sel.appendChild(o)}if(categoryFilter)sel.value=categoryFilter;applyLanguage()}
 function markerKey(m){return String(m.markerId||m.id||((m.title||'poi')+'@'+Math.round(m.map_x)+','+Math.round(m.map_y)))}
 function renderMarkers(){if(!showMarkers){for(const el of markerDomByKey.values())el.remove();markerDomByKey.clear();const popup=document.getElementById('poiPopup');if(popup)popup.remove();return}if(!markers||!markers.length){const popup=document.getElementById('poiPopup');if(popup)popup.remove();return}const r=viewport.getBoundingClientRect(),pad=navMode?Math.max(r.width,r.height):80;let pool=markers;if(categoryFilter)pool=pool.filter(m=>m.category===categoryFilter);const need=new Set();let count=0;for(const m of pool){const p=mapToScreen(m.map_x,m.map_y);if(p.x<-pad||p.y<-pad||p.x>r.width+pad||p.y>r.height+pad)continue;const key=markerKey(m);need.add(key);let d=markerDomByKey.get(key);if(!d){d=document.createElement('div');d.onpointerdown=(ev)=>{ev.stopPropagation();selectPoi(d._fh6Marker,true)};markerDomByKey.set(key,d);markerLayer.appendChild(d)}d._fh6Marker=m;const isSpeed=/speed/i.test(m.category||"");const selected=selectedPoi&&String(selectedPoi.markerId||selectedPoi.id)===String(m.markerId||m.id);d.className='marker'+(isSpeed?' speed':'')+(selected?' selected':'');d.style.left=`${p.x}px`;d.style.top=`${p.y}px`;d.style.background=m.color||'#7dd3fc';d.title=`${m.title} | ${catLabel(m.category)}`;if(++count>600)break}for(const [key,el] of Array.from(markerDomByKey.entries())){if(!need.has(key)){el.remove();markerDomByKey.delete(key)}}renderPoiPopup();applyMapRotation()}
-function selectPoi(m,keepMap=false){selectedPoi=m;if(!keepMap&&!navMode){follow=false;document.getElementById('followBtn').classList.remove('active');const r=viewport.getBoundingClientRect(),s=scale();panX=m.map_x*s-r.width/2;panY=m.map_y*s-r.height/2;clampPan()}else if(navMode){keepNavigatorFollow()}renderMarkers();updateNearest()}
+function selectPoi(m,keepMap=false){selectedPoi=m;if(!keepMap&&!navMode){follow=false;syncFollowButtons();const r=viewport.getBoundingClientRect(),s=scale();panX=m.map_x*s-r.width/2;panY=m.map_y*s-r.height/2;clampPan()}else if(navMode){keepNavigatorFollow()}renderMarkers();updateNearest()}
 function clearPoi(){selectedPoi=null;closeMapContextMenu(true);renderMarkers();updateNearest()}
 function renderPoiPopup(){const old=document.getElementById('poiPopup');if(old)old.remove();if(!selectedPoi)return;const p=mapToScreen(selectedPoi.map_x,selectedPoi.map_y);const r=viewport.getBoundingClientRect();const popup=document.createElement('div');popup.id='poiPopup';popup.className='poiPopup';let distanceText='—';if(telemetry&&telemetry.map_x!==null){distanceText=markerDistanceText(selectedPoi)||'—'}const desc=selectedPoi.description||selectedPoi.desc||t('desc_placeholder');const title=poiDisplayTitle(selectedPoi);const category=catLabel(selectedPoi.category||t('unknown_category'));const parent=selectedPoi.parent_category?' · '+esc(catLabel(selectedPoi.parent_category)):'';popup.innerHTML=`<button class="poiPopupClose" title="${esc(t('close'))}">×</button><div class="poiPopupTitle">${esc(title)}</div><div class="poiPopupMeta">${esc(category)}${parent}</div><div class="poiPopupDesc">${esc(desc)}</div><div class="poiPopupRow"><span>${esc(t('map_coordinates'))}</span><b>${Math.round(selectedPoi.map_x)}, ${Math.round(selectedPoi.map_y)}</b></div><div class="poiPopupRow"><span>${esc(t('distance_from_car'))}</span><b>${distanceText}</b></div><div class="poiPopupActions"><button class="routeBtn" id="buildRouteBtn">${esc(t('build_route'))}</button></div>`;popup.querySelector('.poiPopupClose').onclick=(ev)=>{ev.stopPropagation();clearPoi()};const buildBtn=popup.querySelector('#buildRouteBtn');buildBtn.onpointerdown=(ev)=>{ev.preventDefault();ev.stopPropagation();startRouteToPoi(selectedPoi)};markerLayer.appendChild(popup);let left=p.x+18,top=p.y-24;if(left+330>r.width)left=p.x-348;if(top+210>r.height)top=r.height-226;if(top<10)top=10;if(left<10)left=10;popup.style.left=`${left}px`;popup.style.top=`${top}px`}
 function makeMapPointTarget(mx,my){return{isCustom:true,title:t('selected_point'),category:t('custom_point'),map_x:mx,map_y:my}}
@@ -144,7 +387,7 @@ function routePointAtDistance(pts,wantPx){if(!pts||pts.length<2)return pts&&pts.
 function desiredNavZoomForSpeed(){if(!navMode||!follow||!routeTarget||!telemetry||telemetry.map_x===null)return zoom;const pts=routePointsForRender();if(!pts||pts.length<2)return zoom;const speed=Number(telemetry.speed_kmh)||0;const lookMeters=Math.max(NAV_AUTO_ZOOM_MIN_METERS,(speed/3.6)*NAV_AUTO_ZOOM_SECONDS);const lookPx=mapPxFromMeters(lookMeters);const look=routePointAtDistance(pts,lookPx);if(!look)return zoom;const r=viewport.getBoundingClientRect(),a=navAnchor(),deg=navRotationDeg();function panFor(z){const s=Math.pow(2,z-MAX_ZOOM);let px=playerMapX*s-a.x,py=playerMapY*s-a.y;const ww=MAP_WIDTH*s,hh=MAP_HEIGHT*s;if(ww<=r.width)px=(ww-r.width)/2;else px=clamp(px,0,ww-r.width);if(hh<=r.height)py=(hh-r.height)/2;else py=clamp(py,0,hh-r.height);return{px,py,s}}for(let z=MAX_ZOOM;z>=NAV_AUTO_ZOOM_MIN_ZOOM;z--){const pp=panFor(z);const raw={x:look.map_x*pp.s-pp.px,y:look.map_y*pp.s-pp.py};const screen=rotatePointAround(raw.x,raw.y,a.x,a.y,deg);if(screen.x>=NAV_AUTO_ZOOM_SIDE_MARGIN&&screen.x<=r.width-NAV_AUTO_ZOOM_SIDE_MARGIN&&screen.y>=NAV_AUTO_ZOOM_TOP_MARGIN&&screen.y<=r.height-NAV_AUTO_ZOOM_BOTTOM_MARGIN)return z}return NAV_AUTO_ZOOM_MIN_ZOOM}
 function maybeAutoZoomNavigation(){if(!navMode||!follow||!routeTarget||!telemetry||telemetry.map_x===null)return;const now=Date.now();if(now-lastManualZoomAt<NAV_AUTO_ZOOM_MANUAL_COOLDOWN_MS)return;if(now-lastAutoZoomCheckAt<NAV_AUTO_ZOOM_CHECK_MS)return;lastAutoZoomCheckAt=now;const desired=desiredNavZoomForSpeed();if(desired<zoom){autoZoomInCandidate=null;autoZoomInCandidateAt=0;setZoom(desired,null,null,{auto:true});return}if(desired>zoom){if(autoZoomInCandidate!==desired){autoZoomInCandidate=desired;autoZoomInCandidateAt=now;return}if(now-autoZoomInCandidateAt>=NAV_AUTO_ZOOM_HOLD_IN_MS){autoZoomInCandidate=null;autoZoomInCandidateAt=0;setZoom(desired,null,null,{auto:true})}}else{autoZoomInCandidate=null;autoZoomInCandidateAt=0}}
 function maybeRerouteNavigation(){if(!navMode||!routeTarget||!telemetry||telemetry.map_x===null||routeRequestInFlight)return;const now=Date.now();const px=Number(telemetry.map_x),py=Number(telemetry.map_y);const toTarget=dist({map_x:px,map_y:py},routeTarget);if(toTarget<35)return;const weakRoute=(!currentRoute||!Array.isArray(currentRoute.polyline)||currentRoute.polyline.length<2);if(weakRoute){if(now-lastRouteRequestAt>2800)requestRoute(routeTarget,false);return}const off=distanceToCurrentRoute(px,py);lastRouteOffRoutePx=off;const moved=(lastRouteAnchorX===null||lastRouteAnchorY===null)?0:Math.hypot(px-lastRouteAnchorX,py-lastRouteAnchorY);if(off<=REROUTE_STICKY_OFF_PX){offRouteSince=0;if(moved>REROUTE_REFRESH_MOVE_PX&&now-lastRouteRequestAt>16000)requestRoute(routeTarget,false);return}if(!offRouteSince)offRouteSince=now;const offMs=now-offRouteSince;if(now-lastRouteRequestAt<REROUTE_MIN_INTERVAL_MS)return;const shouldReroute=(off>REROUTE_HUGE_OFF_PX&&offMs>REROUTE_HUGE_MS)||(off>REROUTE_HARD_OFF_PX&&offMs>REROUTE_HARD_MS)||(off>REROUTE_STICKY_OFF_PX&&offMs>REROUTE_STICKY_MS);if(shouldReroute)requestRoute(routeTarget,false)}
-function enterNavMode(forceHeadingUp=false){closeMobilePanels();navMode=true;follow=true;document.getElementById('app').classList.add('navMode');document.getElementById('followBtn').classList.add('active');if(!routeTarget&&selectedPoi)routeTarget=selectedPoi;if(forceHeadingUp&&routeTarget)setNorthUp(false);setZoom(Math.max(zoom,17),null,null,{auto:true});centerOnPlayer();renderTiles(true);renderPlayer();renderMarkers();renderRouteLine();updateNearest();updateNavUi()}
+function enterNavMode(forceHeadingUp=false){if(dashboardMode)exitDashboardMode(false);closeMobilePanels();navMode=true;follow=true;document.getElementById('app').classList.add('navMode');document.getElementById('followBtn').classList.add('active');if(!routeTarget&&selectedPoi)routeTarget=selectedPoi;if(forceHeadingUp&&routeTarget)setNorthUp(false);setZoom(Math.max(zoom,17),null,null,{auto:true});centerOnPlayer();renderTiles(true);renderPlayer();renderMarkers();renderRouteLine();updateNearest();updateNavUi()}
 function exitNavMode(){closeMobilePanels();navMode=false;document.getElementById('app').classList.remove('navMode');applyMapRotation();renderAll(true)}
 function routePointsForRender(){if(!routeTarget||playerMapX===null||playerMapY===null)return[];const pts=[{map_x:playerMapX,map_y:playerMapY}];const raw=normalizedRoutePolyline();if(raw.length>=2){const tail=trimRoutePolyline(raw,playerMapX,playerMapY);for(const p of tail)pts.push(p)}else if(currentRoute&&currentRoute.mode==='direct'){pts.push({map_x:routeTarget.map_x,map_y:routeTarget.map_y})}else{return[]}return pts.filter(p=>Number.isFinite(p.map_x)&&Number.isFinite(p.map_y))}
 function ensureRouteEls(){if(routeEls)return routeEls;routeLayer.innerHTML='';const ns='http://www.w3.org/2000/svg';const outer=document.createElementNS(ns,'polyline');outer.setAttribute('fill','none');outer.setAttribute('stroke','#63f000');outer.setAttribute('stroke-width','10');outer.setAttribute('stroke-linecap','round');outer.setAttribute('stroke-linejoin','round');outer.setAttribute('opacity','0.96');const inner=document.createElementNS(ns,'polyline');inner.setAttribute('fill','none');inner.setAttribute('stroke','rgba(255,255,255,.82)');inner.setAttribute('stroke-width','3');inner.setAttribute('stroke-linecap','round');inner.setAttribute('stroke-linejoin','round');inner.setAttribute('opacity','0.85');const dest=document.createElementNS(ns,'circle');dest.setAttribute('r','13');dest.setAttribute('fill','#ef4444');dest.setAttribute('stroke','#fff');dest.setAttribute('stroke-width','4');routeLayer.appendChild(outer);routeLayer.appendChild(inner);routeLayer.appendChild(dest);routeEls={outer,inner,dest};return routeEls}
@@ -160,19 +403,19 @@ function initSearch(){const input=document.getElementById('searchInput'),clear=d
 function markerDistanceText(m){if(!telemetry||telemetry.map_x===null)return'';const dpx=dist({map_x:telemetry.map_x,map_y:telemetry.map_y},m);const meters=Math.round(metersFromMapPx(dpx));return meters>=1000?(meters/1000).toFixed(1)+' km':meters+' m'}
 function runSearch(raw){const box=document.getElementById('searchResults');if(!box)return;const q=String(raw||'').trim().toLowerCase();if(q.length<2){box.classList.remove('open');box.innerHTML='';return}let pool=markers||[];if(categoryFilter)pool=pool.filter(m=>m.category===categoryFilter);const terms=q.split(/\s+/).filter(Boolean);let results=pool.filter(m=>{const hay=[m.title,m.category,catLabel(m.category),m.parent_category,catLabel(m.parent_category),m.description].filter(Boolean).join(' ').toLowerCase();return terms.every(t=>hay.includes(t))});if(telemetry&&telemetry.map_x!==null){const p={map_x:telemetry.map_x,map_y:telemetry.map_y};results=results.map(m=>({...m,_d:dist(p,m)})).sort((a,b)=>(a._d||0)-(b._d||0))}else{results=results.sort((a,b)=>String(a.title).localeCompare(String(b.title)))}results=results.slice(0,8);box.classList.add('open');if(!results.length){box.innerHTML='<div class="searchEmpty">'+esc(t('nothing_found'))+'</div>';return}box.innerHTML='';for(const m of results){const div=document.createElement('div');div.className='searchItem';div.innerHTML=`<div><div class="searchItemTitle">${esc(m.title)}</div><div class="searchItemMeta">${esc(catLabel(m.category||'POI'))}${m.parent_category?' · '+esc(catLabel(m.parent_category)):''}${markerDistanceText(m)?' · '+markerDistanceText(m):''}</div></div><button title="${esc(t('build_route'))}">${esc(t('route'))}</button>`;div.onpointerdown=(ev)=>{if(ev.target&&ev.target.tagName==='BUTTON')return;ev.stopPropagation();selectPoi(m,false)};div.querySelector('button').onpointerdown=(ev)=>{ev.preventDefault();ev.stopPropagation();startRouteToPoi(m)};box.appendChild(div)}}
 function esc(s){return String(s).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]))}
-function updateHud(){if(!telemetry)return;const hasError=!!telemetry.udp_error;const on=!hasError&&!!telemetry.receiving;const hasPos=telemetry.map_x!==null&&telemetry.map_y!==null;const dot=document.getElementById('statusDot');dot.classList.toggle('on',on);document.getElementById('statusText').textContent=hasError?t('status_udp_error'):(telemetry.pause_coordinate_hold?t('status_holding'):(on?t('status_live'):(hasPos?t('status_holding'):t('status_waiting'))));document.getElementById('speed').textContent=Math.round(telemetry.speed_kmh||0);document.getElementById('gear').textContent=telemetry.gear||'-';document.getElementById('heading').textContent=Math.round(telemetry.heading_deg||0);document.getElementById('mapxy').textContent=telemetry.map_x!==null?`${Math.round(telemetry.map_x)}, ${Math.round(telemetry.map_y)}`:'—'}
+function updateHud(){if(!telemetry)return;const hasError=!!telemetry.udp_error;const on=!hasError&&!!telemetry.receiving;const hasPos=telemetry.map_x!==null&&telemetry.map_y!==null;const dot=document.getElementById('statusDot');dot.classList.toggle('on',on);document.getElementById('statusText').textContent=hasError?t('status_udp_error'):(telemetry.pause_coordinate_hold?t('status_holding'):(on?t('status_live'):(hasPos?t('status_holding'):t('status_waiting'))));document.getElementById('speed').textContent=Math.round(telemetry.speed_kmh||0);document.getElementById('gear').textContent=telemetry.gear||'-';document.getElementById('heading').textContent=Math.round(telemetry.heading_deg||0);document.getElementById('mapxy').textContent=telemetry.map_x!==null?`${Math.round(telemetry.map_x)}, ${Math.round(telemetry.map_y)}`:'—';updateDashboardScreen()}
 function renderAll(force=false){renderTiles(force);renderPlayer();renderMarkers();renderMapPickMarker();updateNearest();renderRouteLine();updateNavUi()}
 function renderInteractionFrame(){interactionRenderRaf=0;renderTiles();renderPlayer();renderRouteLine();renderMarkers();renderMapPickMarker();updateNavUi()}
 function scheduleInteractionRender(){if(interactionRenderRaf)return;interactionRenderRaf=requestAnimationFrame(renderInteractionFrame)}
 function lerpAngleDeg(current,target,alpha){let delta=((target-current+540)%360)-180;return current+delta*alpha}
-function animationLoop(){try{if(targetMapX!==null&&targetMapY!==null){if(displayMapX===null){displayMapX=targetMapX;displayMapY=targetMapY;displayHeadingDeg=targetHeadingDeg}else{const posAlpha=navMode?0.16:0.24;displayMapX+=(targetMapX-displayMapX)*posAlpha;displayMapY+=(targetMapY-displayMapY)*posAlpha;displayHeadingDeg=lerpAngleDeg(displayHeadingDeg,targetHeadingDeg,0.14)}playerMapX=displayMapX;playerMapY=displayMapY;maybeAutoZoomNavigation();centerIfFollowing();renderTiles();renderPlayer();renderRouteLine();renderMapPickMarker();if(!maybeFinishNavigation()){updateNavUi();maybeRerouteNavigation()}applyMapRotation();const now=performance.now();if(now-lastMarkerRenderAt>260){renderMarkers();lastMarkerRenderAt=now}if(now-lastNearestRenderAt>700){updateNearest();lastNearestRenderAt=now}}}catch(e){console.warn('animation error',e)}requestAnimationFrame(animationLoop)}
+function animationLoop(){try{if(targetMapX!==null&&targetMapY!==null){if(displayMapX===null){displayMapX=targetMapX;displayMapY=targetMapY;displayHeadingDeg=targetHeadingDeg}else{const posAlpha=navMode?0.16:0.24;displayMapX+=(targetMapX-displayMapX)*posAlpha;displayMapY+=(targetMapY-displayMapY)*posAlpha;displayHeadingDeg=lerpAngleDeg(displayHeadingDeg,targetHeadingDeg,0.14)}playerMapX=displayMapX;playerMapY=displayMapY;maybeAutoZoomNavigation();centerIfFollowing();renderTiles();renderPlayer();renderRouteLine();renderMapPickMarker();if(!maybeFinishNavigation()){updateNavUi();maybeRerouteNavigation()}applyMapRotation();const now=performance.now();if(now-lastMarkerRenderAt>260){renderMarkers();lastMarkerRenderAt=now}if(now-lastNearestRenderAt>700){updateNearest();lastNearestRenderAt=now}if(dashboardMode)updateDashboardScreen()} }catch(e){console.warn('animation error',e)}requestAnimationFrame(animationLoop)}
 async function pollTelemetry(){try{const r=await fetch('/api/state?ts='+Date.now(),{cache:'no-store'});telemetry=await r.json();updateHud();if(telemetry&&telemetry.map_x!==null){targetMapX=Number(telemetry.map_x);targetMapY=Number(telemetry.map_y);targetHeadingDeg=updateHeadingFromMotion(targetMapX,targetMapY,Number(telemetry.speed_kmh)||0,telemetry.heading_deg||0);if(displayMapX===null){displayMapX=targetMapX;displayMapY=targetMapY;displayHeadingDeg=targetHeadingDeg;playerMapX=displayMapX;playerMapY=displayMapY;}}}catch(e){console.warn('telemetry poll error',e)}finally{setTimeout(pollTelemetry,120)}}
 async function loadMarkers(){try{const r=await fetch('/api/markers?ts='+Date.now(),{cache:'no-store'});const data=await r.json();markers=Array.isArray(data)?data:[];console.log('POI markers loaded',markers.length)}catch(e){console.warn('markers fetch error',e);markers=[]}try{populateCategories();renderTiles(true);renderMarkers();updateNearest()}catch(renderError){console.warn('markers render error',renderError)}}
 function pointerDistance(){const pts=[...activePointers.values()];if(pts.length<2)return 0;const dx=pts[0].x-pts[1].x,dy=pts[0].y-pts[1].y;return Math.sqrt(dx*dx+dy*dy)}
 function pointerCenter(){const pts=[...activePointers.values()];return{x:(pts[0].x+pts[1].x)/2,y:(pts[0].y+pts[1].y)/2}}
 viewport.addEventListener('pointerdown',e=>{
   if(e.button===2)return;
-  if(e.target.closest&&e.target.closest('.marker,.poiPopup,.mapContextMenu,.nearest,.searchPanel,.musicWidget,.navBottomBar,.navTopInstruction,.cachePanel,.mobileDock,.mobileSheet,.mobileSheetClose,.mobileNearestOverlay,.navInfoToggle,.navMediaToggle'))return;
+  if(e.target.closest&&e.target.closest('.marker,.poiPopup,.mapContextMenu,.nearest,.searchPanel,.musicWidget,.navBottomBar,.navTopInstruction,.cachePanel,.mobileDock,.mobileSheet,.mobileSheetClose,.mobileNearestOverlay,.navInfoToggle,.navMediaToggle,.mobileFollowFab'))return;
   activePointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
   tapStart={id:e.pointerId,x:e.clientX,y:e.clientY,t:Date.now()};tapWasMulti=false;
   if(e.target===viewport||e.target.id==='mapWorld'||e.target.id==='tileLayer'||e.target.id==='playerLayer')clearPoi();
@@ -184,7 +427,7 @@ viewport.addEventListener('pointerdown',e=>{
   }
   dragging=true;
   if(navMode&&follow){keepNavigatorFollow();centerOnPlayer()}
-  else{follow=false;document.getElementById('followBtn').classList.remove('active')}
+  else{follow=false;syncFollowButtons()}
   viewport.classList.add('dragging');
   dragStart={x:e.clientX,y:e.clientY,panX,panY};
 });
@@ -209,7 +452,7 @@ viewport.addEventListener('pointermove',e=>{
 });
 function endPointer(e){const wasTap=!!(tapStart&&tapStart.id===e.pointerId&&!tapWasMulti&&Math.hypot(e.clientX-tapStart.x,e.clientY-tapStart.y)<=22&&(Date.now()-tapStart.t)<650);activePointers.delete(e.pointerId);if(activePointers.size<2)pinchStart=null;if(activePointers.size===0){dragging=false;dragStart=null;tapWasMulti=false;viewport.classList.remove('dragging');if(wasTap)maybeHandleDoubleTap(e);tapStart=null;if(navMode&&follow){keepNavigatorFollow();centerOnPlayer();renderTiles(true);renderPlayer();renderRouteLine();renderMapPickMarker();updateNavUi()}}}
 viewport.addEventListener('pointerup',endPointer);viewport.addEventListener('pointercancel',endPointer);
-viewport.addEventListener('contextmenu',e=>{e.preventDefault();if(e.target.closest&&e.target.closest('.marker,.poiPopup,.mapContextMenu,.nearest,.searchPanel,.musicWidget,.navBottomBar,.navTopInstruction,.cachePanel,.mobileDock,.mobileSheet,.mobileSheetClose,.mobileNearestOverlay,.navInfoToggle,.navMediaToggle'))return;showContextMenuForScreen(e.clientX,e.clientY,false)},{passive:false});
+viewport.addEventListener('contextmenu',e=>{e.preventDefault();if(e.target.closest&&e.target.closest('.marker,.poiPopup,.mapContextMenu,.nearest,.searchPanel,.musicWidget,.navBottomBar,.navTopInstruction,.cachePanel,.mobileDock,.mobileSheet,.mobileSheetClose,.mobileNearestOverlay,.navInfoToggle,.navMediaToggle,.mobileFollowFab'))return;showContextMenuForScreen(e.clientX,e.clientY,false)},{passive:false});
 viewport.addEventListener('wheel',e=>{e.preventDefault();setZoom(zoom+(e.deltaY<0?1:-1),e.clientX,e.clientY)},{passive:false});
-window.addEventListener('resize',()=>{setMobileUiClass();if(!isMobileLayout())closeMobilePanels();centerIfFollowing();renderAll(true)});
+window.addEventListener('resize',()=>{setMobileUiClass();if(!isMobileLayout())closeMobilePanels();if(dashboardMode){const r=viewport.getBoundingClientRect();dashboardSnapshot={...(dashboardSnapshot||{}),vw:Math.max(1,r.width),vh:Math.max(1,r.height)};updateDashboardScreen(true)}centerIfFollowing();renderAll(true)});
 setMobileUiClass();initControls();loadServerInfo();centerOnPlayer();renderTiles(true);requestAnimationFrame(animationLoop);pollTelemetry();loadMarkers();
