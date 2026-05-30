@@ -1,0 +1,2 @@
+Drop your .mp3, .wav, .ogg, .m4a, .aac or .flac files into this folder.
+The phone web UI will load and play them from the PC over local Wi-Fi.

@@ -27,7 +27,7 @@ const MAP_WIDTH=20000,MAP_HEIGHT=20000,TILE_SIZE=256,MIN_ZOOM=12,MAX_ZOOM=18;
 const viewport=document.getElementById('mapViewport'),mapWorld=document.getElementById('mapWorld'),tileLayer=document.getElementById('tileLayer'),routeLayer=document.getElementById('routeLayer'),markerLayer=document.getElementById('markerLayer'),playerLayer=document.getElementById('playerLayer');
 let telemetry=null,markers=[],selectedPoi=null,routeTarget=null,currentRoute=null,navMode=false,dashboardMode=false,northUp=(localStorage.getItem('fh6_north_up')==='1'),follow=true,showMarkers=true,zoom=Math.max(MIN_ZOOM,Math.min(MAX_ZOOM,Math.round(Number(localStorage.getItem('fh6_zoom')||16)))),layerId=localStorage.getItem('fh6_layer')||"760",categoryFilter=localStorage.getItem('fh6_category')||"",panX=0,panY=0,dragging=false,dragStart=null,playerMapX=10387,playerMapY=9846,targetMapX=null,targetMapY=null,displayMapX=null,displayMapY=null,targetHeadingDeg=0,displayHeadingDeg=0,lastTelemetryMapX=null,lastTelemetryMapY=null,lastMovementHeadingDeg=null,lastMovementHeadingAt=0,lastTileKey="",activePointers=new Map(),pinchStart=null,lastPinchZoom=zoom,lastMarkerRenderAt=0,lastNearestRenderAt=0,lastRouteRequestAt=0,routeRequestInFlight=false,lastRouteAnchorX=null,lastRouteAnchorY=null,lastRouteOffRoutePx=0,offRouteSince=0,navTouchLookUntil=0;
 let markerDomByKey=new Map(),playerEl=null,routeEls=null,lastRouteSize='',lastRoutePoints='',interactionRenderRaf=0,arriveSince=0,mapContextTarget=null,mapContextMenuEl=null,mapPickEl=null,lastTapAt=0,lastTapX=0,lastTapY=0,lastManualZoomAt=0,lastAutoZoomCheckAt=0,autoZoomInCandidate=null,autoZoomInCandidateAt=0,tapStart=null,tapWasMulti=false;
-let dashboardSourceMode='map',dashboardSnapshot=null,dashboardLastMiniDraw=0,dashboardLastUiDraw=0,dashboardTileCache=new Map(),dashboardTripKm=0,dashboardTripLastAt=0,dashboardTripRawBaseM=null,dashboardTripRawLastM=null,dashboardMiniZoom=null,dashboardMiniZoomCandidate=null,dashboardMiniZoomCandidateAt=0,dashboardLearnedMaxRpm=8000,dashboardRpmBuilt=false,dashboardRpmSegs=[],dashboardLastSpeedText=null,dashboardLastGearText=null,dashboardLastRpmActiveCount=-1,dashboardLastTripText='',screenWakeLock=null,wakeLockWanted=true,wakeLockFallbackVideo=null,wakeLockRetryTimer=0;
+let dashboardSourceMode='map',dashboardSnapshot=null,dashboardLastMiniDraw=0,dashboardLastUiDraw=0,dashboardTileCache=new Map(),dashboardTripKm=0,dashboardTripLastAt=0,dashboardTripRawBaseM=null,dashboardTripRawLastM=null,dashboardMiniZoom=null,dashboardMiniZoomCandidate=null,dashboardMiniZoomCandidateAt=0,dashboardLearnedMaxRpm=8000,dashboardRpmBuilt=false,dashboardRpmSegs=[],dashboardLastSpeedText=null,dashboardLastGearText=null,dashboardLastRpmActiveCount=-1,dashboardLastTripText='',legacyFullscreenWanted=false;
 const NAV_TOUCH_LOOK_MS=0,REROUTE_MIN_INTERVAL_MS=14000,REROUTE_STICKY_OFF_PX=170,REROUTE_STICKY_MS=22000,REROUTE_HARD_OFF_PX=360,REROUTE_HARD_MS=9000,REROUTE_HUGE_OFF_PX=650,REROUTE_HUGE_MS=3500,REROUTE_REFRESH_MOVE_PX=760,REROUTE_LONG_ROUTE_LOCK_MS=32000;
 const MAP_PX_PER_METER=0.655,NAV_ARRIVE_METERS=30,NAV_ARRIVE_STOPPED_METERS=62,NAV_ARRIVE_PX=NAV_ARRIVE_METERS*MAP_PX_PER_METER,NAV_ARRIVE_STOPPED_PX=NAV_ARRIVE_STOPPED_METERS*MAP_PX_PER_METER,NAV_ARRIVE_STOPPED_MAX_KMH=8,NAV_ARRIVE_HOLD_MS=1100;
 const FALLBACK_IMG_W=1638,FALLBACK_IMG_H=2048,FALLBACK_SX=6.58487266,FALLBACK_SY=6.60554791,FALLBACK_OX=4594.21749925,FALLBACK_OY=3225.79270983;
@@ -98,7 +98,6 @@ function enterDashboardMode(){
   setDockActive('dashboard');
   dashboardLastUiDraw=0;dashboardLastMiniDraw=0;
   updateDashboardScreen(true);
-  requestScreenWakeLock();
 }
 function exitDashboardMode(toMap=true){
   const source=(dashboardSnapshot&&dashboardSnapshot.mode)||dashboardSourceMode||'map';
@@ -503,41 +502,6 @@ viewport.addEventListener('pointerup',endPointer);viewport.addEventListener('poi
 viewport.addEventListener('contextmenu',e=>{e.preventDefault();if(e.target.closest&&e.target.closest('.marker,.poiPopup,.mapContextMenu,.nearest,.searchPanel,.musicWidget,.navBottomBar,.navTopInstruction,.cachePanel,.mobileDock,.mobileSheet,.mobileSheetClose,.mobileNearestOverlay,.navInfoToggle,.navMediaToggle,.mobileFollowFab'))return;showContextMenuForScreen(e.clientX,e.clientY,false)},{passive:false});
 viewport.addEventListener('wheel',e=>{e.preventDefault();setZoom(zoom+(e.deltaY<0?1:-1),e.clientX,e.clientY)},{passive:false});
 
-function startWakeLockFallbackVideo(){
-  if(wakeLockFallbackVideo)return;
-  try{
-    const v=document.createElement('video');
-    v.setAttribute('playsinline','');v.setAttribute('webkit-playsinline','');
-    v.muted=true;v.loop=true;v.preload='auto';
-    v.style.cssText='position:fixed;width:1px;height:1px;left:-10px;top:-10px;opacity:0;pointer-events:none';
-    v.src='data:video/mp4;base64,AAAAIGZ0eXBpc29tAAACAGlzb21pc28yYXZjMW1wNDEAAANobW9vdgAAAGxtdmhkAAAAAAAAAAAAAAAAAAAD6AAAA+gAAQAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgp0cmFrAAAAXHRraGQAAAADAAAAAAAAAAAAAAABAAAAAAAAA+gAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAIAAAACAAAAAAAkZWR0cwAAABxlbHN0AAAAAAAAAAEAAAPoAAAABAAAEAAAAAABcW1kaWEAAABzbWRoAAAAAAAAAAAAAAAAAAAAAAABlgAAACRobGRyAAAAAAAAAAB2aWRlAAAAAAAAAAAAAAAAVmlkZW9IYW5kbGVyAAABIG1pbmYAAAAUdm1oZAAAAAEAAAAAAAAAAAAAACRkaW5mAAAAHGRyZWYAAAAAAAAAAQAAAAx1cmwgAAAAAQAAAOdzdGJsAAAAm3N0c2QAAAAAAAAAAQAAAIthdmMxAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAIAAgBIAAAASAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGP//AAAAN2F2Y0MBZAAK/+EAGGdkAAqs2QFAFuhAAAADAAEAAAMAAo8YMZYBAAZo6+PLIsAAAABQY29scm5jbHgAAgACAAIAAAAYc3R0cwAAAAAAAAABAAAAAQAAA+gAAAAUc3RzYwAAAAAAAAABAAAAAQAAAAEAAAABAAAAFHN0c3oAAAAAAAAAAQAAABYAAAAUc3RjbwAAAAAAAAABAAAENAAAADZtZGF0AAAAJmWIhAAS//8Av0AAAwAABAAAAwAAAwAAAwAABZqgABzgAAADAAE=';
-    document.body.appendChild(v);
-    wakeLockFallbackVideo=v;
-  }catch(e){console.warn('wake fallback init failed',e)}
-}
-function playWakeLockFallbackVideo(){
-  startWakeLockFallbackVideo();
-  try{const p=wakeLockFallbackVideo&&wakeLockFallbackVideo.play&&wakeLockFallbackVideo.play();if(p&&p.catch)p.catch(()=>{})}catch(_){}
-}
-async function requestScreenWakeLock(){
-  if(!wakeLockWanted||document.hidden)return;
-  if(wakeLockRetryTimer){clearTimeout(wakeLockRetryTimer);wakeLockRetryTimer=0}
-  try{
-    if('wakeLock' in navigator&&navigator.wakeLock&&navigator.wakeLock.request){
-      if(!screenWakeLock){
-        screenWakeLock=await navigator.wakeLock.request('screen');
-        screenWakeLock.addEventListener('release',()=>{screenWakeLock=null;if(wakeLockWanted&&!document.hidden){wakeLockRetryTimer=setTimeout(requestScreenWakeLock,1200)}});
-      }
-      return;
-    }
-  }catch(e){screenWakeLock=null}
-  playWakeLockFallbackVideo();
-}
-function setupKeepAwake(){
-  document.addEventListener('visibilitychange',()=>{if(!document.hidden)requestScreenWakeLock()});
-  window.addEventListener('pageshow',()=>requestScreenWakeLock());
-  ['pointerdown','touchstart','click','keydown'].forEach(type=>document.addEventListener(type,()=>requestScreenWakeLock(),{passive:true}));
-  requestScreenWakeLock();
-}
+function setupLegacyFullscreenMode(){}
 window.addEventListener('resize',()=>{setMobileUiClass();if(!isMobileLayout())closeMobilePanels();if(dashboardMode){const r=viewport.getBoundingClientRect();dashboardSnapshot={...(dashboardSnapshot||{}),vw:Math.max(1,r.width),vh:Math.max(1,r.height)};updateDashboardScreen(true);return}centerIfFollowing();renderAll(true)});
-setMobileUiClass();initControls();setupKeepAwake();loadServerInfo();centerOnPlayer();renderTiles(true);requestAnimationFrame(animationLoop);pollTelemetry();loadMarkers();
+setMobileUiClass();initControls();setupLegacyFullscreenMode();loadServerInfo();centerOnPlayer();renderTiles(true);requestAnimationFrame(animationLoop);pollTelemetry();loadMarkers();

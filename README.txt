@@ -380,3 +380,13 @@ Patch v0.9.12:
 v0.9.14: English custom point menu, mobile Info panel shows Nearest POI in meters, and Navigator mode has an Info button for nearest POI.
 
 v0.9.15: Mobile Nearest POI opens as a compact lower-left overlay in map and navigator modes.
+
+
+Meme Co-Driver samples:
+  data/meme_layer/samples/collision
+  data/meme_layer/samples/mega_fail_crash
+  data/meme_layer/samples/jump_takeoff
+Open Settings on the phone, press Enable sound, then Rescan.
+
+
+Meme Layer v0.9.25: jump_takeoff теперь определяется через подтверждённое свободное падение после рампы; папки сэмплов не изменились.

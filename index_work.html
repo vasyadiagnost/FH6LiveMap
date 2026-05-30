@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
-<title>FH6 Live Map · v0.9.17</title>
+<title>FH6 Live Map · v0.9.24 Meme Layer</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <style>
 :root{--bg:#070b12;--panel:rgba(8,13,24,.84);--panel2:rgba(15,23,42,.92);--text:#e5e7eb;--muted:#9ca3af;--accent:#38bdf8;--good:#22c55e;--bad:#ef4444;--border:rgba(148,163,184,.24)}
@@ -56,7 +56,7 @@ button{cursor:pointer;font-weight:750}button.active{background:rgba(56,189,248,.
 .mobileDock{display:none}
 #app.mediaCollapsed .musicWidget{display:none!important}
 .mobileSheetClose,.navInfoToggle,.navMediaToggle,.navDashboardToggle,.mediaCollapseBtn{color:var(--text);background:rgba(15,23,42,.92);border:1px solid var(--border)}
-.panelTitleRow{display:flex;align-items:center;justify-content:space-between;gap:10px}.mobileSheetClose{display:none;width:34px;height:34px;min-height:0;padding:0;border-radius:12px;font-size:20px;line-height:1}.musicHeader{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}.musicHeader .musicTitle{margin-bottom:0}.mediaCollapseBtn{width:34px;height:34px;min-height:0;padding:0;border-radius:12px;font-size:18px;line-height:1}.navInfoToggle,.navMediaToggle,.navDashboardToggle{width:48px;height:48px;border-radius:14px;min-height:0;padding:0;font-size:22px;background:#e5e7eb;color:#111827;border:0;display:inline-flex;align-items:center;justify-content:center}.navInfoToggle{font-weight:900}.navMediaToggle{margin-left:0}.navMetrics{flex:1}.mobileDockBtn .dockLabel{font-size:10px;line-height:12px;letter-spacing:.02em;height:12px;width:100%;display:flex;align-items:center;justify-content:center;white-space:nowrap}.mobileDockBtn .dockIcon{font-size:21px;line-height:1;width:28px;height:24px;display:flex;align-items:center;justify-content:center}.dashGaugeIcon{width:25px;height:25px;display:inline-flex;align-items:center;justify-content:center}.dashGaugeIcon svg{width:100%;height:100%;display:block;filter:drop-shadow(0 0 3px currentColor)}.dashGaugeIcon path,.dashGaugeIcon line{stroke:currentColor;fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}.dashGaugeIcon .dashGaugeNeedle{stroke-width:3.1}.dashGaugeIcon .dashGaugeDot{fill:currentColor;stroke:none}.mobileInfoNearest{display:none}.mobileNearestOverlay{display:none;position:absolute;left:10px;right:auto;bottom:calc(var(--mobileDockH,68px) + env(safe-area-inset-bottom,0px) + 16px);z-index:346;width:min(235px,56vw);max-height:min(15dvh,128px);overflow:hidden;pointer-events:auto;border-radius:14px;padding:8px 10px;box-shadow:0 14px 34px rgba(0,0,0,.38)}.mobileNearestOverlay .panelTitleRow{gap:6px}.mobileNearestOverlay .title{font-size:12px;line-height:1.05}.mobileNearestOverlay .sub{display:none}.mobileNearestOverlay .mobileSheetClose{width:26px;height:26px;border-radius:9px;font-size:17px}.mobileNearestOverlay .nearestList{margin-top:4px;display:grid;gap:0}.mobileNearestOverlay .nearItem{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:11px;line-height:1.15;padding:3px 0;border-top:1px solid rgba(148,163,184,.14);min-height:24px}.mobileNearestOverlay .nearItem:first-child{border-top:0}.mobileNearestOverlay .nearItem b{display:block;max-width:154px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11.5px;line-height:1.05}.mobileNearestOverlay .nearItem>span:first-child{min-width:0;overflow:hidden}.mobileNearestOverlay .nearItem>span:last-child{font-size:11px;white-space:nowrap;color:#dbeafe;font-weight:800}.mobileNearestOverlay .nearItem .sub{display:none!important}.mobileNearestOverlay .nearItem:nth-child(n+4){display:none}
+.panelTitleRow{display:flex;align-items:center;justify-content:space-between;gap:10px}.mobileSheetClose{display:none;width:34px;height:34px;min-height:0;padding:0;border-radius:12px;font-size:20px;line-height:1}.musicHeader{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}.musicHeader .musicTitle{margin-bottom:0}.mediaCollapseBtn{width:34px;height:34px;min-height:0;padding:0;border-radius:12px;font-size:18px;line-height:1}.navInfoToggle,.navMediaToggle,.navDashboardToggle{width:48px;height:48px;border-radius:14px;min-height:0;padding:0;font-size:22px;background:#e5e7eb;color:#111827;border:0;display:inline-flex;align-items:center;justify-content:center}.mobileFollowFab{display:none}.navInfoToggle{font-weight:900}.navMediaToggle{margin-left:0}.navMetrics{flex:1}.mobileDockBtn .dockLabel{font-size:10px;line-height:1;letter-spacing:.02em}.mobileDockBtn .dockIcon{font-size:21px;line-height:1}.dashGaugeIcon{width:25px;height:25px;display:inline-flex;align-items:center;justify-content:center}.dashGaugeIcon svg{width:100%;height:100%;display:block;filter:drop-shadow(0 0 3px currentColor)}.dashGaugeIcon path,.dashGaugeIcon line{stroke:currentColor;fill:none;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}.dashGaugeIcon .dashGaugeNeedle{stroke-width:3.1}.dashGaugeIcon .dashGaugeDot{fill:currentColor;stroke:none}.followTargetIcon{width:30px;height:30px;display:block}.followTargetIcon path,.followTargetIcon circle,.followTargetIcon line{stroke:currentColor;fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}.followTargetIcon .followTargetArrow{fill:currentColor;stroke:none}.mobileInfoNearest{display:none}.mobileNearestOverlay{display:none;position:absolute;left:10px;right:auto;bottom:calc(var(--mobileDockH,68px) + env(safe-area-inset-bottom,0px) + 16px);z-index:346;width:min(235px,56vw);max-height:min(15dvh,128px);overflow:hidden;pointer-events:auto;border-radius:14px;padding:8px 10px;box-shadow:0 14px 34px rgba(0,0,0,.38)}.mobileNearestOverlay .panelTitleRow{gap:6px}.mobileNearestOverlay .title{font-size:12px;line-height:1.05}.mobileNearestOverlay .sub{display:none}.mobileNearestOverlay .mobileSheetClose{width:26px;height:26px;border-radius:9px;font-size:17px}.mobileNearestOverlay .nearestList{margin-top:4px;display:grid;gap:0}.mobileNearestOverlay .nearItem{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:11px;line-height:1.15;padding:3px 0;border-top:1px solid rgba(148,163,184,.14);min-height:24px}.mobileNearestOverlay .nearItem:first-child{border-top:0}.mobileNearestOverlay .nearItem b{display:block;max-width:154px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11.5px;line-height:1.05}.mobileNearestOverlay .nearItem>span:first-child{min-width:0;overflow:hidden}.mobileNearestOverlay .nearItem>span:last-child{font-size:11px;white-space:nowrap;color:#dbeafe;font-weight:800}.mobileNearestOverlay .nearItem .sub{display:none!important}.mobileNearestOverlay .nearItem:nth-child(n+4){display:none}
 @media(max-width:760px),(pointer:coarse){
   #app{--mobileDockH:68px;--mobileGap:10px}
   body.mobileUi .topbar{left:0;right:0;top:0;bottom:0;display:block;pointer-events:none;z-index:330}
@@ -77,8 +77,14 @@ button{cursor:pointer;font-weight:750}button.active{background:rgba(56,189,248,.
   body.mobileUi .searchResults{max-height:min(48dvh,360px)}
   body.mobileUi .bottom{display:none!important}
   body.mobileUi .mobileDock{position:absolute;left:10px;right:10px;bottom:calc(env(safe-area-inset-bottom,0px) + 8px);z-index:340;display:grid;grid-template-columns:repeat(5,1fr);gap:8px;padding:8px;background:rgba(8,13,24,.78);border:1px solid rgba(148,163,184,.24);border-radius:20px;box-shadow:0 16px 38px rgba(0,0,0,.36);backdrop-filter:blur(16px);pointer-events:auto}
-  body.mobileUi .mobileDockBtn{height:52px;min-height:0;border-radius:16px;padding:0;display:grid;grid-template-rows:26px 14px;align-content:center;justify-items:center;row-gap:2px;background:rgba(15,23,42,.88)}
+  body.mobileUi .mobileDockBtn{height:52px;min-height:0;border-radius:16px;padding:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;background:rgba(15,23,42,.88)}
   body.mobileUi .mobileDockBtn.active{background:rgba(56,189,248,.28);border-color:rgba(56,189,248,.75)}
+  body.mobileUi .mobileFollowFab{position:absolute;right:14px;bottom:calc(var(--mobileDockH,68px) + env(safe-area-inset-bottom,0px) + 28px);z-index:338;display:flex;width:56px;height:56px;min-height:0;padding:0;align-items:center;justify-content:center;border-radius:18px;background:rgba(8,13,24,.82);border:1px solid rgba(148,163,184,.28);color:#e5e7eb;box-shadow:0 14px 32px rgba(0,0,0,.38);backdrop-filter:blur(14px);pointer-events:auto}
+  body.mobileUi .mobileFollowFab.active{background:rgba(56,189,248,.26);border-color:rgba(56,189,248,.80);color:#fff;box-shadow:0 0 0 1px rgba(56,189,248,.22) inset,0 0 24px rgba(56,189,248,.35),0 14px 32px rgba(0,0,0,.38)}
+  body.mobileUi .mobileFollowFab:active{transform:scale(.97)}
+  body.mobileUi #app.navMode .mobileFollowFab{right:14px;bottom:calc(env(safe-area-inset-bottom,0px) + 92px)}
+  body.mobileUi #app.dashboardMode .mobileFollowFab{display:none!important}
+  body.mobileUi #settingsPanel #followBtn{display:none}
   body.mobileUi #app.navMode .mobileDock{display:none}
   body.mobileUi .musicWidget{display:none!important;left:10px;right:10px;bottom:calc(var(--mobileDockH) + env(safe-area-inset-bottom,0px) + 18px);min-width:0;width:auto;padding:10px 12px;border-radius:18px;z-index:345}
   body.mobileUi #app.mediaOpen .musicWidget{display:block!important}
@@ -101,22 +107,26 @@ button{cursor:pointer;font-weight:750}button.active{background:rgba(56,189,248,.
 #app.dashboardMode{background:#000}
 #app.dashboardMode #mapViewport{opacity:0;pointer-events:none}
 #app.dashboardMode .topbar,#app.dashboardMode .bottom,#app.dashboardMode .mobileDock,#app.dashboardMode .navTopInstruction,#app.dashboardMode .navSpeedBubble,#app.dashboardMode .navCompass,#app.dashboardMode .navTargetName,#app.dashboardMode .navBottomBar,#app.dashboardMode .mobileNearestOverlay,#app.dashboardMode .musicWidget,#app.dashboardMode .routeLine,#app.dashboardMode .navDestination{display:none!important}
-.dashboardScreen{--dash-green:#56f6a0;--dash-green-dim:rgba(86,246,160,.20);--dash-green-mid:rgba(86,246,160,.60);--dash-red:#ff3b30;--dash-font:"DSEG7 Classic","DSEG7-Classic","Digital-7 Mono","DS-Digital","Segment7","LCDMono2","Share Tech Mono","Courier New",ui-monospace,monospace;position:absolute;inset:0;z-index:500;display:none;background:#000;color:var(--dash-green);font-family:var(--dash-font);overflow:hidden;text-shadow:0 0 8px rgba(86,246,160,.64),0 0 22px rgba(86,246,160,.18);user-select:none}
+.dashboardScreen{--dash-green:#56f6a0;--dash-green-dim:rgba(86,246,160,.20);--dash-green-mid:rgba(86,246,160,.60);--dash-red:#ff3b30;--dash-font:"DSEG7 Classic","DSEG7-Classic","Digital-7 Mono","DS-Digital","Segment7","LCDMono2","Share Tech Mono","Courier New",ui-monospace,monospace;position:absolute;inset:0;z-index:500;display:none;background:#000;color:var(--dash-green);font-family:var(--dash-font);overflow:hidden;text-shadow:0 0 6px rgba(86,246,160,.55),0 0 16px rgba(86,246,160,.14);user-select:none;contain:layout paint style;transform:translateZ(0)}
 #app.dashboardMode .dashboardScreen{display:block}
-.dashboardScreen:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(to bottom,rgba(86,246,160,.055) 0 1px,transparent 1px 4px),radial-gradient(circle at 48% 42%,rgba(86,246,160,.13),transparent 46%);opacity:.42;pointer-events:none;mix-blend-mode:screen}
-.dashboardScreen:after{content:"";position:absolute;inset:-20%;background:radial-gradient(ellipse at center,transparent 45%,rgba(0,0,0,.70) 100%);pointer-events:none}
-.dashboardMiniMap{position:absolute;left:4.5vw;top:14.5vh;width:min(25vw,350px);height:68vh;min-width:210px;min-height:210px;border:1px solid var(--dash-green);border-radius:14px;background:rgba(0,18,10,.64);box-shadow:0 0 0 1px rgba(86,246,160,.12) inset,0 0 20px rgba(86,246,160,.18);color:var(--dash-green);padding:0;overflow:hidden;cursor:pointer;pointer-events:auto;appearance:none;-webkit-appearance:none;text-align:left;text-shadow:inherit}
-.dashboardMiniMap:active{transform:scale(.992)}
-.dashboardMiniHeader{position:absolute;left:0;right:0;top:0;height:26%;z-index:3;display:grid;grid-template-columns:auto 1fr;gap:10px;align-items:center;padding:10px 12px 8px;border-bottom:1px solid rgba(86,246,160,.78);background:linear-gradient(to bottom,rgba(0,24,12,.78),rgba(0,14,8,.48))}
-.dashboardTurnArrow{font-size:clamp(28px,4vw,56px);line-height:1;font-weight:900}.dashboardTurnText{font-size:clamp(14px,1.55vw,25px);line-height:1.05;font-weight:800;letter-spacing:.02em;text-transform:uppercase;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.dashboardTurnSub{grid-column:2;font-size:clamp(10px,1vw,14px);opacity:.86;margin-top:-4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-#dashboardMiniCanvas{position:absolute;left:0;right:0;top:26%;width:100%;height:62%;display:block;background:#020603}
+.dashboardScreen:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(to bottom,rgba(86,246,160,.045) 0 1px,transparent 1px 5px),radial-gradient(circle at 48% 42%,rgba(86,246,160,.09),transparent 46%);opacity:.32;pointer-events:none;mix-blend-mode:normal}
+.dashboardScreen:after{content:"";position:absolute;inset:-20%;background:radial-gradient(ellipse at center,transparent 48%,rgba(0,0,0,.62) 100%);pointer-events:none}
+.dashboardMiniMap{position:absolute;left:4.5vw;top:50%;transform:translateY(-50%);width:min(26vw,370px);height:72vh;min-width:210px;min-height:210px;border:1px solid var(--dash-green);border-radius:14px;background:rgba(0,18,10,.64);box-shadow:0 0 0 1px rgba(86,246,160,.12) inset,0 0 20px rgba(86,246,160,.18);color:var(--dash-green);padding:0;overflow:hidden;cursor:pointer;pointer-events:auto;appearance:none;-webkit-appearance:none;text-align:left;text-shadow:inherit}
+.dashboardMiniMap:active{transform:translateY(-50%) scale(.992)}
+.dashboardMiniHeader{position:absolute;left:0;right:0;top:0;height:18%;z-index:3;display:grid;grid-template-columns:auto 1fr;gap:8px;align-items:center;padding:7px 11px 6px;border-bottom:1px solid rgba(86,246,160,.78);background:linear-gradient(to bottom,rgba(0,24,12,.78),rgba(0,14,8,.48))}
+.dashboardTurnArrow{font-size:clamp(22px,3.2vw,44px);line-height:1;font-weight:900}.dashboardTurnText{font-size:clamp(13px,1.35vw,22px);line-height:1.05;font-weight:800;letter-spacing:.02em;text-transform:uppercase;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.dashboardTurnSub{grid-column:2;font-size:clamp(9px,.86vw,12px);opacity:.80;margin-top:-5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#dashboardMiniCanvas{position:absolute;left:0;right:0;top:18%;width:100%;height:70%;display:block;background:#020603}
 .dashboardMiniFooter{position:absolute;left:0;right:0;bottom:0;height:12%;z-index:3;display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px solid rgba(86,246,160,.70);padding:0 12px;background:rgba(0,15,8,.74);font-size:clamp(11px,1.05vw,16px);font-weight:800;letter-spacing:.03em}.dashboardMiniFooter span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.dashboardMiniMode{opacity:.78}
 .dashboardSpeed{position:absolute;left:52.5vw;top:11.5vh;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:1vh;white-space:nowrap;z-index:2}.dashboardSpeedValue{line-height:.82;letter-spacing:.035em}.dashboardSpeedUnit{display:block;text-align:center;font-size:clamp(22px,3.15vw,48px);font-weight:800;letter-spacing:.08em;text-transform:lowercase;font-style:italic;transform:skew(-8deg)}
-.dashboardDigits{display:inline-flex;gap:clamp(6px,1.1vw,16px);align-items:center;justify-content:center;transform:skew(-8deg)}.dashboardDigit{--seg:12%;position:relative;width:clamp(52px,7.2vw,112px);height:clamp(92px,12.5vw,184px);filter:drop-shadow(0 0 8px rgba(86,246,160,.55)) drop-shadow(0 0 20px rgba(86,246,160,.18))}.dashboardDigit.small{width:clamp(26px,3.7vw,50px);height:clamp(46px,6.4vw,82px)}.dashboardDigitSeg{position:absolute;background:rgba(86,246,160,.075);border-radius:999px}.dashboardDigitSeg.on{background:var(--dash-green);box-shadow:0 0 10px rgba(86,246,160,.82),0 0 24px rgba(86,246,160,.24)}.dashboardDigitSeg.s-a,.dashboardDigitSeg.s-d,.dashboardDigitSeg.s-g{left:17%;right:17%;height:var(--seg)}.dashboardDigitSeg.s-a{top:0}.dashboardDigitSeg.s-g{top:44%}.dashboardDigitSeg.s-d{bottom:0}.dashboardDigitSeg.s-b,.dashboardDigitSeg.s-c,.dashboardDigitSeg.s-e,.dashboardDigitSeg.s-f{width:var(--seg);height:39%}.dashboardDigitSeg.s-b{right:0;top:6%}.dashboardDigitSeg.s-c{right:0;bottom:6%}.dashboardDigitSeg.s-e{left:0;bottom:6%}.dashboardDigitSeg.s-f{left:0;top:6%}
-.dashboardTrip{position:absolute;right:8vw;top:25vh;z-index:2;font-size:clamp(18px,2.2vw,32px);font-weight:800;letter-spacing:.08em;white-space:nowrap;font-style:italic;transform:skew(-5deg)}.dashboardTripBox{display:inline-flex;align-items:center;justify-content:center;min-width:1.15em;height:1.15em;margin:0 .35em;border:1px solid var(--dash-green);background:rgba(86,246,160,.20);font-weight:900}.dashboardTrip strong{font-weight:900;letter-spacing:.10em}.dashboardGear{position:absolute;left:52.5vw;top:38vh;transform:translateX(-50%) skew(-6deg);z-index:2;display:flex;align-items:center;gap:clamp(10px,1.6vw,22px);font-family:var(--dash-font);text-transform:uppercase}.dashboardGearLabel{font-size:clamp(14px,1.6vw,24px);font-weight:800;letter-spacing:.18em;opacity:.72}.dashboardGearValue{display:inline-flex;align-items:center;justify-content:center;min-width:clamp(46px,5vw,86px);min-height:clamp(46px,5vw,86px);padding:clamp(4px,.5vw,8px);border:1px solid rgba(86,246,160,.45);background:rgba(86,246,160,.07);box-shadow:0 0 16px rgba(86,246,160,.12) inset}
-.dashboardRpm{position:absolute;left:34vw;right:5vw;bottom:15vh;z-index:2}.dashboardRpmTrack{height:clamp(24px,4.2vh,42px);display:grid;grid-template-columns:repeat(88,1fr);gap:clamp(2px,.34vw,5px);align-items:end}.dashboardRpmSeg{height:100%;min-width:2px;background:rgba(86,246,160,.075);box-shadow:none;border-radius:1px}.dashboardRpmSeg.active{background:var(--dash-green);box-shadow:0 0 8px rgba(86,246,160,.70)}.dashboardRpmSeg.red{background:rgba(255,59,48,.15)}.dashboardRpmSeg.red.active{background:var(--dash-red);box-shadow:0 0 9px rgba(255,59,48,.82)}.dashboardRpmLine{height:2px;margin-top:10px;background:var(--dash-green);box-shadow:0 0 8px rgba(86,246,160,.55)}.dashboardRpmLabel{text-align:right;margin-top:10px;font-size:clamp(16px,2.2vw,34px);font-weight:800;letter-spacing:.10em;font-style:italic;transform:skew(-7deg)}.dashboardHint{position:absolute;left:34vw;bottom:6.5vh;font-size:clamp(10px,1.05vw,16px);opacity:.34;letter-spacing:.12em;text-transform:uppercase}
-@media(max-height:520px){.dashboardMiniMap{top:11vh;height:73vh;width:25vw;min-width:185px}.dashboardSpeed{top:9vh;left:53vw}.dashboardSpeedUnit{font-size:clamp(18px,3vw,34px)}.dashboardTrip{top:23vh;right:7vw}.dashboardGear{top:39vh}.dashboardRpm{left:33vw;right:5vw;bottom:12vh}.dashboardHint{bottom:4.5vh}}
-@media(max-width:760px) and (orientation:portrait){.dashboardMiniMap{left:5vw;top:48vh;width:36vw;height:39vh;min-width:150px}.dashboardSpeed{left:52vw;top:11vh}.dashboardGear{top:31vh}.dashboardRpm{left:5vw;right:5vw;bottom:8vh}.dashboardTrip{right:6vw;top:36vh}.dashboardHint{display:none}}
+.dashboardDigits{display:inline-flex;gap:clamp(6px,1.1vw,16px);align-items:center;justify-content:center;transform:skew(-8deg)}.dashboardDigit{--seg:12%;position:relative;width:clamp(52px,7.2vw,112px);height:clamp(92px,12.5vw,184px);filter:drop-shadow(0 0 6px rgba(86,246,160,.45))}.dashboardDigit.small{width:clamp(26px,3.7vw,50px);height:clamp(46px,6.4vw,82px)}.dashboardDigitSeg{position:absolute;background:rgba(86,246,160,.075);border-radius:999px}.dashboardDigitSeg.on{background:var(--dash-green);box-shadow:0 0 8px rgba(86,246,160,.65)}.dashboardDigitSeg.s-a,.dashboardDigitSeg.s-d,.dashboardDigitSeg.s-g{left:17%;right:17%;height:var(--seg)}.dashboardDigitSeg.s-a{top:0}.dashboardDigitSeg.s-g{top:44%}.dashboardDigitSeg.s-d{bottom:0}.dashboardDigitSeg.s-b,.dashboardDigitSeg.s-c,.dashboardDigitSeg.s-e,.dashboardDigitSeg.s-f{width:var(--seg);height:39%}.dashboardDigitSeg.s-b{right:0;top:6%}.dashboardDigitSeg.s-c{right:0;bottom:6%}.dashboardDigitSeg.s-e{left:0;bottom:6%}.dashboardDigitSeg.s-f{left:0;top:6%}
+.dashboardTrip{position:absolute;right:7vw;top:20vh;z-index:2;font-size:clamp(18px,2.2vw,32px);font-weight:800;letter-spacing:.08em;white-space:nowrap;font-style:italic;transform:skew(-5deg)}.dashboardTripBox{display:inline-flex;align-items:center;justify-content:center;min-width:1.15em;height:1.15em;margin:0 .35em;border:1px solid var(--dash-green);background:rgba(86,246,160,.20);font-weight:900}.dashboardTrip strong{font-weight:900;letter-spacing:.10em}.dashboardGear{position:absolute;right:7vw;top:30vh;transform:skew(-5deg);z-index:2;display:flex;align-items:center;justify-content:flex-end;gap:clamp(10px,1.5vw,20px);font-family:var(--dash-font);text-transform:uppercase;text-align:right}.dashboardGearLabel{font-size:clamp(16px,2.2vw,34px);font-weight:700;letter-spacing:.02em;opacity:.78;font-style:italic}.dashboardGearValue{display:inline-flex;align-items:center;justify-content:center;min-width:clamp(42px,4.6vw,78px);min-height:clamp(42px,4.6vw,78px);padding:clamp(3px,.45vw,7px);border:1px solid rgba(86,246,160,.45);background:rgba(86,246,160,.07);box-shadow:0 0 16px rgba(86,246,160,.12) inset}
+.dashboardRpm{position:absolute;left:34vw;right:5vw;bottom:15vh;z-index:2}.dashboardRpmTrack{height:clamp(24px,4.2vh,42px);display:grid;grid-template-columns:repeat(88,1fr);gap:clamp(2px,.34vw,5px);align-items:end;filter:drop-shadow(0 0 5px rgba(86,246,160,.38))}.dashboardRpmSeg{height:100%;min-width:2px;background:rgba(86,246,160,.075);box-shadow:none;border-radius:1px}.dashboardRpmSeg.active{background:var(--dash-green);box-shadow:none}.dashboardRpmSeg.red{background:rgba(255,59,48,.15)}.dashboardRpmSeg.red.active{background:var(--dash-red);box-shadow:none}.dashboardRpmLine{height:2px;margin-top:10px;background:var(--dash-green);box-shadow:0 0 6px rgba(86,246,160,.38)}.dashboardRpmLabel{text-align:right;margin-top:10px;font-size:clamp(16px,2.2vw,34px);font-weight:800;letter-spacing:.10em;font-style:italic;transform:skew(-7deg)}.dashboardHint{position:absolute;left:34vw;bottom:6.5vh;font-size:clamp(10px,1.05vw,16px);opacity:.34;letter-spacing:.12em;text-transform:uppercase}
+@media(max-height:520px){body.mobileUi .dashboardScreen:before{opacity:.22}.dashboardMiniMap{top:50%;height:76vh;width:26vw;min-width:185px}.dashboardSpeed{top:8.5vh;left:53vw}.dashboardSpeedUnit{font-size:clamp(18px,3vw,34px)}.dashboardTrip{top:17vh;right:6.5vw}.dashboardGear{top:29vh;right:6.5vw}.dashboardRpm{left:33vw;right:5vw;bottom:12vh}.dashboardHint{bottom:4.5vh}}
+@media(max-width:760px) and (orientation:portrait){.dashboardMiniMap{left:5vw;top:68vh;width:36vw;height:39vh;min-width:150px}.dashboardSpeed{left:52vw;top:11vh}.dashboardGear{top:31vh}.dashboardRpm{left:5vw;right:5vw;bottom:8vh}.dashboardTrip{right:6vw;top:36vh}.dashboardHint{display:none}}
+
+
+.memeLayerBox{flex-basis:100%;width:100%;border:1px solid rgba(56,189,248,.28);background:rgba(2,6,23,.42);border-radius:14px;padding:10px;margin-top:4px;display:flex;flex-direction:column;gap:8px}
+.memeLayerTop{display:flex;align-items:center;justify-content:space-between;gap:10px}.memeToggle{display:flex;align-items:center;gap:8px;font-size:13px;font-weight:850;cursor:pointer}.memeToggle input{width:18px;height:18px;accent-color:#38bdf8}.memeAudioState{font-size:11px;color:#9ca3af;text-align:right}.memeAudioState.ready{color:#86efac}.memeLayerSub{font-size:11px;line-height:1.3;color:#9ca3af}.memeLayerActions{display:flex;gap:8px;flex-wrap:wrap}.memeLayerActions button,.memeTestBtn{min-height:32px;border-radius:10px;font-size:12px}.memeVolumeLabel{display:flex;align-items:center;gap:8px;font-size:12px;color:#d1d5db}.memeVolumeLabel input{flex:1;min-width:120px}.memeCountGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.memeTestBtn{display:flex;flex-direction:column;align-items:flex-start;gap:2px;text-align:left;background:rgba(15,23,42,.72);border-color:rgba(148,163,184,.26)}.memeTestBtn b{font-size:11px;color:#e5e7eb}.memeTestBtn span{font-size:11px;color:#9ca3af}.memeStatus{min-height:16px;font-size:11px;color:#9ca3af;line-height:1.3}@media(max-width:760px){.memeCountGrid{grid-template-columns:1fr}.memeLayerBox{max-height:42vh;overflow:auto}}
 
 </style>
 </head>
@@ -131,6 +141,7 @@ button{cursor:pointer;font-weight:750}button.active{background:rgba(56,189,248,.
   <div class="mobileNearestOverlay panel" id="mobileNearestOverlay"><div class="panelTitleRow"><div><div class="title" data-i18n="nearest_poi">Ближайшие POI</div><div class="sub" data-i18n="closest_markers">Ближайшие метки от текущей позиции</div></div><button class="mobileSheetClose" id="mobileNearestCloseBtn" title="Скрыть панель" data-i18n-title="hide_panel">×</button></div><div class="nearestList" id="mobileNearestList" data-nearest-list><div class="hint" data-i18n="waiting_telemetry">Ожидание телеметрии…</div></div></div>
   <div class="routeLine" id="routeLine"></div>
   <div class="navDestination" id="navDestination"></div>
+  <button class="mobileFollowFab active" id="mobileFollowBtn" type="button" title="Перейти к машине и следить за ней" data-i18n-title="follow_title" aria-label="Найти / Следить" aria-pressed="true"><svg class="followTargetIcon" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="9"/><line x1="16" y1="3" x2="16" y2="8"/><line x1="16" y1="24" x2="16" y2="29"/><line x1="3" y1="16" x2="8" y2="16"/><line x1="24" y1="16" x2="29" y2="16"/><path class="followTargetArrow" d="M16 9 L21 22 L16 19 L11 22 Z"/></svg></button>
 
   <div class="dashboardScreen" id="dashboardScreen" aria-hidden="true">
     <button class="dashboardMiniMap" id="dashboardMiniMap" title="Вернуться к карте" data-i18n-title="dashboard_back_to_map">
@@ -158,7 +169,7 @@ button{cursor:pointer;font-weight:750}button.active{background:rgba(56,189,248,.
   <div class="topbar">
     <div class="panel status mobileSheet" id="statusPanel" data-mobile-panel="info">
       <div style="display:flex;justify-content:space-between;gap:10px;align-items:center">
-        <div><div class="title">FH6 Live Map v0.9.16</div><div class="sub" data-i18n="data_out_map">Forza Horizon 6 Data Out → карта GamerGuides Japan</div></div><button class="mobileSheetClose" data-close-mobile title="Скрыть панель" data-i18n-title="hide_panel">×</button>
+        <div><div class="title">FH6 Live Map v0.9.24</div><div class="sub" data-i18n="data_out_map">Forza Horizon 6 Data Out → карта GamerGuides Japan</div></div><button class="mobileSheetClose" data-close-mobile title="Скрыть панель" data-i18n-title="hide_panel">×</button>
         <div class="pill"><span id="statusDot" class="dot"></span><span id="statusText">ОЖИДАНИЕ</span></div>
       </div>
       <div class="row">
@@ -176,10 +187,28 @@ button{cursor:pointer;font-weight:750}button.active{background:rgba(56,189,248,.
     </div>
     <div class="panel controls mobileSheet" id="settingsPanel" data-mobile-panel="settings">
       <div class="panelTitleRow"><div><div class="title" data-i18n="settings">Настройки</div><div class="sub" data-i18n="settings_sub">Следование, навигатор, слой карты и фильтры POI</div></div><button class="mobileSheetClose" data-close-mobile title="Скрыть панель" data-i18n-title="hide_panel">×</button></div>
-      <button id="followBtn" class="active" title="Перейти к машине и следить за ней" data-i18n="locate_follow" data-i18n-title="follow_title">Найти / Следить</button><button id="navBtn" title="Открыть автомобильный режим навигации" data-i18n="navigator" data-i18n-title="navigator_title">Навигатор</button><button id="dashboardBtn" title="Открыть режим приборов" data-i18n="dashboard" data-i18n-title="dashboard_title">Приборы</button><button id="northUpBtn" title="Держать север сверху карты" data-i18n="north_up" data-i18n-title="north_up_title">Север сверху</button><button id="markersBtn" class="active" data-i18n="markers">Маркеры</button>
+      <button id="followBtn" class="active" title="Перейти к машине и следить за ней" data-i18n="locate_follow" data-i18n-title="follow_title">Найти / Следить</button><button id="navBtn" title="Открыть автомобильный режим навигации" data-i18n="navigator" data-i18n-title="navigator_title">Навигатор</button><button id="dashboardBtn" title="Открыть режим приборов" data-i18n="dashboard" data-i18n-title="dashboard_title">Приборы</button><button id="northUpBtn" title="Держать север сверху карты" data-i18n="north_up" data-i18n-title="north_up_title">Север сверху</button><button id="markersBtn" class="active" data-i18n="markers">Маркеры</button><button id="fullscreenBtn" title="Перейти в полноэкранный режим" data-i18n="fullscreen_btn" data-i18n-title="fullscreen_title">⛶ Полный экран</button>
       
       <select id="layerSelect" title="Сезон" data-i18n-title="season"><option value="760" data-i18n="summer">Лето</option><option value="757" data-i18n="autumn">Осень</option><option value="758" data-i18n="winter">Зима</option><option value="759" data-i18n="spring">Весна</option><option value="756" data-i18n="all_seasons">Все сезоны</option></select>
       <select id="categorySelect" title="Фильтр POI" data-i18n-title="poi_filter"><option value="" data-i18n="all_poi">Все POI</option></select><select id="languageSelect" title="Язык интерфейса" data-i18n-title="language"><option value="ru">RU — Русский</option><option value="en">EN — English</option></select>
+      <div class="memeLayerBox" id="memeLayerBox">
+        <div class="memeLayerTop">
+          <label class="memeToggle"><input type="checkbox" id="memeEnabled"><span data-i18n="meme_co_driver">Мемный штурман</span></label>
+          <span class="memeAudioState" id="memeAudioState" data-meme-dynamic="audio">звук не включён</span>
+        </div>
+        <div class="memeLayerSub" id="memePathHint" data-i18n="meme_path_hint">Сэмплы лежат на ПК: data/meme_layer/samples/...</div>
+        <div class="memeLayerActions">
+          <button type="button" id="memeUnlockBtn" data-i18n="meme_enable_sound">🔊 Включить звук</button>
+          <button type="button" id="memeRescanBtn" data-i18n="meme_rescan">Пересканировать</button>
+        </div>
+        <label class="memeVolumeLabel"><span data-i18n="meme_volume">Громкость</span> <input type="range" id="memeVolume" min="0" max="100" step="1"><span id="memeVolumeText">85%</span></label>
+        <div class="memeCountGrid">
+          <button type="button" class="memeTestBtn" id="memeTestMegaBtn"><b>mega_fail_crash</b><span id="memeCountMega">0 samples</span></button>
+          <button type="button" class="memeTestBtn" id="memeTestCollisionBtn"><b>collision</b><span id="memeCountCollision">0 samples</span></button>
+          <button type="button" class="memeTestBtn" id="memeTestJumpBtn"><b>jump_takeoff</b><span id="memeCountJump">0 samples</span></button>
+        </div>
+        <div class="memeStatus" id="memeStatus" data-i18n="meme_add_samples_hint">Добавьте звуки в папки на ПК и нажмите «Пересканировать».</div>
+      </div>
     </div>
   </div>
   <div class="bottom">
@@ -188,12 +217,11 @@ button{cursor:pointer;font-weight:750}button.active{background:rgba(56,189,248,.
   </div>
 </div>
 <script>
-
 const FH6_I18N={
   en:{
-    nav_select_poi:'Select a POI and press Build route',heading_preview:'Heading-up navigation preview',no_destination:'No destination',stop_navigation:'Stop navigation',nearest_poi:'Nearest POI',media_controls:'Media controls',closest_markers:'Closest markers from your current position',hide_panel:'Hide panel',system_media:'Spotify / System Media',collapse_media:'Collapse media controls',previous_track:'Previous track',play_pause:'Play/Pause',next_track:'Next track',volume_down:'Volume down',volume_up:'Volume up',windows_media_keys:'Windows media keys',information:'Information',info:'Info',search:'Search',settings:'Settings',media:'Media',dashboard:'Dashboard',dashboard_title:'Open dashboard HUD',dashboard_back_to_map:'Back to map',data_out_map:'Forza Horizon 6 Data Out → GamerGuides Japan map',speed:'Speed',gear:'Gear',heading:'Heading',map:'Map',unit_kmh:'km/h',search_destination:'Search destination',find_poi:'Find POI by name or category',search_placeholder:'Start typing: race, board, house…',clear_search:'Clear search',settings_sub:'Follow, navigator, map layer and POI filters',locate_follow:'Locate / Follow',follow_title:'Go to current car location and keep following',navigator:'Navigator',navigator_title:'Open automotive navigator view',north_up:'North up',north_up_title:'Keep north at the top of the map',markers:'Markers',season:'Season',summer:'Summer',autumn:'Autumn',winter:'Winter',spring:'Spring',all_seasons:'All Seasons',poi_filter:'POI filter',all_poi:'All POI',language:'Interface language',pc_url:'PC URL to open on phone:',detecting_ip:'detecting local IP…',copy:'Copy',copied:'Copied',copy_failed:'Copy failed',qr_alt:'QR code for phone URL',qr_hint:'Scan this QR from your phone, or open the URL in the phone browser while both devices are on the same local network.',map_help:'Click POI to inspect. Drag to pan. Pinch/wheel to zoom. Press Locate / Follow to re-center.',waiting_telemetry:'Waiting for telemetry…',poi_loading:'POI markers are loading…',nothing_found:'Nothing found. Try another POI name/category.',build_route:'Build route',route:'Route',close:'Close',unknown_poi:'Unknown POI',unknown_category:'Unknown category',desc_placeholder:'Description slot is ready. Later we can load richer GamerGuides popup text here.',map_coordinates:'Map coordinates',distance_from_car:'Distance from car',selected_point:'Selected point',custom_point:'Custom point',cancel:'Cancel',destination:'Destination',north_up_compass:'N · north up',heading_up_compass:'{deg}° · heading up',minute:'min',recalculating_prefix:'Recalculating: ',no_road_route_prefix:'No road route to ',route_to_prefix:'Route to ',direct_to_prefix:'Direct to ',road_graph_failed:'road graph failed',road_graph_route:'road graph route',direct_preview:'direct preview: no graph loaded',waiting_for_route:'waiting for route',recalculating_hint:' · recalculating…',holding_route_hint:' · holding original route',return_route_hint:' · return to route',arriving_hint:' · arriving…',sent:'Sent: ',media_key_failed:'Media key failed',status_udp_error:'UDP ERROR',status_holding:'HOLDING',status_live:'LIVE',status_waiting:'WAITING'},
+    nav_select_poi:'Select a POI and press Build route',heading_preview:'Heading-up navigation preview',no_destination:'No destination',stop_navigation:'Stop navigation',nearest_poi:'Nearest POI',media_controls:'Media controls',closest_markers:'Closest markers from your current position',hide_panel:'Hide panel',system_media:'Spotify / System Media',collapse_media:'Collapse media controls',previous_track:'Previous track',play_pause:'Play/Pause',next_track:'Next track',volume_down:'Volume down',volume_up:'Volume up',windows_media_keys:'Windows media keys',information:'Information',info:'Info',search:'Search',settings:'Settings',media:'Media',dashboard:'Dashboard',dashboard_title:'Open dashboard HUD',dashboard_back_to_map:'Back to map',data_out_map:'Forza Horizon 6 Data Out → GamerGuides Japan map',speed:'Speed',gear:'Gear',heading:'Heading',map:'Map',unit_kmh:'km/h',search_destination:'Search destination',find_poi:'Find POI by name or category',search_placeholder:'Start typing: race, board, house…',clear_search:'Clear search',settings_sub:'Follow, navigator, map layer and POI filters',locate_follow:'Locate / Follow',follow_title:'Go to current car location and keep following',navigator:'Navigator',navigator_title:'Open automotive navigator view',north_up:'North up',north_up_title:'Keep north at the top of the map',markers:'Markers',season:'Season',summer:'Summer',autumn:'Autumn',winter:'Winter',spring:'Spring',all_seasons:'All Seasons',poi_filter:'POI filter',all_poi:'All POI',language:'Interface language',pc_url:'PC URL to open on phone:',detecting_ip:'detecting local IP…',copy:'Copy',copied:'Copied',copy_failed:'Copy failed',qr_alt:'QR code for phone URL',qr_hint:'Scan this QR from your phone, or open the URL in the phone browser while both devices are on the same local network.',map_help:'Click POI to inspect. Drag to pan. Pinch/wheel to zoom. Press Locate / Follow to re-center.',waiting_telemetry:'Waiting for telemetry…',poi_loading:'POI markers are loading…',nothing_found:'Nothing found. Try another POI name/category.',build_route:'Build route',route:'Route',close:'Close',unknown_poi:'Unknown POI',unknown_category:'Unknown category',desc_placeholder:'Description slot is ready. Later we can load richer GamerGuides popup text here.',map_coordinates:'Map coordinates',distance_from_car:'Distance from car',selected_point:'Selected point',custom_point:'Custom point',cancel:'Cancel',destination:'Destination',north_up_compass:'N · north up',heading_up_compass:'{deg}° · heading up',minute:'min',recalculating_prefix:'Recalculating: ',no_road_route_prefix:'No road route to ',route_to_prefix:'Route to ',direct_to_prefix:'Direct to ',road_graph_failed:'road graph failed',road_graph_route:'road graph route',direct_preview:'direct preview: no graph loaded',waiting_for_route:'waiting for route',recalculating_hint:' · recalculating…',holding_route_hint:' · holding original route',return_route_hint:' · return to route',arriving_hint:' · arriving…',sent:'Sent: ',media_key_failed:'Media key failed',fullscreen_btn:'⛶ Full screen mode',fullscreen_title:'Open full screen mode',fullscreen_exit:'⛶ Exit full screen',fullscreen_exit_title:'Exit full screen mode',fullscreen_active:'⛶ Full screen active',fullscreen_active_title:'Tap to exit full screen mode',fullscreen_unavailable:'⛶ Full screen unavailable',fullscreen_unavailable_title:'This browser does not allow full screen mode here.',fullscreen_denied:'⛶ Full screen blocked',fullscreen_denied_title:'Tap again or check browser settings.',meme_co_driver:'Meme co-driver',meme_sound_enabled:'sound enabled',meme_sound_locked:'sound locked',meme_path_hint:'Samples are on the PC: data/meme_layer/samples/...',meme_samples_on_pc:'Samples on PC: ',meme_enable_sound:'🔊 Enable sound',meme_rescan:'Rescan',meme_volume:'Volume',meme_add_samples_hint:'Add sounds to the folders on the PC and press Rescan.',meme_sample_singular:'sample',meme_sample_plural:'samples',meme_samples_refreshed:'Samples refreshed: ',meme_samples_read_failed:'Could not read samples from PC.',meme_sound_enabled_status:'Sound enabled. Phone is ready as meme co-driver.',meme_no_samples_for:'No samples for ',meme_event:'Event: ',meme_browser_blocked:'Browser blocked sound. Press Enable sound.',meme_enabled_status:'Meme co-driver enabled.',meme_disabled_status:'Meme co-driver disabled.',status_udp_error:'UDP ERROR',status_holding:'HOLDING',status_live:'LIVE',status_waiting:'WAITING'},
   ru:{
-    nav_select_poi:'Выберите POI и нажмите «Маршрут»',heading_preview:'Предпросмотр навигации по направлению движения',no_destination:'Цель не выбрана',stop_navigation:'Остановить навигацию',nearest_poi:'Ближайшие POI',media_controls:'Управление медиа',closest_markers:'Ближайшие метки от текущей позиции',hide_panel:'Скрыть панель',system_media:'Spotify / системные медиа',collapse_media:'Свернуть управление медиа',previous_track:'Предыдущий трек',play_pause:'Воспроизвести / пауза',next_track:'Следующий трек',volume_down:'Убавить громкость',volume_up:'Прибавить громкость',windows_media_keys:'Медиа-клавиши Windows',information:'Информация',info:'Инфо',search:'Поиск',settings:'Настройки',media:'Медиа',dashboard:'Приборы',dashboard_title:'Открыть режим приборов',dashboard_back_to_map:'Вернуться к карте',data_out_map:'Forza Horizon 6 Data Out → карта GamerGuides Japan',speed:'Скорость',gear:'Передача',heading:'Курс',map:'Карта',unit_kmh:'км/ч',search_destination:'Поиск точки',find_poi:'Поиск POI по названию или категории',search_placeholder:'Начните вводить название POI или категорию…',clear_search:'Очистить поиск',settings_sub:'Следование, навигатор, слой карты и фильтры POI',locate_follow:'Найти / Следить',follow_title:'Перейти к машине и следить за ней',navigator:'Навигатор',navigator_title:'Открыть автомобильный режим навигации',north_up:'Север сверху',north_up_title:'Держать север сверху карты',markers:'Маркеры',season:'Сезон',summer:'Лето',autumn:'Осень',winter:'Зима',spring:'Весна',all_seasons:'Все сезоны',poi_filter:'Фильтр POI',all_poi:'Все POI',language:'Язык интерфейса',pc_url:'Ссылка для телефона:',detecting_ip:'поиск локального IP…',copy:'Копировать',copied:'Скопировано',copy_failed:'Не скопировано',qr_alt:'QR-код для телефона',qr_hint:'Отсканируйте QR-код телефоном или откройте ссылку в браузере телефона, пока оба устройства в одной локальной сети.',map_help:'Нажмите POI для просмотра. Перетаскивайте карту. Масштаб — щипком или колесом. Нажмите «Найти / Следить», чтобы вернуться к машине.',waiting_telemetry:'Ожидание телеметрии…',poi_loading:'Загрузка маркеров POI…',nothing_found:'Ничего не найдено. Попробуйте другое название или категорию.',build_route:'Построить маршрут',route:'Маршрут',close:'Закрыть',unknown_poi:'Неизвестный POI',unknown_category:'Неизвестная категория',desc_placeholder:'Описание готово к заполнению. Позже сюда можно добавить подробный текст из GamerGuides.',map_coordinates:'Координаты на карте',distance_from_car:'Расстояние от машины',selected_point:'Выбранная точка',custom_point:'Своя точка',cancel:'Отмена',destination:'Цель',north_up_compass:'С · север сверху',heading_up_compass:'{deg}° · по курсу',minute:'мин',recalculating_prefix:'Перестроение: ',no_road_route_prefix:'Нет дорожного маршрута к ',route_to_prefix:'Маршрут к ',direct_to_prefix:'Напрямую к ',road_graph_failed:'граф дорог не сработал',road_graph_route:'маршрут по дорогам',direct_preview:'прямой маршрут: граф дорог не загружен',waiting_for_route:'ожидание маршрута',recalculating_hint:' · перестроение…',holding_route_hint:' · удерживаем исходный маршрут',return_route_hint:' · вернитесь на маршрут',arriving_hint:' · прибытие…',sent:'Отправлено: ',media_key_failed:'Медиа-клавиша не сработала',status_udp_error:'ОШИБКА UDP',status_holding:'УДЕРЖАНИЕ',status_live:'В ЭФИРЕ',status_waiting:'ОЖИДАНИЕ'}
+    nav_select_poi:'Выберите POI и нажмите «Маршрут»',heading_preview:'Предпросмотр навигации по направлению движения',no_destination:'Цель не выбрана',stop_navigation:'Остановить навигацию',nearest_poi:'Ближайшие POI',media_controls:'Управление медиа',closest_markers:'Ближайшие метки от текущей позиции',hide_panel:'Скрыть панель',system_media:'Spotify / системные медиа',collapse_media:'Свернуть управление медиа',previous_track:'Предыдущий трек',play_pause:'Воспроизвести / пауза',next_track:'Следующий трек',volume_down:'Убавить громкость',volume_up:'Прибавить громкость',windows_media_keys:'Медиа-клавиши Windows',information:'Информация',info:'Инфо',search:'Поиск',settings:'Настройки',media:'Медиа',dashboard:'Приборы',dashboard_title:'Открыть режим приборов',dashboard_back_to_map:'Вернуться к карте',data_out_map:'Forza Horizon 6 Data Out → карта GamerGuides Japan',speed:'Скорость',gear:'Передача',heading:'Курс',map:'Карта',unit_kmh:'км/ч',search_destination:'Поиск точки',find_poi:'Поиск POI по названию или категории',search_placeholder:'Начните вводить название POI или категорию…',clear_search:'Очистить поиск',settings_sub:'Следование, навигатор, слой карты и фильтры POI',locate_follow:'Найти / Следить',follow_title:'Перейти к машине и следить за ней',navigator:'Навигатор',navigator_title:'Открыть автомобильный режим навигации',north_up:'Север сверху',north_up_title:'Держать север сверху карты',markers:'Маркеры',season:'Сезон',summer:'Лето',autumn:'Осень',winter:'Зима',spring:'Весна',all_seasons:'Все сезоны',poi_filter:'Фильтр POI',all_poi:'Все POI',language:'Язык интерфейса',pc_url:'Ссылка для телефона:',detecting_ip:'поиск локального IP…',copy:'Копировать',copied:'Скопировано',copy_failed:'Не скопировано',qr_alt:'QR-код для телефона',qr_hint:'Отсканируйте QR-код телефоном или откройте ссылку в браузере телефона, пока оба устройства в одной локальной сети.',map_help:'Нажмите POI для просмотра. Перетаскивайте карту. Масштаб — щипком или колесом. Нажмите «Найти / Следить», чтобы вернуться к машине.',waiting_telemetry:'Ожидание телеметрии…',poi_loading:'Загрузка маркеров POI…',nothing_found:'Ничего не найдено. Попробуйте другое название или категорию.',build_route:'Построить маршрут',route:'Маршрут',close:'Закрыть',unknown_poi:'Неизвестный POI',unknown_category:'Неизвестная категория',desc_placeholder:'Описание готово к заполнению. Позже сюда можно добавить подробный текст из GamerGuides.',map_coordinates:'Координаты на карте',distance_from_car:'Расстояние от машины',selected_point:'Выбранная точка',custom_point:'Своя точка',cancel:'Отмена',destination:'Цель',north_up_compass:'С · север сверху',heading_up_compass:'{deg}° · по курсу',minute:'мин',recalculating_prefix:'Перестроение: ',no_road_route_prefix:'Нет дорожного маршрута к ',route_to_prefix:'Маршрут к ',direct_to_prefix:'Напрямую к ',road_graph_failed:'граф дорог не сработал',road_graph_route:'маршрут по дорогам',direct_preview:'прямой маршрут: граф дорог не загружен',waiting_for_route:'ожидание маршрута',recalculating_hint:' · перестроение…',holding_route_hint:' · удерживаем исходный маршрут',return_route_hint:' · вернитесь на маршрут',arriving_hint:' · прибытие…',sent:'Отправлено: ',media_key_failed:'Медиа-клавиша не сработала',fullscreen_btn:'⛶ Полный экран',fullscreen_title:'Перейти в полноэкранный режим',fullscreen_exit:'⛶ Выйти из полного экрана',fullscreen_exit_title:'Выйти из полноэкранного режима',fullscreen_active:'⛶ Полный экран включён',fullscreen_active_title:'Нажмите, чтобы выйти из полноэкранного режима',fullscreen_unavailable:'⛶ Полный экран недоступен',fullscreen_unavailable_title:'Браузер не разрешил полноэкранный режим на этой странице.',fullscreen_denied:'⛶ Полный экран заблокирован',fullscreen_denied_title:'Нажмите ещё раз или проверьте настройки браузера.',meme_co_driver:'Мемный штурман',meme_sound_enabled:'звук включён',meme_sound_locked:'звук не включён',meme_path_hint:'Сэмплы лежат на ПК: data/meme_layer/samples/...',meme_samples_on_pc:'Сэмплы на ПК: ',meme_enable_sound:'🔊 Включить звук',meme_rescan:'Пересканировать',meme_volume:'Громкость',meme_add_samples_hint:'Добавьте звуки в папки на ПК и нажмите «Пересканировать».',meme_sample_singular:'сэмпл',meme_sample_plural:'сэмплов',meme_samples_refreshed:'Сэмплы обновлены: ',meme_samples_read_failed:'Не удалось прочитать сэмплы с ПК.',meme_sound_enabled_status:'Звук включён. Телефон готов быть мемным штурманом.',meme_no_samples_for:'Нет сэмплов для ',meme_event:'Событие: ',meme_browser_blocked:'Браузер заблокировал звук. Нажмите «Включить звук».',meme_enabled_status:'Мемный штурман включён.',meme_disabled_status:'Мемный штурман выключен.',status_udp_error:'ОШИБКА UDP',status_holding:'УДЕРЖАНИЕ',status_live:'В ЭФИРЕ',status_waiting:'ОЖИДАНИЕ'}
 };
 const FH6_CATEGORY_RU={
   'Aftermarket Car':'Тюнинг-авто','Barn Find':'Раритет в сарае','Bonus Board':'Бонусный щит','Car Meet':'Автовстреча','Cross Country Race':'Кросс-кантри гонка','Danger Sign':'Опасный прыжок','Day Trips':'Однодневные поездки','Dirt Race':'Грунтовая гонка','Drag Meet':'Дрэг-встреча','Drag Racing':'Дрэг-рейсинг','Drift Club Japan':'Дрифт-клуб Япония','Drift Zone':'Дрифт-зона','Horizon Festival Site':'Площадка фестиваля Horizon','Horizon Rush':'Horizon Rush','Job':'Задание','Mascot':'Маскот','Photo Challenge':'Фоточеллендж','Photography':'Фотосъёмка','Player House':'Дом игрока','Points of Interest':'Интересные места','Road Race':'Шоссейная гонка','Seasonal Championship':'Сезонный чемпионат','Seasonal Danger Sign':'Сезонный опасный прыжок','Seasonal Speed Trap':'Сезонный радар','Seasonal Time Attack':'Сезонная гонка на время','Showcase':'Шоу-заезд','Speed Trap':'Радар','Speed Zone':'Скоростной участок','Story':'История','Street Race':'Уличная гонка','Time Attack':'Гонка на время','Touge Battle':'Битва на тоугэ','Trailblazer':'Первопроходец','Treasure Car':'Машина-сокровище','Treasure Chest':'Сундук с сокровищем','Collectibles':'Коллекционное','Discover Japan':'Исследование Японии','Festival Playlist':'Фестивальный плейлист','Hidden Cars':'Скрытые машины','Horizon Festival':'Фестиваль Horizon','Horizon Life':'Horizon Life','Locations':'Локации','PR Stunts':'PR-трюки','POI':'POI'};
@@ -211,6 +239,8 @@ function applyLanguage(){
   const langSel=document.getElementById('languageSelect');if(langSel)langSel.value=uiLang;
   const cat=document.getElementById('categorySelect');if(cat){for(const opt of cat.options){opt.textContent=opt.value?catLabel(opt.value):t('all_poi')}}
   const phone=document.getElementById('phoneUrl');if(phone&&(!phone.dataset.loaded||phone.textContent===FH6_I18N.en.detecting_ip||phone.textContent===FH6_I18N.ru.detecting_ip))phone.textContent=t('detecting_ip');
+  if(typeof updateMemeUi==='function')updateMemeUi();
+  if(typeof setFullscreenStatus==='function')setFullscreenStatus(fullscreenStatus);
   updateHud();updateNearest();renderMarkers();updateNavUi();runSearch(document.getElementById('searchInput')?.value||'');
 }
 
@@ -218,7 +248,7 @@ const MAP_WIDTH=20000,MAP_HEIGHT=20000,TILE_SIZE=256,MIN_ZOOM=12,MAX_ZOOM=18;
 const viewport=document.getElementById('mapViewport'),mapWorld=document.getElementById('mapWorld'),tileLayer=document.getElementById('tileLayer'),routeLayer=document.getElementById('routeLayer'),markerLayer=document.getElementById('markerLayer'),playerLayer=document.getElementById('playerLayer');
 let telemetry=null,markers=[],selectedPoi=null,routeTarget=null,currentRoute=null,navMode=false,dashboardMode=false,northUp=(localStorage.getItem('fh6_north_up')==='1'),follow=true,showMarkers=true,zoom=Math.max(MIN_ZOOM,Math.min(MAX_ZOOM,Math.round(Number(localStorage.getItem('fh6_zoom')||16)))),layerId=localStorage.getItem('fh6_layer')||"760",categoryFilter=localStorage.getItem('fh6_category')||"",panX=0,panY=0,dragging=false,dragStart=null,playerMapX=10387,playerMapY=9846,targetMapX=null,targetMapY=null,displayMapX=null,displayMapY=null,targetHeadingDeg=0,displayHeadingDeg=0,lastTelemetryMapX=null,lastTelemetryMapY=null,lastMovementHeadingDeg=null,lastMovementHeadingAt=0,lastTileKey="",activePointers=new Map(),pinchStart=null,lastPinchZoom=zoom,lastMarkerRenderAt=0,lastNearestRenderAt=0,lastRouteRequestAt=0,routeRequestInFlight=false,lastRouteAnchorX=null,lastRouteAnchorY=null,lastRouteOffRoutePx=0,offRouteSince=0,navTouchLookUntil=0;
 let markerDomByKey=new Map(),playerEl=null,routeEls=null,lastRouteSize='',lastRoutePoints='',interactionRenderRaf=0,arriveSince=0,mapContextTarget=null,mapContextMenuEl=null,mapPickEl=null,lastTapAt=0,lastTapX=0,lastTapY=0,lastManualZoomAt=0,lastAutoZoomCheckAt=0,autoZoomInCandidate=null,autoZoomInCandidateAt=0,tapStart=null,tapWasMulti=false;
-let dashboardSourceMode='map',dashboardSnapshot=null,dashboardLastMiniDraw=0,dashboardTileCache=new Map(),dashboardTripKm=0,dashboardTripLastAt=0,dashboardLearnedMaxRpm=8000,dashboardRpmBuilt=false;
+let dashboardSourceMode='map',dashboardSnapshot=null,dashboardLastMiniDraw=0,dashboardLastUiDraw=0,dashboardTileCache=new Map(),dashboardTripKm=0,dashboardTripLastAt=0,dashboardTripRawBaseM=null,dashboardTripRawLastM=null,dashboardMiniZoom=null,dashboardMiniZoomCandidate=null,dashboardMiniZoomCandidateAt=0,dashboardLearnedMaxRpm=8000,dashboardRpmBuilt=false,dashboardRpmSegs=[],dashboardLastSpeedText=null,dashboardLastGearText=null,dashboardLastRpmActiveCount=-1,dashboardLastTripText='',fullscreenWanted=localStorage.getItem('fh6_fullscreen_mode')==='1',fullscreenStatus='idle';
 const NAV_TOUCH_LOOK_MS=0,REROUTE_MIN_INTERVAL_MS=14000,REROUTE_STICKY_OFF_PX=170,REROUTE_STICKY_MS=22000,REROUTE_HARD_OFF_PX=360,REROUTE_HARD_MS=9000,REROUTE_HUGE_OFF_PX=650,REROUTE_HUGE_MS=3500,REROUTE_REFRESH_MOVE_PX=760,REROUTE_LONG_ROUTE_LOCK_MS=32000;
 const MAP_PX_PER_METER=0.655,NAV_ARRIVE_METERS=30,NAV_ARRIVE_STOPPED_METERS=62,NAV_ARRIVE_PX=NAV_ARRIVE_METERS*MAP_PX_PER_METER,NAV_ARRIVE_STOPPED_PX=NAV_ARRIVE_STOPPED_METERS*MAP_PX_PER_METER,NAV_ARRIVE_STOPPED_MAX_KMH=8,NAV_ARRIVE_HOLD_MS=1100;
 const FALLBACK_IMG_W=1638,FALLBACK_IMG_H=2048,FALLBACK_SX=6.58487266,FALLBACK_SY=6.60554791,FALLBACK_OX=4594.21749925,FALLBACK_OY=3225.79270983;
@@ -257,10 +287,17 @@ function openMobilePanel(panel){
 }
 
 function isNavTouchLookActive(){return false}
-function keepNavigatorFollow(){if(navMode)follow=true;const btn=document.getElementById('followBtn');if(btn)btn.classList.add('active')}
+function syncFollowButtons(){
+  const active=!!follow;
+  const btn=document.getElementById('followBtn');
+  const fab=document.getElementById('mobileFollowBtn');
+  if(btn)btn.classList.toggle('active',active);
+  if(fab){fab.classList.toggle('active',active);fab.setAttribute('aria-pressed',active?'true':'false')}
+}
+function keepNavigatorFollow(){if(navMode)follow=true;syncFollowButtons()}
 function suspendNavFollow(ms=NAV_TOUCH_LOOK_MS){if(navMode&&follow){navTouchLookUntil=0;keepNavigatorFollow()}}
 function centerIfFollowing(){if(follow)centerOnPlayer()}
-function setFollowEnabled(value){follow=!!value;const btn=document.getElementById('followBtn');if(btn)btn.classList.toggle('active',follow);if(follow){navTouchLookUntil=0;centerOnPlayer();renderTiles(true);renderPlayer();renderMarkers();renderRouteLine();updateNearest();}}
+function setFollowEnabled(value){follow=!!value;syncFollowButtons();if(follow){navTouchLookUntil=0;centerOnPlayer();renderTiles(true);renderPlayer();renderMarkers();renderRouteLine();updateNearest();}}
 function toggleNearestOverlay(){
   const app=document.getElementById('app');
   const next=!app.classList.contains('nearestOpen');
@@ -280,19 +317,28 @@ function enterDashboardMode(){
   app.classList.remove('mediaOpen','nearestOpen');
   app.classList.add('dashboardMode');
   setDockActive('dashboard');
+  dashboardLastUiDraw=0;dashboardLastMiniDraw=0;
   updateDashboardScreen(true);
+  if(fullscreenWanted&&!document.fullscreenElement)enterFullscreenMode();
 }
 function exitDashboardMode(toMap=true){
+  const source=(dashboardSnapshot&&dashboardSnapshot.mode)||dashboardSourceMode||'map';
   dashboardMode=false;
   const app=document.getElementById('app');
   app.classList.remove('dashboardMode');
   setDockActive(null);
   if(toMap){
-    navMode=false;
-    app.classList.remove('navMode');
     follow=true;
     const followBtn=document.getElementById('followBtn');
     if(followBtn)followBtn.classList.add('active');
+    if(source==='nav'){
+      navMode=true;
+      app.classList.add('navMode');
+      keepNavigatorFollow();
+    }else{
+      navMode=false;
+      app.classList.remove('navMode');
+    }
     applyMapRotation();
     centerOnPlayer();
   }
@@ -301,8 +347,17 @@ function exitDashboardMode(toMap=true){
 function updateDashboardTrip(){
   const now=performance.now();
   const rawDistance=Number(telemetry&&telemetry.distance_traveled_m);
-  if(Number.isFinite(rawDistance)&&rawDistance>=0&&rawDistance<20000000){
-    dashboardTripKm=rawDistance/1000;
+  const rawValid=Number.isFinite(rawDistance)&&rawDistance>1&&rawDistance<20000000;
+
+  // Prefer Forza's DistanceTraveled if it is really moving, but do not let a
+  // permanent 0 from telemetry pin TRIP A at zero. If the raw odometer is not
+  // useful, fall back to integrating speed on the client from app/game start.
+  if(rawValid){
+    if(dashboardTripRawBaseM===null||dashboardTripRawLastM===null||rawDistance+5<dashboardTripRawLastM){
+      dashboardTripRawBaseM=rawDistance;
+    }
+    dashboardTripRawLastM=rawDistance;
+    dashboardTripKm=Math.max(0,(rawDistance-dashboardTripRawBaseM)/1000);
     dashboardTripLastAt=now;
   }else{
     if(dashboardTripLastAt&&telemetry&&telemetry.receiving){
@@ -312,14 +367,17 @@ function updateDashboardTrip(){
     }
     dashboardTripLastAt=now;
   }
+
   const el=document.getElementById('dashboardTripValue');
-  if(el)el.textContent=dashboardTripKm.toFixed(1)+' km';
+  const text=dashboardTripKm.toFixed(1)+' km';
+  if(el&&text!==dashboardLastTripText){el.textContent=text;dashboardLastTripText=text}
 }
 function ensureDashboardRpmSegments(){
   const track=document.getElementById('dashboardRpmTrack');
   if(!track||dashboardRpmBuilt)return;
   track.innerHTML='';
-  for(let i=0;i<88;i++){const seg=document.createElement('span');seg.className='dashboardRpmSeg'+(i>=76?' red':'');track.appendChild(seg)}
+  dashboardRpmSegs=[];
+  for(let i=0;i<88;i++){const seg=document.createElement('span');seg.className='dashboardRpmSeg'+(i>=76?' red':'');track.appendChild(seg);dashboardRpmSegs.push(seg)}
   dashboardRpmBuilt=true;
 }
 const DASH_SEGMENTS={"0":"abcdef","1":"bc","2":"abged","3":"abgcd","4":"fgbc","5":"afgcd","6":"afgecd","7":"abc","8":"abcdefg","9":"abfgcd","-":"g","N":"ceg","R":"efgab","P":"efgab"," ":""};
@@ -351,83 +409,318 @@ function dashboardGearText(raw){
 }
 function updateDashboardTelemetry(){
   ensureDashboardRpmSegments();
-  const speedEl=document.getElementById('dashboardSpeedValue');
-  renderDashboardDigits(speedEl,String(Math.max(0,Math.round((telemetry&&telemetry.speed_kmh)||0))),false);
-  renderDashboardDigits(document.getElementById('dashboardGearValue'),dashboardGearText(telemetry&&telemetry.gear),true);
+  const speedText=String(Math.max(0,Math.round((telemetry&&telemetry.speed_kmh)||0)));
+  if(speedText!==dashboardLastSpeedText){
+    renderDashboardDigits(document.getElementById('dashboardSpeedValue'),speedText,false);
+    dashboardLastSpeedText=speedText;
+  }
+  const gearText=dashboardGearText(telemetry&&telemetry.gear);
+  if(gearText!==dashboardLastGearText){
+    renderDashboardDigits(document.getElementById('dashboardGearValue'),gearText,true);
+    dashboardLastGearText=gearText;
+  }
   const rpm=Math.max(0,Number(telemetry&&telemetry.rpm)||0);
   const maxRpm=Number(telemetry&&(telemetry.engine_max_rpm||telemetry.max_rpm));
   if(Number.isFinite(maxRpm)&&maxRpm>1000)dashboardLearnedMaxRpm=maxRpm;else if(rpm>dashboardLearnedMaxRpm)dashboardLearnedMaxRpm=Math.min(12000,rpm*1.08);
   const ratio=clamp(rpm/Math.max(1000,dashboardLearnedMaxRpm),0,1);
-  const segs=[...document.querySelectorAll('#dashboardRpmTrack .dashboardRpmSeg')];
-  for(let i=0;i<segs.length;i++){const mid=(i+.5)/segs.length;segs[i].classList.toggle('active',mid<=ratio)}
+  const segs=dashboardRpmSegs;
+  const activeCount=Math.max(0,Math.min(segs.length,Math.round(ratio*segs.length)));
+  if(activeCount!==dashboardLastRpmActiveCount){
+    for(let i=0;i<segs.length;i++)segs[i].classList.toggle('active',i<activeCount);
+    dashboardLastRpmActiveCount=activeCount;
+  }
 }
 function dashboardImage(url){
   let img=dashboardTileCache.get(url);
-  if(!img){img=new Image();img.decoding='async';img.onload=()=>{if(dashboardMode)requestAnimationFrame(()=>renderDashboardMiniMap(true))};img.onerror=()=>{img._failed=true};img.src=url;dashboardTileCache.set(url,img)}
+  if(!img){
+    if(dashboardTileCache.size>220){const first=dashboardTileCache.keys().next().value;if(first)dashboardTileCache.delete(first)}
+    img=new Image();
+    img.decoding='async';
+    img.onload=()=>{if(dashboardMode)requestAnimationFrame(()=>renderDashboardMiniMap(true))};
+    img.onerror=()=>{img._failed=true};
+    img.src=url;
+    dashboardTileCache.set(url,img);
+  }
   return img;
 }
 function drawDashboardCircle(ctx,x,y,r,fill,stroke){ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fillStyle=fill;ctx.fill();if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=Math.max(1,r*.18);ctx.stroke()}}
 function dashboardRemainingText(){if(!telemetry||telemetry.map_x===null||!routeTarget)return'';const pts=routePointsForRender();const remainingPx=pts.length>=2?routeDistancePx(pts):dist({map_x:telemetry.map_x,map_y:telemetry.map_y},routeTarget);const meters=Math.max(0,Math.round(metersFromMapPx(remainingPx)));return meters>=1000?(meters/1000).toFixed(1)+' km':meters+' m'}
+function dashboardForwardLookPoint(lookPx){
+  const pts=routePointsForRender();
+  if(routeTarget&&pts&&pts.length>=2){
+    const p=routePointAtDistance(pts,lookPx);
+    if(p)return p;
+  }
+  const deg=Number.isFinite(displayHeadingDeg)?displayHeadingDeg:(targetHeadingDeg||0);
+  const rad=deg*Math.PI/180;
+  return {map_x:playerMapX+Math.sin(rad)*lookPx,map_y:playerMapY-Math.cos(rad)*lookPx};
+}
+function dashboardMiniDesiredZoom(mode,vw,vh,anchor,deg){
+  if(!telemetry||telemetry.map_x===null||!Number.isFinite(playerMapX)||!Number.isFinite(playerMapY)){
+    return clamp(Math.round(Number(dashboardSnapshot&&dashboardSnapshot.zoom)||zoom),MIN_ZOOM,MAX_ZOOM);
+  }
+  const kmh=Math.max(0,Number(telemetry.speed_kmh)||0);
+  const lookSeconds=4.5;
+  const lookMeters=Math.max(35,(kmh/3.6)*lookSeconds);
+  const lookPx=mapPxFromMeters(lookMeters);
+  const ahead=dashboardForwardLookPoint(lookPx);
+  const topMargin=mode==='nav'?Math.max(44,vh*.12):Math.max(34,vh*.10);
+  const bottomMargin=mode==='nav'?Math.max(82,vh*.20):Math.max(42,vh*.12);
+  const sideMargin=Math.max(36,vw*.10);
+  function viewFor(z){
+    const s=Math.pow(2,z-MAX_ZOOM);
+    let px=playerMapX*s-anchor.x,py=playerMapY*s-anchor.y;
+    const ww=MAP_WIDTH*s,hh=MAP_HEIGHT*s;
+    if(ww>vw)px=clamp(px,0,ww-vw);else px=(ww-vw)/2;
+    if(hh>vh)py=clamp(py,0,hh-vh);else py=(hh-vh)/2;
+    return {s,px,py};
+  }
+  for(let z=MAX_ZOOM;z>=MIN_ZOOM;z--){
+    const v=viewFor(z);
+    const raw={x:ahead.map_x*v.s-v.px,y:ahead.map_y*v.s-v.py};
+    const screen=rotatePointAround(raw.x,raw.y,anchor.x,anchor.y,deg);
+    if(screen.x>=sideMargin&&screen.x<=vw-sideMargin&&screen.y>=topMargin&&screen.y<=vh-bottomMargin){
+      return z;
+    }
+  }
+  return MIN_ZOOM;
+}
+function dashboardMiniSmoothedZoom(desired){
+  const now=performance.now();
+  desired=clamp(Math.round(desired),MIN_ZOOM,MAX_ZOOM);
+  if(dashboardMiniZoom===null){dashboardMiniZoom=desired;return desired}
+  if(desired===dashboardMiniZoom){dashboardMiniZoomCandidate=null;dashboardMiniZoomCandidateAt=0;return dashboardMiniZoom}
+  if(dashboardMiniZoomCandidate!==desired){dashboardMiniZoomCandidate=desired;dashboardMiniZoomCandidateAt=now;return dashboardMiniZoom}
+  const holdMs=desired<dashboardMiniZoom?900:1800;
+  if(now-dashboardMiniZoomCandidateAt>=holdMs){
+    dashboardMiniZoom+=Math.sign(desired-dashboardMiniZoom);
+    dashboardMiniZoomCandidate=null;
+    dashboardMiniZoomCandidateAt=0;
+  }
+  return dashboardMiniZoom;
+}
 function renderDashboardMiniMap(force=false){
   const canvas=document.getElementById('dashboardMiniCanvas');
   if(!canvas)return;
+  const now=performance.now();
+  const miniInterval=isMobileLayout()?180:125;
+  if(!force&&now-dashboardLastMiniDraw<miniInterval)return;
   const rect=canvas.getBoundingClientRect();
   const cssW=Math.max(120,rect.width||canvas.clientWidth||260),cssH=Math.max(120,rect.height||canvas.clientHeight||300);
-  const dpr=Math.min(2,window.devicePixelRatio||1),pxW=Math.round(cssW*dpr),pxH=Math.round(cssH*dpr);
+  const dpr=isMobileLayout()?1:Math.min(1.35,window.devicePixelRatio||1),pxW=Math.round(cssW*dpr),pxH=Math.round(cssH*dpr);
   if(canvas.width!==pxW||canvas.height!==pxH){canvas.width=pxW;canvas.height=pxH;force=true}
-  const now=performance.now();
-  if(!force&&now-dashboardLastMiniDraw<180)return;
   dashboardLastMiniDraw=now;
-  const ctx=canvas.getContext('2d');
+  const ctx=canvas.getContext('2d',{alpha:false});
   ctx.setTransform(dpr,0,0,dpr,0,0);
   ctx.clearRect(0,0,cssW,cssH);
   ctx.fillStyle='#020402';ctx.fillRect(0,0,cssW,cssH);
   const snap=dashboardSnapshot||{mode:'map',zoom,panX,panY,follow,northUp,vw:viewport.clientWidth||window.innerWidth,vh:viewport.clientHeight||window.innerHeight};
   const vw=Math.max(1,snap.vw||viewport.clientWidth||window.innerWidth),vh=Math.max(1,snap.vh||viewport.clientHeight||window.innerHeight);
-  let z=Number(snap.zoom)||zoom;
-  if(snap.mode==='nav')z=Math.max(z,17);
+  const anchor={x:vw/2,y:(snap.mode==='nav'||snap.follow)?vh*.64:vh/2};
+  const deg=(snap.mode==='nav'&&!snap.northUp)?-(displayHeadingDeg||targetHeadingDeg||0):0;
+  const desiredZoom=dashboardMiniDesiredZoom(snap.mode,vw,vh,anchor,deg);
+  let z=dashboardMiniSmoothedZoom(desiredZoom);
   const s=Math.pow(2,z-MAX_ZOOM);
   let localPanX=Number(snap.panX)||0,localPanY=Number(snap.panY)||0;
-  const anchor={x:vw/2,y:snap.mode==='nav'?vh*.68:vh/2};
   if(snap.mode==='nav'||snap.follow){localPanX=playerMapX*s-anchor.x;localPanY=playerMapY*s-anchor.y}
   const worldW=MAP_WIDTH*s,worldH=MAP_HEIGHT*s;
   if(worldW>vw)localPanX=clamp(localPanX,0,worldW-vw);else localPanX=(worldW-vw)/2;
   if(worldH>vh)localPanY=clamp(localPanY,0,worldH-vh);else localPanY=(worldH-vh)/2;
   const factor=Math.min(cssW/vw,cssH/vh),ox=(cssW-vw*factor)/2,oy=(cssH-vh*factor)/2;
-  const deg=(snap.mode==='nav'&&!snap.northUp)?-(displayHeadingDeg||targetHeadingDeg||0):0;
   function sx(mx){return mx*s-localPanX}function sy(my){return my*s-localPanY}
   function inView(x,y,pad=80){return x>=-pad&&y>=-pad&&x<=vw+pad&&y<=vh+pad}
   ctx.save();
   ctx.translate(ox,oy);ctx.scale(factor,factor);
   if(deg){ctx.translate(anchor.x,anchor.y);ctx.rotate(deg*Math.PI/180);ctx.translate(-anchor.x,-anchor.y)}
-  const fallback=dashboardImage('/asset/fh6_full_map_source.jpeg');
-  if(fallback.complete&&!fallback._failed&&fallback.naturalWidth){ctx.globalAlpha=.78;ctx.drawImage(fallback,FALLBACK_OX*s-localPanX,FALLBACK_OY*s-localPanY,FALLBACK_IMG_W*FALLBACK_SX*s,FALLBACK_IMG_H*FALLBACK_SY*s);ctx.globalAlpha=1}
-  const margin=2,x0=Math.floor(localPanX/TILE_SIZE)-margin,y0=Math.floor(localPanY/TILE_SIZE)-margin,x1=Math.ceil((localPanX+vw)/TILE_SIZE)+margin,y1=Math.ceil((localPanY+vh)/TILE_SIZE)+margin,maxTx=Math.ceil((MAP_WIDTH*s)/TILE_SIZE)-1,maxTy=Math.ceil((MAP_HEIGHT*s)/TILE_SIZE)-1;
-  for(let ty=y0;ty<=y1;ty++)for(let tx=x0;tx<=x1;tx++){if(tx<0||ty<0||tx>maxTx||ty>maxTy)continue;const img=dashboardImage(`/tile/${layerId}/${z}/${tx}/${ty}.png`);if(img.complete&&!img._failed&&img.naturalWidth){ctx.drawImage(img,tx*TILE_SIZE-localPanX,ty*TILE_SIZE-localPanY,TILE_SIZE,TILE_SIZE)}}
+  const margin=1,x0=Math.floor(localPanX/TILE_SIZE)-margin,y0=Math.floor(localPanY/TILE_SIZE)-margin,x1=Math.ceil((localPanX+vw)/TILE_SIZE)+margin,y1=Math.ceil((localPanY+vh)/TILE_SIZE)+margin,maxTx=Math.ceil((MAP_WIDTH*s)/TILE_SIZE)-1,maxTy=Math.ceil((MAP_HEIGHT*s)/TILE_SIZE)-1;
+  let drawnTiles=0;
+  for(let ty=y0;ty<=y1;ty++)for(let tx=x0;tx<=x1;tx++){
+    if(tx<0||ty<0||tx>maxTx||ty>maxTy)continue;
+    const img=dashboardImage(`/tile/${layerId}/${z}/${tx}/${ty}.png`);
+    if(img.complete&&!img._failed&&img.naturalWidth){ctx.drawImage(img,tx*TILE_SIZE-localPanX,ty*TILE_SIZE-localPanY,TILE_SIZE,TILE_SIZE);drawnTiles++}
+  }
+  if(!drawnTiles){const fallback=dashboardImage('/asset/fh6_full_map_source.jpeg');if(fallback.complete&&!fallback._failed&&fallback.naturalWidth){ctx.globalAlpha=.74;ctx.drawImage(fallback,FALLBACK_OX*s-localPanX,FALLBACK_OY*s-localPanY,FALLBACK_IMG_W*FALLBACK_SX*s,FALLBACK_IMG_H*FALLBACK_SY*s);ctx.globalAlpha=1}}
   ctx.globalCompositeOperation='screen';
   const pts=routePointsForRender();
-  if(pts.length>=2){ctx.lineCap='round';ctx.lineJoin='round';ctx.strokeStyle='rgba(86,246,160,.95)';ctx.lineWidth=18;ctx.shadowBlur=18;ctx.shadowColor='rgba(86,246,160,.75)';ctx.beginPath();ctx.moveTo(sx(pts[0].map_x),sy(pts[0].map_y));for(const p of pts.slice(1))ctx.lineTo(sx(p.map_x),sy(p.map_y));ctx.stroke();ctx.shadowBlur=0;ctx.strokeStyle='rgba(210,255,226,.85)';ctx.lineWidth=5;ctx.beginPath();ctx.moveTo(sx(pts[0].map_x),sy(pts[0].map_y));for(const p of pts.slice(1))ctx.lineTo(sx(p.map_x),sy(p.map_y));ctx.stroke()}
-  if(showMarkers&&markers&&markers.length){ctx.globalAlpha=.72;let drawn=0;for(const m of markers){if(categoryFilter&&m.category!==categoryFilter)continue;const x=sx(m.map_x),y=sy(m.map_y);if(!inView(x,y,20))continue;drawDashboardCircle(ctx,x,y,4,'rgba(160,130,255,.90)','rgba(255,255,255,.75)');if(++drawn>38)break}ctx.globalAlpha=1}
-  if(routeTarget){const x=sx(routeTarget.map_x),y=sy(routeTarget.map_y);if(inView(x,y,180))drawDashboardCircle(ctx,x,y,9,'rgba(255,255,255,.95)','rgba(86,246,160,.95)')}
-  if(Number.isFinite(playerMapX)&&Number.isFinite(playerMapY)){const x=sx(playerMapX),y=sy(playerMapY);ctx.save();ctx.translate(x,y);ctx.rotate(((displayHeadingDeg||0)+deg)*Math.PI/180);ctx.shadowBlur=16;ctx.shadowColor='rgba(86,246,160,.95)';ctx.fillStyle='rgba(86,246,160,.95)';ctx.beginPath();ctx.moveTo(0,-16);ctx.lineTo(10,12);ctx.lineTo(0,7);ctx.lineTo(-10,12);ctx.closePath();ctx.fill();ctx.shadowBlur=0;ctx.strokeStyle='rgba(230,255,238,.95)';ctx.lineWidth=2;ctx.stroke();ctx.restore()}
+  if(pts.length>=2){ctx.lineCap='round';ctx.lineJoin='round';ctx.strokeStyle='rgba(86,246,160,.92)';ctx.lineWidth=16;ctx.shadowBlur=8;ctx.shadowColor='rgba(86,246,160,.60)';ctx.beginPath();ctx.moveTo(sx(pts[0].map_x),sy(pts[0].map_y));for(let i=1;i<pts.length;i++){const p=pts[i];ctx.lineTo(sx(p.map_x),sy(p.map_y))}ctx.stroke();ctx.shadowBlur=0;ctx.strokeStyle='rgba(210,255,226,.78)';ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(sx(pts[0].map_x),sy(pts[0].map_y));for(let i=1;i<pts.length;i++){const p=pts[i];ctx.lineTo(sx(p.map_x),sy(p.map_y))}ctx.stroke()}
+  if(showMarkers&&markers&&markers.length){ctx.globalAlpha=.62;let drawn=0;for(const m of markers){if(categoryFilter&&m.category!==categoryFilter)continue;const x=sx(m.map_x),y=sy(m.map_y);if(!inView(x,y,18))continue;drawDashboardCircle(ctx,x,y,3.5,'rgba(160,130,255,.82)','rgba(255,255,255,.60)');if(++drawn>24)break}ctx.globalAlpha=1}
+  if(routeTarget){const x=sx(routeTarget.map_x),y=sy(routeTarget.map_y);if(inView(x,y,180))drawDashboardCircle(ctx,x,y,8,'rgba(255,255,255,.92)','rgba(86,246,160,.90)')}
+  if(Number.isFinite(playerMapX)&&Number.isFinite(playerMapY)){const x=sx(playerMapX),y=sy(playerMapY);ctx.save();ctx.translate(x,y);ctx.rotate(((displayHeadingDeg||0)+deg)*Math.PI/180);ctx.shadowBlur=10;ctx.shadowColor='rgba(86,246,160,.90)';ctx.fillStyle='rgba(86,246,160,.95)';ctx.beginPath();ctx.moveTo(0,-15);ctx.lineTo(9,11);ctx.lineTo(0,7);ctx.lineTo(-9,11);ctx.closePath();ctx.fill();ctx.shadowBlur=0;ctx.strokeStyle='rgba(230,255,238,.92)';ctx.lineWidth=2;ctx.stroke();ctx.restore()}
   ctx.restore();
   ctx.setTransform(dpr,0,0,dpr,0,0);
-  ctx.fillStyle='rgba(86,246,160,.075)';for(let y=0;y<cssH;y+=4)ctx.fillRect(0,y,cssW,1);
+  ctx.fillStyle='rgba(86,246,160,.055)';for(let y=0;y<cssH;y+=6)ctx.fillRect(0,y,cssW,1);
   ctx.strokeStyle='rgba(86,246,160,.35)';ctx.lineWidth=1;ctx.strokeRect(.5,.5,cssW-1,cssH-1);
   const status=document.getElementById('dashboardMiniStatus'),mode=document.getElementById('dashboardMiniMode'),turn=document.getElementById('dashboardTurnText'),sub=document.getElementById('dashboardTurnSub'),arrow=document.getElementById('dashboardTurnArrow');
   if(mode)mode.textContent=(snap.mode==='nav')?'NAV':'MAP';
   const remaining=routeTarget?dashboardRemainingText():'';
   if(status)status.textContent=routeTarget?(remaining||poiDisplayTitle(routeTarget)):t('no_destination');
   if(turn)turn.textContent=routeTarget?poiDisplayTitle(routeTarget):(snap.mode==='nav'?t('navigator'):t('map'));
-  if(sub)sub.textContent=routeTarget?(remaining||t('route')):'tap to map';
+  if(sub)sub.textContent=routeTarget?(remaining||t('route')):(snap.mode==='nav'?'tap to nav':'tap to map');
   if(arrow)arrow.textContent=routeTarget?'↑':'↖';
 }
 function updateDashboardScreen(force=false){
   if(!dashboardMode)return;
+  const now=performance.now();
+  const uiInterval=isMobileLayout()?90:65;
+  if(!force&&now-dashboardLastUiDraw<uiInterval)return;
+  dashboardLastUiDraw=now;
   updateDashboardTrip();
   updateDashboardTelemetry();
   renderDashboardMiniMap(force);
 }
+
+// Meme Co-Driver: user samples are stored on the PC and streamed to the phone UI.
+const MEME_EVENT_LABELS={mega_fail_crash:'mega_fail_crash',collision:'collision',jump_takeoff:'jump_takeoff'};
+const MEME_FALLBACK_CONFIG={global_cooldown_sec:2.5,events:{mega_fail_crash:{cooldown_sec:8,window_sec:.15,min_previous_speed_kmh:120,max_current_speed_kmh:15,min_speed_drop_kmh:100},collision:{cooldown_sec:4.5,window_sec:.5,min_speed_drop_kmh:40,min_previous_speed_kmh:60,max_brake_pct:5},jump_takeoff:{cooldown_sec:6,detection_mode:'freefall_confirmed',min_speed_kmh:75,takeoff_lookback_sec:3.2,freefall_window_sec:1.0,min_freefall_duration_sec:.72,min_freefall_samples:4,min_takeoff_vertical_speed_mps:1.2,min_takeoff_rise_m:.9,max_freefall_vertical_speed_mps:-.8,max_freefall_avg_accel_mps2:-1.4,min_drop_from_recent_apex_m:.65}}};
+let memeLayerEnabled=localStorage.getItem('fh6_meme_enabled')==='1';
+let memeLayerVolume=Number(localStorage.getItem('fh6_meme_volume')||85)/100;
+let memeAudioUnlocked=localStorage.getItem('fh6_meme_audio_unlocked')==='1';
+let memeSamples={ok:false,events:{},global_cooldown_sec:2.5};
+let memeBags={},memeLastEventAt={},memeLastGlobalAt=0,memeHistory=[],memeLastPacketCount=null,memeAudioCtx=null;
+function memeSampleCountLabel(n){n=Number(n)||0;return n+' '+(n===1?t('meme_sample_singular'):t('meme_sample_plural'))}
+function memeEventData(eventName){return (memeSamples&&memeSamples.events&&memeSamples.events[eventName])||{files:[],count:0,config:(MEME_FALLBACK_CONFIG.events[eventName]||{})}}
+function memeEventCfg(eventName){return (memeEventData(eventName).config)||(MEME_FALLBACK_CONFIG.events[eventName]||{})}
+function memeSetStatus(text){const el=document.getElementById('memeStatus');if(el)el.textContent=text}
+function updateMemeUi(){
+  const enabled=document.getElementById('memeEnabled'),vol=document.getElementById('memeVolume'),volText=document.getElementById('memeVolumeText'),audio=document.getElementById('memeAudioState'),path=document.getElementById('memePathHint');
+  if(enabled)enabled.checked=!!memeLayerEnabled;
+  if(vol)vol.value=String(Math.round(memeLayerVolume*100));
+  if(volText)volText.textContent=Math.round(memeLayerVolume*100)+'%';
+  if(audio){audio.textContent=memeAudioUnlocked?t('meme_sound_enabled'):t('meme_sound_locked');audio.classList.toggle('ready',!!memeAudioUnlocked)}
+  if(path)path.textContent=(memeSamples&&memeSamples.base_path)?t('meme_samples_on_pc')+memeSamples.base_path:t('meme_path_hint');
+  const mega=memeEventData('mega_fail_crash'),coll=memeEventData('collision'),jump=memeEventData('jump_takeoff');
+  const set=(id,n)=>{const el=document.getElementById(id);if(el)el.textContent=memeSampleCountLabel(n)};
+  set('memeCountMega',mega.count);set('memeCountCollision',coll.count);set('memeCountJump',jump.count);
+}
+async function loadMemeLayerSamples(){
+  try{const r=await fetch('/api/meme/samples?ts='+Date.now(),{cache:'no-store'});const data=await r.json();if(data&&data.ok){memeSamples=data;memeBags={};updateMemeUi();memeSetStatus(t('meme_samples_refreshed')+(data.base_path||''));return}}
+  catch(e){console.warn('meme samples fetch error',e)}
+  updateMemeUi();memeSetStatus(t('meme_samples_read_failed'));
+}
+function shuffleArray(arr){for(let i=arr.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));const t=arr[i];arr[i]=arr[j];arr[j]=t}return arr}
+function nextMemeSample(eventName){
+  const data=memeEventData(eventName),files=Array.isArray(data.files)?data.files:[];
+  if(!files.length)return null;
+  if(!memeBags[eventName]||!memeBags[eventName].length)memeBags[eventName]=shuffleArray(files.slice());
+  return memeBags[eventName].pop();
+}
+async function unlockMemeAudio(){
+  memeAudioUnlocked=true;localStorage.setItem('fh6_meme_audio_unlocked','1');
+  try{const Ctx=window.AudioContext||window.webkitAudioContext;if(Ctx){memeAudioCtx=memeAudioCtx||new Ctx();if(memeAudioCtx.state==='suspended')await memeAudioCtx.resume();const b=memeAudioCtx.createBuffer(1,1,22050),s=memeAudioCtx.createBufferSource();s.buffer=b;s.connect(memeAudioCtx.destination);s.start(0)}}catch(e){}
+  try{const a=new Audio('data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAESsAACJWAAACABAAZGF0YQAAAAA=');a.volume=0;await a.play()}catch(e){}
+  updateMemeUi();if(fullscreenWanted&&!document.fullscreenElement)enterFullscreenMode();memeSetStatus(t('meme_sound_enabled_status'));
+}
+async function playMemeEvent(eventName,force=false){
+  if(!force&&(!memeLayerEnabled||!memeAudioUnlocked))return false;
+  const now=performance.now(),cfg=memeEventCfg(eventName),globalCooldown=Number(memeSamples.global_cooldown_sec||MEME_FALLBACK_CONFIG.global_cooldown_sec||2.5)*1000,evCooldown=Number(cfg.cooldown_sec||5)*1000;
+  if(!force){if(now-memeLastGlobalAt<globalCooldown)return false;if(now-(memeLastEventAt[eventName]||0)<evCooldown)return false}
+  let sample=nextMemeSample(eventName),playEvent=eventName;
+  if(!sample&&eventName==='mega_fail_crash'){sample=nextMemeSample('collision');playEvent='collision'}
+  if(!sample){memeSetStatus(t('meme_no_samples_for')+eventName);return false}
+  try{const url=sample.url+(sample.url.includes('?')?'&':'?')+'v='+(sample.mtime||Date.now());const a=new Audio(url);a.volume=clamp(memeLayerVolume,0,1);a.preload='auto';const p=a.play();if(p&&p.catch)await p;memeLastGlobalAt=now;memeLastEventAt[eventName]=now;memeSetStatus(t('meme_event')+eventName+(playEvent!==eventName?' → '+playEvent:'')+' · '+sample.name);return true}
+  catch(e){console.warn('meme play failed',e);memeSetStatus(t('meme_browser_blocked'));memeAudioUnlocked=false;localStorage.removeItem('fh6_meme_audio_unlocked');updateMemeUi();return false}
+}
+function memePastSample(now,targetMs,maxDiffMs){
+  let best=null,bestDiff=1e9;
+  for(const item of memeHistory){
+    const diff=Math.abs((now-item.t)-targetMs);
+    if(diff<bestDiff){best=item;bestDiff=diff}
+  }
+  if(maxDiffMs!==undefined&&bestDiff>maxDiffMs)return null;
+  return best;
+}
+function memeRecentSamples(now,windowMs){return memeHistory.filter(item=>now-item.t<=windowMs)}
+function handleMemeLayerTelemetry(s){
+  if(!s||!s.receiving)return;
+  if(s.packet_count!==undefined&&s.packet_count===memeLastPacketCount)return;
+  memeLastPacketCount=s.packet_count;
+  const now=performance.now(),speed=Number(s.speed_kmh)||0,y=Number(s.position_y),rawVy=Number(s.velocity_y),x=Number(s.position_x),z=Number(s.position_z),brake=Number(s.brake_pct)||0;
+  if(!Number.isFinite(y))return;
+  const prev=memeHistory.length?memeHistory[memeHistory.length-1]:null;
+  const dt=prev?Math.max(0.001,(now-prev.t)/1000):0;
+  const calcVy=(prev&&Number.isFinite(prev.y)&&dt>.02)?(y-prev.y)/dt:(Number.isFinite(rawVy)?rawVy:0);
+  const vy=Number.isFinite(rawVy)&&Math.abs(rawVy)>0.001?rawVy:calcVy;
+  const ay=(prev&&Number.isFinite(prev.jumpVy)&&dt>.02)?(vy-prev.jumpVy)/dt:0;
+  memeHistory.push({t:now,speed,y,vy:rawVy,jumpVy:vy,calcVy,ay,x,z,brake});
+  while(memeHistory.length&&now-memeHistory[0].t>6200)memeHistory.shift();
+  if(memeHistory.length<3)return;
+  const megaCfg=memeEventCfg('mega_fail_crash'),collisionCfg=memeEventCfg('collision'),jumpCfg=memeEventCfg('jump_takeoff');
+  const collisionWindowMs=Number(collisionCfg.window_sec||0.5)*1000,megaWindowMs=Number(megaCfg.window_sec||0.15)*1000;
+  const megaPast=memePastSample(now,megaWindowMs,Math.max(180,megaWindowMs*1.4));
+  const collisionPast=memePastSample(now,collisionWindowMs,Math.max(260,collisionWindowMs*.7));
+  if(megaPast){
+    const megaDrop=megaPast.speed-speed;
+    if(megaPast.speed>=Number(megaCfg.min_previous_speed_kmh||120)&&speed<=Number(megaCfg.max_current_speed_kmh||15)&&megaDrop>=Number(megaCfg.min_speed_drop_kmh||100)){playMemeEvent('mega_fail_crash');return}
+  }
+  if(collisionPast){
+    const drop=collisionPast.speed-speed;
+    const maxBrake=Number(collisionCfg.max_brake_pct??5);
+    const noBrake=(brake<=maxBrake)&&(Number(collisionPast.brake||0)<=maxBrake);
+    if(noBrake&&collisionPast.speed>=Number(collisionCfg.min_previous_speed_kmh||60)&&drop>=Number(collisionCfg.min_speed_drop_kmh||40)){playMemeEvent('collision');return}
+  }
+
+  // jump_takeoff v0.9.26: fast confirmed-air detector.
+  // The event still waits for real falling/airborne behavior, but it no longer waits
+  // for a full second: target confirmation is about 0.15 s after the car starts falling.
+  const minSpeed=Number(jumpCfg.min_speed_kmh||75);
+  if(speed<minSpeed)return;
+  const takeoffLookbackMs=Number(jumpCfg.takeoff_lookback_sec||2.8)*1000;
+  const confirmWindowMs=Math.max(220,Number(jumpCfg.freefall_window_sec||0.15)*1000);
+  const takeoffSamples=memeRecentSamples(now,takeoffLookbackMs);
+  const confirmSamples=memeRecentSamples(now,confirmWindowMs);
+  if(takeoffSamples.length<3||confirmSamples.length<2)return;
+
+  const ySamples=takeoffSamples.map(p=>Number(p.y)).filter(Number.isFinite);
+  if(ySamples.length<3)return;
+  const recentMinY=Math.min(...ySamples),recentMaxY=Math.max(...ySamples);
+  const recentRise=recentMaxY-recentMinY;
+  const apexSample=takeoffSamples.reduce((best,p)=>Number(p.y)>Number(best.y)?p:best,takeoffSamples[0]);
+  const apexAgeSec=(now-apexSample.t)/1000;
+  const dropFromApex=recentMaxY-y;
+
+  const recentVys=takeoffSamples.map(p=>Number(p.jumpVy)).filter(Number.isFinite);
+  if(!recentVys.length)return;
+  const recentMaxVy=Math.max(...recentVys),recentMinVy=Math.min(...recentVys);
+  const verticalSpeedGain=recentMaxVy-recentMinVy;
+  const minTakeoffVy=Number(jumpCfg.min_takeoff_vertical_speed_mps||1.0);
+  const minVyGain=Number(jumpCfg.min_vertical_speed_gain_mps||1.1);
+  const minRise=Number(jumpCfg.min_takeoff_rise_m||0.75);
+  const takeoffOk=(recentMaxVy>=minTakeoffVy)||(verticalSpeedGain>=minVyGain)||(recentRise>=minRise&&recentMaxVy>=minTakeoffVy*.55);
+
+  const first=confirmSamples[0],last=confirmSamples[confirmSamples.length-1];
+  const spanDt=Math.max(.05,(last.t-first.t)/1000);
+  const confirmDrop=Number(first.y)-Number(last.y);
+  const avgAccel=(Number(last.jumpVy||0)-Number(first.jumpVy||0))/spanDt;
+  const fallingLimit=Number(jumpCfg.max_freefall_vertical_speed_mps??-.25);
+  const maxAvgAccel=Number(jumpCfg.max_freefall_avg_accel_mps2??-.45);
+  const minFallSamples=Number(jumpCfg.min_freefall_samples||2);
+  const minFallDuration=Number(jumpCfg.min_freefall_duration_sec||.15);
+  const fallingSamples=confirmSamples.filter(p=>Number(p.jumpVy)<=fallingLimit);
+  const fallDuration=fallingSamples.length>=2?(fallingSamples[fallingSamples.length-1].t-fallingSamples[0].t)/1000:0;
+  const accelOk=(avgAccel<=maxAvgAccel)||(Number(ay)<=maxAvgAccel)||(Number(vy)<=fallingLimit&&dropFromApex>=Number(jumpCfg.min_drop_from_recent_apex_m||.18));
+
+  const minApexDrop=Number(jumpCfg.min_drop_from_recent_apex_m||.18);
+  const maxApexAge=Number(jumpCfg.max_apex_age_sec||2.4);
+  const minFallRatio=Number(jumpCfg.min_fall_ratio||0.018);
+  const dx=Number(last.x)-Number(first.x),dz=Number(last.z)-Number(first.z);
+  const horizontalMove=(Number.isFinite(dx)&&Number.isFinite(dz))?Math.hypot(dx,dz):0;
+  const fallRatio=horizontalMove>0.2?Math.abs(confirmDrop)/horizontalMove:999;
+  const fallingOk=(fallingSamples.length>=minFallSamples||Number(vy)<=fallingLimit)&&(fallDuration>=minFallDuration||confirmDrop>=minApexDrop*.55||dropFromApex>=minApexDrop)&&accelOk;
+  const notRoadSlope=(fallRatio>=minFallRatio)||dropFromApex>=minApexDrop*1.8||Number(vy)<=fallingLimit*1.8;
+  if(takeoffOk&&fallingOk&&notRoadSlope&&dropFromApex>=minApexDrop&&apexAgeSec<=maxApexAge){playMemeEvent('jump_takeoff');return}
+}
+function initMemeLayerControls(){
+  const enabled=document.getElementById('memeEnabled'),vol=document.getElementById('memeVolume'),unlock=document.getElementById('memeUnlockBtn'),rescan=document.getElementById('memeRescanBtn');
+  if(enabled)enabled.onchange=()=>{memeLayerEnabled=!!enabled.checked;localStorage.setItem('fh6_meme_enabled',memeLayerEnabled?'1':'0');updateMemeUi();memeSetStatus(memeLayerEnabled?t('meme_enabled_status'):t('meme_disabled_status'))};
+  if(vol)vol.oninput=()=>{memeLayerVolume=clamp(Number(vol.value||85)/100,0,1);localStorage.setItem('fh6_meme_volume',String(Math.round(memeLayerVolume*100)));updateMemeUi()};
+  if(unlock)unlock.onclick=()=>unlockMemeAudio();
+  if(rescan)rescan.onclick=()=>loadMemeLayerSamples();
+  document.getElementById('memeTestMegaBtn')?.addEventListener('click',async()=>{await unlockMemeAudio();playMemeEvent('mega_fail_crash',true)});
+  document.getElementById('memeTestCollisionBtn')?.addEventListener('click',async()=>{await unlockMemeAudio();playMemeEvent('collision',true)});
+  document.getElementById('memeTestJumpBtn')?.addEventListener('click',async()=>{await unlockMemeAudio();playMemeEvent('jump_takeoff',true)});
+  updateMemeUi();loadMemeLayerSamples();
+}
+
 function initControls(){
   document.getElementById('layerSelect').value=layerId;
   document.getElementById('categorySelect').value=categoryFilter;
@@ -435,9 +728,10 @@ function initControls(){
   if(languageSelect){languageSelect.value=uiLang;languageSelect.onchange=e=>setLanguage(e.target.value)}
   const northBtn=document.getElementById('northUpBtn');
   if(northBtn)northBtn.classList.toggle('active',northUp);
-  document.getElementById('followBtn').classList.add('active');
   follow=true;
+  syncFollowButtons();
   document.getElementById('followBtn').onclick=()=>setFollowEnabled(!follow);
+  document.getElementById('mobileFollowBtn')?.addEventListener('click',()=>setFollowEnabled(!follow));
   document.getElementById('navBtn').onclick=()=>enterNavMode();
   document.getElementById('dashboardBtn')?.addEventListener('click',()=>enterDashboardMode());
   document.getElementById('dashboardMiniMap')?.addEventListener('click',()=>exitDashboardMode(true));
@@ -459,6 +753,7 @@ function initControls(){
   document.getElementById('layerSelect').onchange=e=>{layerId=e.target.value;localStorage.setItem('fh6_layer',layerId);tileLayer.innerHTML="";lastTileKey="";renderTiles(true)};
   document.getElementById('categorySelect').onchange=e=>{categoryFilter=e.target.value;localStorage.setItem('fh6_category',categoryFilter);renderMarkers();updateNearest();runSearch(document.getElementById('searchInput')?.value||'')};
   initSearch();
+  initMemeLayerControls();
   applyLanguage();
 }
 function setNorthUp(value){northUp=!!value;localStorage.setItem('fh6_north_up',northUp?'1':'0');const northBtn=document.getElementById('northUpBtn');if(northBtn)northBtn.classList.toggle('active',northUp);applyMapRotation()}
@@ -478,7 +773,7 @@ function renderPlayer(){if(playerMapX===null||playerMapY===null){if(playerEl)pla
 function populateCategories(){const cats=[...new Set(markers.map(m=>m.category).filter(Boolean))].sort(),sel=document.getElementById('categorySelect');if(!sel)return;for(const o of Array.from(sel.options).slice(1))o.remove();for(const c of cats){let o=document.createElement('option');o.value=c;o.textContent=catLabel(c);sel.appendChild(o)}if(categoryFilter)sel.value=categoryFilter;applyLanguage()}
 function markerKey(m){return String(m.markerId||m.id||((m.title||'poi')+'@'+Math.round(m.map_x)+','+Math.round(m.map_y)))}
 function renderMarkers(){if(!showMarkers){for(const el of markerDomByKey.values())el.remove();markerDomByKey.clear();const popup=document.getElementById('poiPopup');if(popup)popup.remove();return}if(!markers||!markers.length){const popup=document.getElementById('poiPopup');if(popup)popup.remove();return}const r=viewport.getBoundingClientRect(),pad=navMode?Math.max(r.width,r.height):80;let pool=markers;if(categoryFilter)pool=pool.filter(m=>m.category===categoryFilter);const need=new Set();let count=0;for(const m of pool){const p=mapToScreen(m.map_x,m.map_y);if(p.x<-pad||p.y<-pad||p.x>r.width+pad||p.y>r.height+pad)continue;const key=markerKey(m);need.add(key);let d=markerDomByKey.get(key);if(!d){d=document.createElement('div');d.onpointerdown=(ev)=>{ev.stopPropagation();selectPoi(d._fh6Marker,true)};markerDomByKey.set(key,d);markerLayer.appendChild(d)}d._fh6Marker=m;const isSpeed=/speed/i.test(m.category||"");const selected=selectedPoi&&String(selectedPoi.markerId||selectedPoi.id)===String(m.markerId||m.id);d.className='marker'+(isSpeed?' speed':'')+(selected?' selected':'');d.style.left=`${p.x}px`;d.style.top=`${p.y}px`;d.style.background=m.color||'#7dd3fc';d.title=`${m.title} | ${catLabel(m.category)}`;if(++count>600)break}for(const [key,el] of Array.from(markerDomByKey.entries())){if(!need.has(key)){el.remove();markerDomByKey.delete(key)}}renderPoiPopup();applyMapRotation()}
-function selectPoi(m,keepMap=false){selectedPoi=m;if(!keepMap&&!navMode){follow=false;document.getElementById('followBtn').classList.remove('active');const r=viewport.getBoundingClientRect(),s=scale();panX=m.map_x*s-r.width/2;panY=m.map_y*s-r.height/2;clampPan()}else if(navMode){keepNavigatorFollow()}renderMarkers();updateNearest()}
+function selectPoi(m,keepMap=false){selectedPoi=m;if(!keepMap&&!navMode){follow=false;syncFollowButtons();const r=viewport.getBoundingClientRect(),s=scale();panX=m.map_x*s-r.width/2;panY=m.map_y*s-r.height/2;clampPan()}else if(navMode){keepNavigatorFollow()}renderMarkers();updateNearest()}
 function clearPoi(){selectedPoi=null;closeMapContextMenu(true);renderMarkers();updateNearest()}
 function renderPoiPopup(){const old=document.getElementById('poiPopup');if(old)old.remove();if(!selectedPoi)return;const p=mapToScreen(selectedPoi.map_x,selectedPoi.map_y);const r=viewport.getBoundingClientRect();const popup=document.createElement('div');popup.id='poiPopup';popup.className='poiPopup';let distanceText='—';if(telemetry&&telemetry.map_x!==null){distanceText=markerDistanceText(selectedPoi)||'—'}const desc=selectedPoi.description||selectedPoi.desc||t('desc_placeholder');const title=poiDisplayTitle(selectedPoi);const category=catLabel(selectedPoi.category||t('unknown_category'));const parent=selectedPoi.parent_category?' · '+esc(catLabel(selectedPoi.parent_category)):'';popup.innerHTML=`<button class="poiPopupClose" title="${esc(t('close'))}">×</button><div class="poiPopupTitle">${esc(title)}</div><div class="poiPopupMeta">${esc(category)}${parent}</div><div class="poiPopupDesc">${esc(desc)}</div><div class="poiPopupRow"><span>${esc(t('map_coordinates'))}</span><b>${Math.round(selectedPoi.map_x)}, ${Math.round(selectedPoi.map_y)}</b></div><div class="poiPopupRow"><span>${esc(t('distance_from_car'))}</span><b>${distanceText}</b></div><div class="poiPopupActions"><button class="routeBtn" id="buildRouteBtn">${esc(t('build_route'))}</button></div>`;popup.querySelector('.poiPopupClose').onclick=(ev)=>{ev.stopPropagation();clearPoi()};const buildBtn=popup.querySelector('#buildRouteBtn');buildBtn.onpointerdown=(ev)=>{ev.preventDefault();ev.stopPropagation();startRouteToPoi(selectedPoi)};markerLayer.appendChild(popup);let left=p.x+18,top=p.y-24;if(left+330>r.width)left=p.x-348;if(top+210>r.height)top=r.height-226;if(top<10)top=10;if(left<10)left=10;popup.style.left=`${left}px`;popup.style.top=`${top}px`}
 function makeMapPointTarget(mx,my){return{isCustom:true,title:t('selected_point'),category:t('custom_point'),map_x:mx,map_y:my}}
@@ -504,7 +799,23 @@ function exitNavMode(){closeMobilePanels();navMode=false;document.getElementById
 function routePointsForRender(){if(!routeTarget||playerMapX===null||playerMapY===null)return[];const pts=[{map_x:playerMapX,map_y:playerMapY}];const raw=normalizedRoutePolyline();if(raw.length>=2){const tail=trimRoutePolyline(raw,playerMapX,playerMapY);for(const p of tail)pts.push(p)}else if(currentRoute&&currentRoute.mode==='direct'){pts.push({map_x:routeTarget.map_x,map_y:routeTarget.map_y})}else{return[]}return pts.filter(p=>Number.isFinite(p.map_x)&&Number.isFinite(p.map_y))}
 function ensureRouteEls(){if(routeEls)return routeEls;routeLayer.innerHTML='';const ns='http://www.w3.org/2000/svg';const outer=document.createElementNS(ns,'polyline');outer.setAttribute('fill','none');outer.setAttribute('stroke','#63f000');outer.setAttribute('stroke-width','10');outer.setAttribute('stroke-linecap','round');outer.setAttribute('stroke-linejoin','round');outer.setAttribute('opacity','0.96');const inner=document.createElementNS(ns,'polyline');inner.setAttribute('fill','none');inner.setAttribute('stroke','rgba(255,255,255,.82)');inner.setAttribute('stroke-width','3');inner.setAttribute('stroke-linecap','round');inner.setAttribute('stroke-linejoin','round');inner.setAttribute('opacity','0.85');const dest=document.createElementNS(ns,'circle');dest.setAttribute('r','13');dest.setAttribute('fill','#ef4444');dest.setAttribute('stroke','#fff');dest.setAttribute('stroke-width','4');routeLayer.appendChild(outer);routeLayer.appendChild(inner);routeLayer.appendChild(dest);routeEls={outer,inner,dest};return routeEls}
 function renderRouteLine(){if(!routeTarget||playerMapX===null||playerMapY===null){routeLayer.style.display='none';routeLayer.innerHTML='';routeEls=null;lastRoutePoints='';return}const pts=routePointsForRender();if(pts.length<2){routeLayer.style.display='none';routeLayer.innerHTML='';routeEls=null;lastRoutePoints='';return}const r=viewport.getBoundingClientRect();const w=Math.round(r.width),h=Math.round(r.height),sizeSig=w+'x'+h;if(sizeSig!==lastRouteSize){routeLayer.setAttribute('viewBox',`0 0 ${w} ${h}`);routeLayer.setAttribute('width',String(w));routeLayer.setAttribute('height',String(h));lastRouteSize=sizeSig;lastRoutePoints=''}const screen=pts.map(p=>mapToScreen(p.map_x,p.map_y));const points=screen.map(p=>`${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(' ');const last=screen[screen.length-1];const sig=(navMode?'1':'0')+'|'+points+'|'+last.x.toFixed(1)+','+last.y.toFixed(1);if(sig!==lastRoutePoints){lastRoutePoints=sig;const els=ensureRouteEls();els.outer.setAttribute('points',points);els.inner.setAttribute('points',points);els.dest.setAttribute('cx',last.x.toFixed(1));els.dest.setAttribute('cy',last.y.toFixed(1))}routeLayer.style.display=navMode?'block':'none';applyMapRotation()}
-function maybeFinishNavigation(){if(!navMode||!routeTarget||!telemetry||telemetry.map_x===null)return false;const now=Date.now();const px=Number(telemetry.map_x),py=Number(telemetry.map_y);const speed=Number(telemetry.speed_kmh)||0;const directPx=dist({map_x:px,map_y:py},routeTarget);const routePts=routePointsForRender();const routePx=routePts.length>=2?routeDistancePx(routePts):Infinity;const arrivePx=Math.min(directPx,routePx);const limitPx=(speed<=NAV_ARRIVE_STOPPED_MAX_KMH)?NAV_ARRIVE_STOPPED_PX:NAV_ARRIVE_PX;if(arrivePx<=limitPx){if(!arriveSince)arriveSince=now;if(now-arriveSince>=NAV_ARRIVE_HOLD_MS){exitNavMode(true,true);return true}}else if(arrivePx>limitPx*1.35){arriveSince=0}return false}
+function finishNavigationArrival(){
+  navMode=false;
+  routeTarget=null;
+  currentRoute=null;
+  selectedPoi=null;
+  routeRequestInFlight=false;
+  lastRouteAnchorX=null;lastRouteAnchorY=null;lastRouteOffRoutePx=0;offRouteSince=0;arriveSince=0;
+  const app=document.getElementById('app');
+  if(app)app.classList.remove('navMode');
+  routeLayer.style.display='none';routeLayer.innerHTML='';routeEls=null;lastRoutePoints='';
+  const dest=document.getElementById('navDestination');if(dest)dest.style.display='none';
+  dashboardSourceMode='map';
+  if(dashboardSnapshot)dashboardSnapshot={...dashboardSnapshot,mode:'map',follow:true};
+  follow=true;syncFollowButtons();
+  if(!dashboardMode){applyMapRotation();renderAll(true)}else updateDashboardScreen(true);
+}
+function maybeFinishNavigation(){if(!navMode||!routeTarget||!telemetry||telemetry.map_x===null)return false;const now=Date.now();const px=Number(telemetry.map_x),py=Number(telemetry.map_y);const speed=Number(telemetry.speed_kmh)||0;const directPx=dist({map_x:px,map_y:py},routeTarget);const routePts=routePointsForRender();const routePx=routePts.length>=2?routeDistancePx(routePts):Infinity;const arrivePx=Math.min(directPx,routePx);const limitPx=(speed<=NAV_ARRIVE_STOPPED_MAX_KMH)?NAV_ARRIVE_STOPPED_PX:NAV_ARRIVE_PX;if(arrivePx<=limitPx){if(!arriveSince)arriveSince=now;if(now-arriveSince>=NAV_ARRIVE_HOLD_MS){finishNavigationArrival();return true}}else if(arrivePx>limitPx*1.35){arriveSince=0}return false}
 function updateNavUi(){if(!navMode)return;const speed=Math.round((telemetry&&telemetry.speed_kmh)||0);document.getElementById('navSpeedBubble').textContent=speed+' '+t('unit_kmh');const compass=document.getElementById('navCompass');if(telemetry){compass.textContent=northUp?t('north_up_compass'):t('heading_up_compass').replace('{deg}',Math.round(normalizeAngleDeg(displayHeadingDeg||0)))}const target=routeTarget;document.getElementById('navTargetName').textContent=target?poiDisplayTitle(target):t('no_destination');if(!telemetry||telemetry.map_x===null||!target){document.getElementById('navDistance').textContent='—';document.getElementById('navEta').textContent='—';document.getElementById('navInstruction').textContent=t('nav_select_poi');document.getElementById('navSub').textContent=t('heading_preview');renderRouteLine();return}const routePts=routePointsForRender();const remainingPx=routePts.length>=2?routeDistancePx(routePts):dist({map_x:telemetry.map_x,map_y:telemetry.map_y},target);const meters=Math.max(0,Math.round(metersFromMapPx(remainingPx)));const km=meters>=1000?(meters/1000).toFixed(1)+' km':meters+' m';const etaMin=Math.max(1,Math.round((meters/1000)/Math.max(15,telemetry.speed_kmh||0)*60));document.getElementById('navDistance').textContent=km;document.getElementById('navEta').textContent=etaMin+' '+t('minute');const mode=currentRoute&&currentRoute.mode?currentRoute.mode:'none';const failed=currentRoute&&currentRoute.ok===false;let titlePrefix=routeRequestInFlight?t('recalculating_prefix'):(failed?t('no_road_route_prefix'):(mode==='graph'?t('route_to_prefix'):(mode==='direct'?t('direct_to_prefix'):t('route_to_prefix'))));let routeKind=failed?(currentRoute.message||t('road_graph_failed')):(mode==='graph'?t('road_graph_route'):(mode==='direct'?t('direct_preview'):t('waiting_for_route')));document.getElementById('navInstruction').textContent=titlePrefix+poiDisplayTitle(target);const navRouteHint=routeRequestInFlight?t('recalculating_hint'):((offRouteSince&&lastRouteOffRoutePx>REROUTE_STICKY_OFF_PX&&!failed)?t('holding_route_hint'):(lastRouteOffRoutePx>42&&!failed?t('return_route_hint'):''));const arrivalHint=arriveSince?t('arriving_hint'):'';document.getElementById('navSub').textContent=`${km} · ${catLabel(target.category||'POI')} · ${routeKind}${navRouteHint}${arrivalHint}`;document.getElementById('navArrow').textContent=failed?'!':'↑';renderRouteLine()}
 async function sendMediaKey(action){const el=document.getElementById('musicStatus');try{const r=await fetch('/api/media/'+action,{method:'POST'});const data=await r.json();el.textContent=data.ok?t('sent')+action:(data.error||t('media_key_failed'))}catch(e){el.textContent=t('media_key_failed')}setTimeout(()=>{if(el)el.textContent=t('windows_media_keys')},1600)}
 function isMobileOrTablet(){return /Android|iPhone|iPad|iPod|Mobile|Tablet/i.test(navigator.userAgent)||((navigator.maxTouchPoints||0)>1&&Math.min(window.innerWidth,window.innerHeight)<1024)}
@@ -520,14 +831,14 @@ function renderAll(force=false){renderTiles(force);renderPlayer();renderMarkers(
 function renderInteractionFrame(){interactionRenderRaf=0;renderTiles();renderPlayer();renderRouteLine();renderMarkers();renderMapPickMarker();updateNavUi()}
 function scheduleInteractionRender(){if(interactionRenderRaf)return;interactionRenderRaf=requestAnimationFrame(renderInteractionFrame)}
 function lerpAngleDeg(current,target,alpha){let delta=((target-current+540)%360)-180;return current+delta*alpha}
-function animationLoop(){try{if(targetMapX!==null&&targetMapY!==null){if(displayMapX===null){displayMapX=targetMapX;displayMapY=targetMapY;displayHeadingDeg=targetHeadingDeg}else{const posAlpha=navMode?0.16:0.24;displayMapX+=(targetMapX-displayMapX)*posAlpha;displayMapY+=(targetMapY-displayMapY)*posAlpha;displayHeadingDeg=lerpAngleDeg(displayHeadingDeg,targetHeadingDeg,0.14)}playerMapX=displayMapX;playerMapY=displayMapY;maybeAutoZoomNavigation();centerIfFollowing();renderTiles();renderPlayer();renderRouteLine();renderMapPickMarker();if(!maybeFinishNavigation()){updateNavUi();maybeRerouteNavigation()}applyMapRotation();const now=performance.now();if(now-lastMarkerRenderAt>260){renderMarkers();lastMarkerRenderAt=now}if(now-lastNearestRenderAt>700){updateNearest();lastNearestRenderAt=now}if(dashboardMode)updateDashboardScreen()} }catch(e){console.warn('animation error',e)}requestAnimationFrame(animationLoop)}
-async function pollTelemetry(){try{const r=await fetch('/api/state?ts='+Date.now(),{cache:'no-store'});telemetry=await r.json();updateHud();if(telemetry&&telemetry.map_x!==null){targetMapX=Number(telemetry.map_x);targetMapY=Number(telemetry.map_y);targetHeadingDeg=updateHeadingFromMotion(targetMapX,targetMapY,Number(telemetry.speed_kmh)||0,telemetry.heading_deg||0);if(displayMapX===null){displayMapX=targetMapX;displayMapY=targetMapY;displayHeadingDeg=targetHeadingDeg;playerMapX=displayMapX;playerMapY=displayMapY;}}}catch(e){console.warn('telemetry poll error',e)}finally{setTimeout(pollTelemetry,120)}}
+function animationLoop(){try{if(targetMapX!==null&&targetMapY!==null){if(displayMapX===null){displayMapX=targetMapX;displayMapY=targetMapY;displayHeadingDeg=targetHeadingDeg}else{const posAlpha=navMode?0.16:0.24;displayMapX+=(targetMapX-displayMapX)*posAlpha;displayMapY+=(targetMapY-displayMapY)*posAlpha;displayHeadingDeg=lerpAngleDeg(displayHeadingDeg,targetHeadingDeg,0.14)}playerMapX=displayMapX;playerMapY=displayMapY;if(dashboardMode){if(!maybeFinishNavigation())maybeRerouteNavigation();updateDashboardScreen()}else{maybeAutoZoomNavigation();centerIfFollowing();renderTiles();renderPlayer();renderRouteLine();renderMapPickMarker();if(!maybeFinishNavigation()){updateNavUi();maybeRerouteNavigation()}applyMapRotation();const now=performance.now();if(now-lastMarkerRenderAt>260){renderMarkers();lastMarkerRenderAt=now}if(now-lastNearestRenderAt>700){updateNearest();lastNearestRenderAt=now}}} }catch(e){console.warn('animation error',e)}requestAnimationFrame(animationLoop)}
+async function pollTelemetry(){try{const r=await fetch('/api/state?ts='+Date.now(),{cache:'no-store'});telemetry=await r.json();updateHud();handleMemeLayerTelemetry(telemetry);if(telemetry&&telemetry.map_x!==null){targetMapX=Number(telemetry.map_x);targetMapY=Number(telemetry.map_y);targetHeadingDeg=updateHeadingFromMotion(targetMapX,targetMapY,Number(telemetry.speed_kmh)||0,telemetry.heading_deg||0);if(displayMapX===null){displayMapX=targetMapX;displayMapY=targetMapY;displayHeadingDeg=targetHeadingDeg;playerMapX=displayMapX;playerMapY=displayMapY;}}}catch(e){console.warn('telemetry poll error',e)}finally{setTimeout(pollTelemetry,120)}}
 async function loadMarkers(){try{const r=await fetch('/api/markers?ts='+Date.now(),{cache:'no-store'});const data=await r.json();markers=Array.isArray(data)?data:[];console.log('POI markers loaded',markers.length)}catch(e){console.warn('markers fetch error',e);markers=[]}try{populateCategories();renderTiles(true);renderMarkers();updateNearest()}catch(renderError){console.warn('markers render error',renderError)}}
 function pointerDistance(){const pts=[...activePointers.values()];if(pts.length<2)return 0;const dx=pts[0].x-pts[1].x,dy=pts[0].y-pts[1].y;return Math.sqrt(dx*dx+dy*dy)}
 function pointerCenter(){const pts=[...activePointers.values()];return{x:(pts[0].x+pts[1].x)/2,y:(pts[0].y+pts[1].y)/2}}
 viewport.addEventListener('pointerdown',e=>{
   if(e.button===2)return;
-  if(e.target.closest&&e.target.closest('.marker,.poiPopup,.mapContextMenu,.nearest,.searchPanel,.musicWidget,.navBottomBar,.navTopInstruction,.cachePanel,.mobileDock,.mobileSheet,.mobileSheetClose,.mobileNearestOverlay,.navInfoToggle,.navMediaToggle'))return;
+  if(e.target.closest&&e.target.closest('.marker,.poiPopup,.mapContextMenu,.nearest,.searchPanel,.musicWidget,.navBottomBar,.navTopInstruction,.cachePanel,.mobileDock,.mobileSheet,.mobileSheetClose,.mobileNearestOverlay,.navInfoToggle,.navMediaToggle,.mobileFollowFab'))return;
   activePointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
   tapStart={id:e.pointerId,x:e.clientX,y:e.clientY,t:Date.now()};tapWasMulti=false;
   if(e.target===viewport||e.target.id==='mapWorld'||e.target.id==='tileLayer'||e.target.id==='playerLayer')clearPoi();
@@ -539,7 +850,7 @@ viewport.addEventListener('pointerdown',e=>{
   }
   dragging=true;
   if(navMode&&follow){keepNavigatorFollow();centerOnPlayer()}
-  else{follow=false;document.getElementById('followBtn').classList.remove('active')}
+  else{follow=false;syncFollowButtons()}
   viewport.classList.add('dragging');
   dragStart={x:e.clientX,y:e.clientY,panX,panY};
 });
@@ -564,11 +875,58 @@ viewport.addEventListener('pointermove',e=>{
 });
 function endPointer(e){const wasTap=!!(tapStart&&tapStart.id===e.pointerId&&!tapWasMulti&&Math.hypot(e.clientX-tapStart.x,e.clientY-tapStart.y)<=22&&(Date.now()-tapStart.t)<650);activePointers.delete(e.pointerId);if(activePointers.size<2)pinchStart=null;if(activePointers.size===0){dragging=false;dragStart=null;tapWasMulti=false;viewport.classList.remove('dragging');if(wasTap)maybeHandleDoubleTap(e);tapStart=null;if(navMode&&follow){keepNavigatorFollow();centerOnPlayer();renderTiles(true);renderPlayer();renderRouteLine();renderMapPickMarker();updateNavUi()}}}
 viewport.addEventListener('pointerup',endPointer);viewport.addEventListener('pointercancel',endPointer);
-viewport.addEventListener('contextmenu',e=>{e.preventDefault();if(e.target.closest&&e.target.closest('.marker,.poiPopup,.mapContextMenu,.nearest,.searchPanel,.musicWidget,.navBottomBar,.navTopInstruction,.cachePanel,.mobileDock,.mobileSheet,.mobileSheetClose,.mobileNearestOverlay,.navInfoToggle,.navMediaToggle'))return;showContextMenuForScreen(e.clientX,e.clientY,false)},{passive:false});
+viewport.addEventListener('contextmenu',e=>{e.preventDefault();if(e.target.closest&&e.target.closest('.marker,.poiPopup,.mapContextMenu,.nearest,.searchPanel,.musicWidget,.navBottomBar,.navTopInstruction,.cachePanel,.mobileDock,.mobileSheet,.mobileSheetClose,.mobileNearestOverlay,.navInfoToggle,.navMediaToggle,.mobileFollowFab'))return;showContextMenuForScreen(e.clientX,e.clientY,false)},{passive:false});
 viewport.addEventListener('wheel',e=>{e.preventDefault();setZoom(zoom+(e.deltaY<0?1:-1),e.clientX,e.clientY)},{passive:false});
-window.addEventListener('resize',()=>{setMobileUiClass();if(!isMobileLayout())closeMobilePanels();if(dashboardMode){const r=viewport.getBoundingClientRect();dashboardSnapshot={...(dashboardSnapshot||{}),vw:Math.max(1,r.width),vh:Math.max(1,r.height)};updateDashboardScreen(true)}centerIfFollowing();renderAll(true)});
-setMobileUiClass();initControls();loadServerInfo();centerOnPlayer();renderTiles(true);requestAnimationFrame(animationLoop);pollTelemetry();loadMarkers();
 
+function setFullscreenStatus(status){
+  fullscreenStatus=status||'idle';
+  const btn=document.getElementById('fullscreenBtn');
+  if(!btn)return;
+  const active=!!document.fullscreenElement;
+  btn.classList.toggle('active',active);
+  if(active){btn.textContent=t('fullscreen_active');btn.title=t('fullscreen_active_title');return}
+  if(status==='unsupported'){btn.textContent=t('fullscreen_unavailable');btn.title=t('fullscreen_unavailable_title');return}
+  if(status==='denied'){btn.textContent=t('fullscreen_denied');btn.title=t('fullscreen_denied_title');return}
+  btn.textContent=t('fullscreen_btn');btn.title=t('fullscreen_title');
+}
+async function enterFullscreenMode(){
+  if(document.fullscreenElement){setFullscreenStatus('active');return true}
+  if(!document.documentElement.requestFullscreen){setFullscreenStatus('unsupported');return false}
+  try{
+    await document.documentElement.requestFullscreen({navigationUI:'hide'});
+    fullscreenWanted=true;
+    localStorage.setItem('fh6_fullscreen_mode','1');
+    setFullscreenStatus('active');
+    return true;
+  }catch(e){
+    console.warn('fullscreen failed',e);
+    setFullscreenStatus('denied');
+    return false;
+  }
+}
+async function exitFullscreenMode(){
+  fullscreenWanted=false;
+  localStorage.setItem('fh6_fullscreen_mode','0');
+  try{if(document.fullscreenElement&&document.exitFullscreen)await document.exitFullscreen()}catch(e){console.warn('exit fullscreen failed',e)}
+  setFullscreenStatus('idle');
+}
+async function toggleFullscreenMode(){
+  if(document.fullscreenElement)await exitFullscreenMode();
+  else await enterFullscreenMode();
+}
+function setupFullscreenMode(){
+  const btn=document.getElementById('fullscreenBtn');
+  if(btn)btn.onclick=()=>toggleFullscreenMode();
+  document.addEventListener('fullscreenchange',()=>setFullscreenStatus('idle'));
+  // Mobile Chrome usually requires a user gesture. If the user enabled this before,
+  // try restoring fullscreen on the next touch/click without using screen-keepalive or video hacks.
+  let restoreTried=false;
+  const restore=()=>{if(fullscreenWanted&&!document.fullscreenElement&&!restoreTried){restoreTried=true;enterFullscreenMode()}};
+  ['pointerdown','touchstart','click','keydown'].forEach(type=>document.addEventListener(type,restore,{passive:true,once:false}));
+  setFullscreenStatus('idle');
+}
+window.addEventListener('resize',()=>{setMobileUiClass();if(!isMobileLayout())closeMobilePanels();if(dashboardMode){const r=viewport.getBoundingClientRect();dashboardSnapshot={...(dashboardSnapshot||{}),vw:Math.max(1,r.width),vh:Math.max(1,r.height)};updateDashboardScreen(true);return}centerIfFollowing();renderAll(true)});
+setMobileUiClass();initControls();setupFullscreenMode();loadServerInfo();centerOnPlayer();renderTiles(true);requestAnimationFrame(animationLoop);pollTelemetry();loadMarkers();
 
 </script>
 </body>

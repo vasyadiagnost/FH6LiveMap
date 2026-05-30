@@ -4,7 +4,7 @@ cd /d "%~dp0"
 
 echo.
 echo ============================================================
-echo  FH6 Live Map v0.9.7 Graph Repair + Magenta-Aware Routing builder
+echo  FH6 Live Map v0.9.24 Meme Layer builder
 echo ============================================================
 echo.
 
@@ -47,6 +47,11 @@ copy /Y "data\markers.json" "dist\data\" >nul
 copy /Y "data\map_meta.json" "dist\data\" >nul
 copy /Y "data\calibration_points.csv" "dist\data\" >nul
 if exist "data\road_graph.json" copy /Y "data\road_graph.json" "dist\data\" >nul
+if exist "index_work.html" copy /Y "index_work.html" "dist\" >nul
+if exist "data\meme_layer" (
+    echo Copying meme_layer folders to dist...
+    xcopy /E /I /Y "data\meme_layer" "dist\data\meme_layer" >nul
+)
 if exist "tile_cache" (
     echo Copying tile_cache to dist. This can take a while...
     xcopy /E /I /Y "tile_cache" "dist\tile_cache" >nul

@@ -1,16 +1,22 @@
+## v0.9.25 — Meme Layer Freefall Jump Detector
+
+- Перевёл `jump_takeoff` на подтверждение свободного падения вместо простого подъёма по высоте.
+- Добавил миграцию meme config schema v3.
+- Пользовательские сэмплы остаются в прежней папке `samples/jump_takeoff`.
+
 ## v0.9.22 — Mobile Dock Label Alignment
 
 - В мобильной нижней панели выровнены подписи кнопок по одной оси.
 - Иконки получили фиксированную область, чтобы SVG-иконка приборов и текстовые символы не сдвигали подписи.
-- Логика карты, навигатора, HUD, Wake Lock и рендера не менялась.
+- Логика карты, навигатора, HUD, old screen-keepalive и рендера не менялась.
 
 
 ## v0.9.21 — Retro VFD HUD FPS + Keep Awake
 
 - Оптимизирован рендер Retro VFD HUD: реже обновляется UI, легче рисуется мини-карта, снижены тяжёлые glow/scanline эффекты.
 - Мини-карта HUD больше не рисует большой fallback-план под тайлами на каждом кадре, если тайлы уже доступны.
-- Добавлен Screen Wake Lock API для предотвращения выключения экрана телефона во время работы страницы.
-- Добавлен muted-video fallback для браузеров, где Wake Lock недоступен или заблокирован.
+- Добавлен old screen-keepalive API для предотвращения выключения экрана телефона во время работы страницы.
+- Добавлен muted-video fallback для браузеров, где old screen-keepalive недоступен или заблокирован.
 
 # Changelog / historical notes
 
@@ -396,3 +402,20 @@ Patch v0.9.12:
 v0.9.14: English custom point menu, mobile Info panel shows Nearest POI in meters, and Navigator mode has an Info button for nearest POI.
 
 v0.9.15: Mobile Nearest POI opens as a compact lower-left overlay in map and navigator modes.
+
+
+## v0.9.23
+
+- Tuned Meme Layer event detection for collision, mega fail crash, and jump takeoff.
+- Added lightweight Keep Awake control without automatic hidden video fallback.
+
+
+## v0.9.24
+
+- Relaxed jump_takeoff detection while keeping a guard against smooth overpass climbs.
+- Localized new Meme Layer and Keep Awake UI strings for RU/EN and refreshed dynamic statuses on language change.
+- Added gentle migration for v0.9.23 jump thresholds in existing meme_layer config files.
+
+## v0.9.26
+- Removed old screen-keepalive code and replaced it with localized Full screen mode.
+- Retuned meme-layer `jump_takeoff` for much faster freefall confirmation (~0.15 s).

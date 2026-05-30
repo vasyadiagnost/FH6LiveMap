@@ -1,0 +1,56 @@
+{
+  "enabled": true,
+  "volume": 0.85,
+  "global_cooldown_sec": 2.5,
+  "supported_extensions": [
+    ".aac",
+    ".flac",
+    ".m4a",
+    ".mp3",
+    ".ogg",
+    ".wav"
+  ],
+  "events": {
+    "mega_fail_crash": {
+      "enabled": true,
+      "folder": "samples/mega_fail_crash",
+      "cooldown_sec": 8.0,
+      "window_sec": 0.15,
+      "min_previous_speed_kmh": 120.0,
+      "max_current_speed_kmh": 15.0,
+      "priority": 120,
+      "min_speed_drop_kmh": 100.0
+    },
+    "collision": {
+      "enabled": true,
+      "folder": "samples/collision",
+      "cooldown_sec": 4.5,
+      "window_sec": 0.5,
+      "min_speed_drop_kmh": 40.0,
+      "min_previous_speed_kmh": 60.0,
+      "priority": 100,
+      "max_brake_pct": 5.0
+    },
+    "jump_takeoff": {
+      "enabled": true,
+      "folder": "samples/jump_takeoff",
+      "cooldown_sec": 4.0,
+      "detection_mode": "fast_freefall_confirmed",
+      "min_speed_kmh": 75.0,
+      "takeoff_lookback_sec": 2.8,
+      "freefall_window_sec": 0.15,
+      "min_freefall_duration_sec": 0.15,
+      "min_freefall_samples": 2,
+      "min_takeoff_vertical_speed_mps": 1.0,
+      "min_takeoff_rise_m": 0.75,
+      "max_freefall_vertical_speed_mps": -0.25,
+      "max_freefall_avg_accel_mps2": -0.45,
+      "min_drop_from_recent_apex_m": 0.18,
+      "priority": 60,
+      "min_vertical_speed_gain_mps": 1.1,
+      "max_apex_age_sec": 2.4,
+      "min_fall_ratio": 0.018
+    }
+  },
+  "config_schema_version": 4
+}

@@ -8,7 +8,7 @@ This project runs on your gaming PC, receives FH6 telemetry over UDP, and opens 
 
 ## Current build
 
-**Version:** `v0.9.15 compact nearest POI`  
+**Version:** `v0.9.25 Meme Layer tuning`  
 **Best platform:** Windows PC  
 **Default local URL:** `http://127.0.0.1:8766`  
 **Default FH6 Data Out port:** `5700`  
@@ -27,6 +27,7 @@ This project runs on your gaming PC, receives FH6 telemetry over UDP, and opens 
 - Supports heading-up navigator mode, auto-follow, auto-arrival, and compact mobile UI panels.
 - Generates a LAN/phone URL and QR code from the PC server.
 - Proxies map tiles and stores them in `tile_cache/` for faster later loading.
+- Supports optional **Meme Co-Driver** sounds streamed from the PC to the phone browser for `collision`, `mega_fail_crash`, and `jump_takeoff` events.
 
 ## Quick start: run from source
 
@@ -99,6 +100,35 @@ http://192.168.x.x:8766/
 Open that URL on your phone while the phone and PC are on the same Wi-Fi/LAN.
 
 If Windows Firewall asks for permission, allow access on **Private networks**.
+
+
+## Meme Co-Driver / custom samples
+
+This build includes an optional meme sound layer. Samples stay on the gaming PC and are served to the phone over the same local web server as the map.
+
+Put your own sound files here:
+
+```text
+data/meme_layer/samples/collision/
+data/meme_layer/samples/mega_fail_crash/
+data/meme_layer/samples/jump_takeoff/
+```
+
+Supported formats: `.mp3`, `.wav`, `.ogg`, `.m4a`, `.aac`, `.flac`.
+
+Open the map on the phone, go to **Settings**, press **Enable sound**, then use **Rescan** after adding new samples. Empty folders are safe: the app simply skips that event.
+
+Events:
+
+- `collision`: speed drops sharply within a short window.
+- `mega_fail_crash`: speed was above 120 km/h and falls almost to zero.
+- `jump_takeoff`: the car sharply gains height / vertical speed.
+
+Thresholds are editable in:
+
+```text
+data/meme_layer/config.json
+```
 
 ## How to use the map
 
@@ -265,3 +295,6 @@ CHANGELOG.md                        Historical version notes
 ## License
 
 No license file has been selected yet. Add a `LICENSE` file before inviting redistribution or third-party modification.
+
+
+Meme Layer v0.9.25: jump_takeoff теперь определяется через подтверждённое свободное падение после рампы; папки сэмплов не изменились.
